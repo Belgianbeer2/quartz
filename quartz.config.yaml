@@ -15,6 +15,7 @@ configuration:
   theme:
     fontOrigin: googleFonts
     cdnCaching: true
+    defaultMode: "dark"
     typography:
       header: Schibsted Grotesk
       body: Source Sans Pro
