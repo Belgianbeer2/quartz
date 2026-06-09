@@ -57,7 +57,49 @@ Ces trois données donnent l'affect brut. L3 se nomme ensuite depuis là — pas
 
 ---
 
-## IV. Variables documentées
+## III. Les trois dimensions du scan — définitions précises
+
+### Localisation
+
+Ce que tu cherches : un endroit dans le corps où quelque chose est perceptible — tension, chaleur, contraction, légèreté. Pas une analyse — juste nommer où.
+
+Si rien de perceptible → c'est une donnée valide. "Aucune tension notable" est une réponse.
+
+---
+
+### Activation
+
+**Définition précise :** niveau d'éveil physiologique du système nerveux *à l'instant T*. Ce que ton corps fait maintenant, sur une échelle de calme complet à très agité.
+
+> [!abstract] ✅ Fondement solide — Barrett (2017) · Russell (1980)
+> L'activation (*arousal* en anglais) est l'une des deux dimensions fondamentales de l'affect brut avec la valence. Elle mesure l'intensité de l'état d'éveil physiologique — rythme cardiaque, tonus musculaire, rythme respiratoire — indépendamment de si cet état est agréable ou non.[^1]
+>
+> Une activation élevée peut devenir de l'enthousiasme *ou* de l'anxiété selon le concept que le cerveau applique — c'est ce que Barrett appelle la construction de l'émotion.
+
+**Ce que l'activation n'est pas :**
+
+| Terme | Définition | Différence avec Activation |
+|---|---|---|
+| **Stamina** | Capacité d'endurance sur la durée — réserves disponibles | Stamina = ce que tu *as* en réserve. Activation = ce que ton corps *fait* maintenant. Un corps épuisé peut être très activé (stress) ou peu activé (effondrement). |
+| **Vitalité** | Sentiment subjectif d'énergie disponible et de bien-être général | Vitalité = perception consciente de tes ressources. Activation = signal physiologique brut avant interprétation. La vitalité inclut une dimension de bien-être que l'activation n'a pas. |
+| **Énergie** | Terme général souvent confondu avec stamina ou vitalité | Moins précis — peut désigner indifféremment l'activation présente ou les réserves futures. |
+
+**Pourquoi Activation et pas les autres ?** Parce que c'est le signal le plus précoce et le plus actionnable. Il précède l'interprétation. Nommer l'activation à 2/10 avant une session permet de choisir l'intention en conséquence — plutôt que de découvrir en session que le corps n'était pas là.
+
+**Échelle :**
+- 0–3 : calme · détendu · endormi · peu d'élan
+- 4–6 : éveillé · modéré · opérationnel
+- 7–10 : agité · tendu · surstimulé · difficile à canaliser
+
+---
+
+### Valence
+
+**Définition précise :** dimension agréable/désagréable de l'affect brut. Indépendante de l'activation.
+
+La même activation (7/10) peut être vécue comme agréable (haute énergie, enthousiasme) ou désagréable (tension, anxiété) selon le contexte et les prédictions L1 actives. C'est pourquoi valence et activation se notent séparément.
+
+---
 
 | Signal | Corrélat probable dans le modèle |
 |---|---|

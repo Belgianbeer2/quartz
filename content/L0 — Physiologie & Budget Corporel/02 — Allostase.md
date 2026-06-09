@@ -79,4 +79,4 @@ Avant une session ou en état émotionnel difficile :
 
 ## Notes liées
 - [[00 — Index]] · [[01 — Intéroception]] · [[03 — Co-régulation sociale]]
-- [[01 — Fondements théoriques]] · [[02 — Angles morts & évolutions]]
+- [[01 — Fondements théoriques]] · [[01 — Angles morts & évolutions.md]]

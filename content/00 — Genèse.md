@@ -217,7 +217,7 @@ L'examen critique du modèle a révélé 6 angles morts documentés scientifique
 | Rumination non documentée | L2 manquant distinct de la sélectivité mémorielle |
 | Boucles L4→L1 non formalisées | Les comportements construisent les prédictions futures — pas seulement des résultats |
 
-→ Voir [[02 — Angles morts & évolutions]]
+→ Voir [[01 — Angles morts & évolutions]]
 
 ---
 
@@ -319,7 +319,48 @@ Les dossiers Inner Mapping ont été renommés pour une logique de lecture séqu
 ## Notes liées (mise à jour)
 
 - [[Fondements théoriques/00 — Index]]
-- [[02 — Angles morts & évolutions]]
+- [[01 — Angles morts & évolutions]]
 - [[L2 - Schémas Cognitifs/00 - Index Schémas]]
 - [[01 — Mentalisation -- Dissociation]]
 - [[🧭 Boussole émotionnelle]]
+
+---
+
+## IX. Corrections structurelles (juin 2026, suite)
+
+### 9.1 — Besoin de contrôle : l'angle mort L1 identifié
+
+Observation de terrain : le besoin de contrôle traverse l'ensemble des patterns documentés sans jamais être nommé comme L1. Résultats-dépendance, Réactance, Confabulation, Piédestal, Impuissance — tous impliquent une forme de contrôle mal-calibré. L'absence de fichier dédié laissait la colonne vertébrale du modèle sans nom.
+
+Intégration : `05 — Besoin de contrôle.md` dans `L1 - Structures profondes/`. Approfondissement avec Leotti, Iyengar & Ochsner (2010), Skinner (1996), Rothbaum (1982). Distinction contrôle primaire (processus) / contrôle secondaire (variance). Connexion LFB : vouloir le contrôle = vouloir réduire l'erreur de prédiction.
+
+→ Voir [[L1 - Structures profondes/05 — Besoin de contrôle]]
+
+---
+
+### 9.2 — Cascades : repositionnement de L2 vers L4
+
+Observation structurelle : les Cascades étaient placées dans `L2 - Schémas Cognitifs/`. Or une cascade n'est pas un schéma L2 — c'est une séquence complète L1→L2→L3→L4 qui se termine par un comportement. Leur logique est descendante et aboutit à un L4.
+
+**L2** documente des mécanismes cognitifs isolés.
+**L4** documente des comportements et leurs dynamiques.
+Les Cascades sont le chemin qui relie les deux — elles appartiennent à L4.
+
+La distinction est maintenant claire :
+- **Cascades** (`L4/Cascades/`) = chemins descendants, de la prémisse au comportement
+- **Boucles** (`L4/02 — Boucles L4 → L1`) = chemins ascendants, du comportement vers la prémisse
+
+Ensemble, elles forment la dynamique comportementale complète.
+
+Conséquence : mise à jour du chemin Dataview dans la Boussole.
+
+---
+
+### 9.3 — Renommage : Angles morts & évolutions
+
+`02 — Angles morts & évolutions.md` renommé en `01 — Angles morts & évolutions.md`. Le préfixe `02 —` référençait implicitement le fichier `01 — Fondements théoriques.md` désormais remplacé par un dossier sans numéro. La racine de `🧠 Inner Mapping/` est maintenant :
+
+- `00 — Genèse.md`
+- `01 — Angles morts & évolutions.md`
+- `Fondements théoriques/` (dossier)
+- Tous les niveaux L0→L4, Protocoles, Sources

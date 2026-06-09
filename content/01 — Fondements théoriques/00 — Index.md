@@ -13,7 +13,7 @@ version: 1.0
 > Ce dossier contient les bases scientifiques du système Inner Mapping.
 > Chaque fiche est autonome et peut être approfondie indépendamment.
 > Pour le cheminement de construction : [[00 — Genèse]]
-> Pour les limites en cours : [[02 — Angles morts & évolutions]]
+> Pour les limites en cours : [[01 — Angles morts & évolutions.md]]
 
 ---
 
@@ -49,5 +49,5 @@ Les fiches se lisent dans l'ordre chronologique d'abstraction :
 - Alexis Essaheli — source privée · `Mindset/Alexis/`
 
 ## Notes liées
-- [[00 — Genèse]] · [[02 — Angles morts & évolutions]]
+- [[00 — Genèse]] · [[01 — Angles morts & évolutions.md]]
 - [[🧭 Boussole émotionnelle]] · [[00 — Index Sources]]

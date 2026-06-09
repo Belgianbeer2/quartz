@@ -127,4 +127,4 @@ Inner Mapping n'est pas un système de connaissance de soi — c'est un système
 - [[02 — Lisa Feldman Barrett × Huberman Lab]]
 - [[03 — Lisa Feldman Barrett × Lex Fridman]]
 - [[L0 — Physiologie & Budget Corporel/02 — Allostase]]
-- [[02 — Angles morts & évolutions]]
+- [[01 — Angles morts & évolutions.md]]

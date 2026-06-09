@@ -78,5 +78,5 @@ Comportement (L4)  ← boucle
 
 ## Notes liées
 - [[00 — Index]] · [[01 — Catalogue des comportements]]
-- [[02 — Angles morts & évolutions]]
+- [[01 — Angles morts & évolutions.md]]
 - [[L0 — Physiologie & Budget Corporel/02 — Allostase]]

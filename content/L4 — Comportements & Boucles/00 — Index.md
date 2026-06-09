@@ -40,3 +40,18 @@ date: 2026-06-06
 ## Notes liées
 - [[02 — Angles morts & évolutions]]
 - [[01 — Fondements théoriques]]
+
+---
+
+## Cascades — séquences complètes L1→L2→L3→L4
+
+Les cascades documentent les chaînes causales complètes qui aboutissent à un comportement. Elles relient les niveaux en une séquence narrative lisible.
+
+| Cascade | L2 déclencheur | L3 produit | L4 comportement |
+|---|---|---|---|
+| [[01 — Résultat négatif → Peur → Retrait]] | Vision zoomée · Sélectivité mémorielle | Peur | Retrait · off-day non choisi |
+| [[02 — Écart attentes réalité → Honte → Contre-performance]] | Piédestal · Pensée binaire | Honte | Contre-performance · effondrement |
+| [[03 — Erreur technique → Colère → Étude compulsive]] | Pensée binaire · Confabulation | Colère | Étude acharnée · review compulsive |
+| [[04 — Surchauffe cognitive → Colère → Impulsivité]] | Étoilement | Colère | Play impulsif · over-aggression |
+
+> *Les cascades sont les chemins descendants (L1→L4). Les boucles ([[02 — Boucles L4 → L1]]) sont les chemins ascendants (L4→L1). Ensemble ils forment la dynamique comportementale complète.*

@@ -127,4 +127,4 @@ La dopamine code l'**erreur de prédiction de récompense** (Schultz 1997), pas 
 - [[🧭 Boussole émotionnelle]]
 - [[06 — Évaluation de l'enjeu -- Piédestal]]
 - [[Colère IRL]] · [[La Réactance]]
-- [[02 — Angles morts & évolutions]]
+- [[01 — Angles morts & évolutions.md]]
