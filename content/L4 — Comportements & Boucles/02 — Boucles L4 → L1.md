@@ -77,6 +77,6 @@ Comportement (L4)  ← boucle
 [^2]: Barrett, L.F. (2017). *How Emotions Are Made.* Houghton Mifflin.
 
 ## Notes liées
-- [[00 — Index]] · [[01 — Catalogue des comportements]]
+- [[🧠 Inner Mapping/L4 — Comportements & Boucles/00 — Index]] · [[01 — Catalogue des comportements]]
 - [[01 — Angles morts & évolutions.md]]
 - [[L0 — Physiologie & Budget Corporel/02 — Allostase]]

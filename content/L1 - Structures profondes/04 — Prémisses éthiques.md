@@ -160,7 +160,7 @@ La même tension que dans [[02 — Besoin d'Autonomie]] mais lue ici depuis l'an
 [^2]: Barrett, L.F. (2017). *How Emotions Are Made.* Houghton Mifflin. · (2020). *Seven and a Half Lessons About the Brain.*
 
 ## Notes liées
-- [[00 — Index]] · [[01 — Fondements théoriques]]
+- [[Index]] · [[01 — Fondements théoriques]]
 - [[Colère IRL]] · [[Impuissance]] · [[Plénitude IRL]]
 - [[Dépolarisation - l'injustice]]
 - [[Mini dépolarisation - devenir un stratège de la performance]]

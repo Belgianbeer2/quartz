@@ -165,7 +165,7 @@ L'**appui L1** [documenté — Alexis Essaheli] détermine la direction de la ca
 [^7]: Gross, J.J. (2015). *Emotion regulation: Current status and future prospects.* Psychological Inquiry, 26(1).
 
 ## Notes liées
-- [[00 — Index]] · [[03 — Cerveau prédictif]] · [[04 — Modèle Pensée-Corps-Émotions]]
+- [[🧠 Inner Mapping/01 — Fondements théoriques/00 — Index]] · [[03 — Cerveau prédictif]] · [[04 — Modèle Pensée-Corps-Émotions]]
 - [[L0 — Physiologie & Budget Corporel/00 — Index]]
 - [[L1 - Structures profondes/01 — Besoin de Compétence]]
 - [[L4 — Comportements & Boucles/02 — Boucles L4 → L1]]

@@ -78,5 +78,5 @@ Avant une session ou en état émotionnel difficile :
 [^2]: Barrett, L.F. (2017). *How Emotions Are Made.* Houghton Mifflin. · (2020). *Seven and a Half Lessons About the Brain.*
 
 ## Notes liées
-- [[00 — Index]] · [[01 — Intéroception]] · [[03 — Co-régulation sociale]]
+- [[🧠 Inner Mapping/L0 — Physiologie & Budget Corporel/00 — Index]] · [[01 — Intéroception]] · [[03 — Co-régulation sociale]]
 - [[01 — Fondements théoriques]] · [[01 — Angles morts & évolutions.md]]

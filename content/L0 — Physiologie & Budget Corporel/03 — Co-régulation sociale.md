@@ -76,6 +76,6 @@ date: 2026-06-06
 [^3]: Coan, J.A., Schaefer, H.S., & Davidson, R.J. (2006). *Lending a Hand.* Psychological Science, 17(12).
 
 ## Notes liées
-- [[00 — Index]] · [[01 — Intéroception]] · [[02 — Allostase]]
+- [[🧠 Inner Mapping/L0 — Physiologie & Budget Corporel/00 — Index]] · [[01 — Intéroception]] · [[02 — Allostase]]
 - [[L1 — Structures profondes/03 — Besoin d'Appartenance]]
 - [[Délaissement]] · [[Plénitude-IRL]]

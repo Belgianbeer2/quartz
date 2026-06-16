@@ -111,7 +111,7 @@ statut: documenté
 [^1]: Nolen-Hoeksema, S. (2008). *Women Who Think Too Much.* Henry Holt. · Nolen-Hoeksema, S. (1991). *Responses to depression and their effects on the duration of depressive episodes.* Journal of Abnormal Psychology.
 
 ## Notes liées
-- [[00 — Index]] · [[Reconstruction mémorielle -- Sélectivité mémorielle]]
+- [[Index]] · [[Reconstruction mémorielle -- Sélectivité mémorielle]]
 - [[La Honte]] · [[Impuissance]]
 - [[L4 — Comportements & Boucles/02 — Boucles L4 → L1]]
 - [[L0 — Physiologie & Budget Corporel/02 — Allostase]]

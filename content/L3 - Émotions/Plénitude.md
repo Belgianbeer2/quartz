@@ -1,6 +1,46 @@
 ----
 type: fiche_emotion
 ---
+```dataviewjs
+const log = dv.page("log — Drill 02 — Rétrospective accumulation");
+const nomFiche = dv.current().file.name;
+
+if (!log || !log.entries) {
+    dv.paragraph("*Aucune donnée Drill 02.*");
+} else {
+    const relevant = log.entries.filter(e => e.emotion === nomFiche);
+    if (relevant.length === 0) {
+        dv.paragraph("*Aucune activation Drill 02 liée à cette émotion pour l'instant.*");
+    } else {
+        const fenetreColor = (f) => {
+            if (!f) return "#555";
+            if (String(f).includes("Très")) return "#e74c3c";
+            if (String(f).includes("Réduite")) return "#FF9500";
+            return "#2ecc71";
+        };
+        let html = "";
+        relevant.sort((a, b) =>
+            moment(b.d, "MM-DD-YYYY").valueOf() - moment(a.d, "MM-DD-YYYY").valueOf()
+        ).forEach(e => {
+            const f = String(e.fenetre || "").trim();
+            const signaux = e.signal ? String(e.signal).split("·").map(s => s.trim()).filter(s => s) : [];
+            html += `<div style="border-left:3px solid ${fenetreColor(f)};padding:8px 12px;margin-bottom:8px;background:rgba(255,255,255,0.02);border-radius:0 4px 4px 0;">
+                <div style="display:flex;justify-content:space-between;margin-bottom:6px;">
+                    <span style="color:#6edff6;font-size:12px;font-weight:bold;">${e.d || "—"}</span>
+                    <span style="color:${fenetreColor(f)};font-size:11px;">Fenêtre ${f || "—"}</span>
+                </div>
+                <div style="font-size:11px;color:#888;margin-bottom:3px;">Frictions : <span style="color:#ccc;">${e.frictions || "—"}</span></div>
+                <div style="font-size:11px;color:#888;margin-bottom:3px;">Signaux : <span style="color:#BB86FC;">${signaux.join(" · ") || "—"}</span></div>
+                <div style="font-size:11px;color:#888;margin-bottom:3px;">Action : <span style="color:#ccc;">${e.action || "—"}</span></div>
+                <div style="font-size:11px;color:#888;">Résultat : <span style="color:#aaa;">${e.resultat || "—"}</span></div>
+            </div>`;
+        });
+        dv.paragraph(`*${relevant.length} activation(s) Drill 02 liée(s)*`);
+        dv.container.createEl("div").innerHTML = html;
+    }
+}
+```
+
 # 🧠 Fiche d'exploration : Plénitude
 
 > [!note]- 📜 Voir les sessions liées à cette émotion

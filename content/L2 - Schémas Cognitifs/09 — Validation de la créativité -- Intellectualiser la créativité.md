@@ -97,7 +97,7 @@ statut: documenté
 ---
 
 ## Notes liées
-- [[00 — Index]] · [[Fondements théoriques — Inner Mapping]]
+- [[Index]] · [[Fondements théoriques — Inner Mapping]]
 - [[Évaluation causale -- Confabulation]]
 - [[Mentalisation -- Dissociation]]
 - [[La Honte]] · [[La Réactance]]

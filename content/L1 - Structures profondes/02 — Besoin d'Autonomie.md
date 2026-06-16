@@ -160,7 +160,7 @@ Valeurs politiques ancrées entre le communisme et le socialisme (partage, justi
 [^3]: Barrett, L.F. (2017). *How Emotions Are Made.* Houghton Mifflin.
 
 ## Notes liées
-- [[00 — Index]] · [[01 — Fondements théoriques]]
+- [[Index]] · [[01 — Fondements théoriques]]
 - [[01 — Mentalisation -- Dissociation]] · [[09 — Validation de la créativité -- Intellectualiser la créativité]]
 - [[Colère IRL]] · [[Impuissance]]
 - [[Dépolarisation - l'injustice]] · [[Mini dépolarisation - devenir un stratège de la performance]]

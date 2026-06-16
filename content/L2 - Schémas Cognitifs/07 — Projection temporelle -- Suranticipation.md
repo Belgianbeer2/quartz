@@ -92,7 +92,7 @@ Bon run → *"je gagne trop"* → *"ça va casser"* → anticipation anxieuse �
 ---
 
 ## Notes liées
-- [[00 — Index]] · [[Fondements théoriques — Inner Mapping]]
+- [[Index]] · [[Fondements théoriques — Inner Mapping]]
 - [[05 — Évaluation du soi -- Pensée binaire]]
 - [[Peur]] · [[Anxiété d'évaluation]]
 - [[Résultat négatif → Peur → Retrait]]

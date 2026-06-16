@@ -123,7 +123,7 @@ Inner Mapping n'est pas un système de connaissance de soi — c'est un système
 [^4]: Kashdan, T.B. et al. (2015). *Unpacking emotion differentiation.* Emotion, 15(5).
 
 ## Notes liées
-- [[00 — Index]] · [[01 — Architecture du modèle]] · [[04 — Modèle Pensée-Corps-Émotions]]
+- [[🧠 Inner Mapping/01 — Fondements théoriques/00 — Index]] · [[01 — Architecture du modèle]] · [[04 — Modèle Pensée-Corps-Émotions]]
 - [[02 — Lisa Feldman Barrett × Huberman Lab]]
 - [[03 — Lisa Feldman Barrett × Lex Fridman]]
 - [[L0 — Physiologie & Budget Corporel/02 — Allostase]]

@@ -114,7 +114,7 @@ L4 — Contre-performance · contraction · sur-vigilance · jeu forcé
 
 ## Notes liées
 
-- [[00 — Index]]
+- [[Index]]
 - [[La Honte]]
 - [[Anxiété d'évaluation]]
 - [[00 — Protocole In-Game]]

@@ -236,7 +236,7 @@ Le budget corporel est le vrai point de levier pour ces trois schémas. Qualité
 
 ## Notes liées
 
-- [[00 — Index]] · [[01 — Fondements théoriques]]
+- [[Index]] · [[01 — Fondements théoriques]]
 - [[05 — Évaluation du soi -- Pensée binaire]] · [[Évaluation du soi -- Pensée binaire]]
 - [[04 — Calibration temporelle -- Vision zoomée]] · [[03 — Reconstruction mémorielle -- Sélectivité mémorielle]]
 - [[01 — Résultat négatif → Peur → Retrait]] · [[03 — Erreur technique → Colère → Étude compulsive]]

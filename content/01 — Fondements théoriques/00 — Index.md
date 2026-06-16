@@ -13,7 +13,7 @@ version: 1.0
 > Ce dossier contient les bases scientifiques du système Inner Mapping.
 > Chaque fiche est autonome et peut être approfondie indépendamment.
 > Pour le cheminement de construction : [[00 — Genèse]]
-> Pour les limites en cours : [[01 — Angles morts & évolutions.md]]
+> Pour les limites en cours : [[01 — Angles morts & évolutions]]
 
 ---
 
@@ -24,8 +24,9 @@ version: 1.0
 | [[01 — Architecture du modèle]] | Structure des niveaux (L0→L4) · Principe organisateur · Bidirectionnalité | Beck · Young · Deci & Ryan · Barrett |
 | [[02 — Opérations L2]] | Table des 10 opérations cognitives neutres · Pôles mal-être et bien-être | Young · Moukheiber |
 | [[03 — Cerveau prédictif]] | Théorie des émotions construites · Affect vs émotion · Budget corporel · Granularité · Cultivating past | Barrett (2017, 2020) |
-| [[04 — Modèle Pensée-Corps-Émotions]] | Correction du modèle linéaire · Voie rapide/lente · Marqueurs somatiques | LeDoux · Damasio · Barrett |
+| [[04 — Voie rapide & voie lente — au-delà de Pensée → Corps → Émotions]] | Correction du modèle linéaire · Voie rapide/lente · Marqueurs somatiques | LeDoux · Damasio · Barrett |
 | [[05 — BIS & BAS]] | Systèmes motivationnels indépendants · 4 états combinatoires · Piédestal · Contradictions | Gray · Carver & White · Elliot |
+| [[06 — Contrôle perçu & régulation émotionnelle]] | Dimensions d'évaluation · Régulation (Gross) · Pont vers contrôle primaire/secondaire · Mécanisme de la dépolarisation | Smith & Ellsworth · Gross |
 
 ---
 
@@ -33,7 +34,7 @@ version: 1.0
 
 Les fiches se lisent dans l'ordre chronologique d'abstraction :
 
-[[01 — Architecture du modèle]] → [[03 — Cerveau prédictif]] → [[04 — Modèle Pensée-Corps-Émotions]] → [[05 — BIS & BAS]] → [[02 — Opérations L2]] *(à consulter à la demande)*
+[[01 — Architecture du modèle]] → [[03 — Cerveau prédictif]] → [[04 — Voie rapide & voie lente — au-delà de Pensée → Corps → Émotions]] → [[05 — BIS & BAS]] → [[06 — Contrôle perçu & régulation émotionnelle]] → [[02 — Opérations L2]] *(à consulter à la demande)*
 
 ---
 
@@ -49,5 +50,5 @@ Les fiches se lisent dans l'ordre chronologique d'abstraction :
 - Alexis Essaheli — source privée · `Mindset/Alexis/`
 
 ## Notes liées
-- [[00 — Genèse]] · [[01 — Angles morts & évolutions.md]]
+- [[00 — Genèse]] · [[01 — Angles morts & évolutions]]
 - [[🧭 Boussole émotionnelle]] · [[00 — Index Sources]]

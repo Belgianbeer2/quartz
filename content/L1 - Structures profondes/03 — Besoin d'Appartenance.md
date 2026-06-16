@@ -162,7 +162,7 @@ Ce que ça signifie pour ce besoin :
 [^3]: Barrett, L.F. (2017). *How Emotions Are Made.* Houghton Mifflin. · *"The best thing for a human nervous system is another human."*
 
 ## Notes liées
-- [[00 — Index]] · [[01 — Fondements théoriques]]
+- [[Index]] · [[01 — Fondements théoriques]]
 - [[Plénitude IRL]] · [[Colère IRL]] · [[Impuissance]]
 - [[01 — Mentalisation -- Dissociation]]
 - [[Avantages d'avoir fait ma plus grosse session perdante au casino]]

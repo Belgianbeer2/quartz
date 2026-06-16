@@ -119,5 +119,5 @@ La même activation (7/10) peut être vécue comme agréable (haute énergie, en
 [^2]: Garfinkel, S.N. & Critchley, H.D. (2015). *Threat and the body.* Philosophical Transactions of the Royal Society.
 
 ## Notes liées
-- [[00 — Index]] · [[02 — Allostase]] · [[01 — Fondements théoriques]]
+- [[🧠 Inner Mapping/L0 — Physiologie & Budget Corporel/00 — Index]] · [[02 — Allostase]] · [[01 — Fondements théoriques]]
 - [[Protocoles/02 — In-game]]

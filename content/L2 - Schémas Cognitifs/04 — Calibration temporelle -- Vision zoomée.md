@@ -91,7 +91,7 @@ Séquence : 3 sessions perdantes → *"depuis 3 sessions ça ne marche pas"* →
 ---
 
 ## Notes liées
-- [[00 — Index]] · [[Fondements théoriques — Inner Mapping]]
+- [[Index]] · [[Fondements théoriques — Inner Mapping]]
 - [[Reconstruction mémorielle -- Sélectivité mémorielle]] · [[Évaluation du soi -- Pensée binaire]]
 - [[Peur]] · [[Résultat négatif → Peur → Retrait]]
 - [[L1 — Structures profondes/01 — Besoin de Compétence]]

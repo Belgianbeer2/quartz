@@ -65,6 +65,6 @@ La Dissociation (L2) produit une interprétation (*"le reg pense que je suis mau
 ---
 
 ## Notes liées
-- [[00 — Index]] · [[01 — Architecture du modèle]]
+- [[🧠 Inner Mapping/01 — Fondements théoriques/00 — Index]] · [[01 — Architecture du modèle]]
 - [[L2 - Schémas Cognitifs/00 - Index Schémas]]
 - [[Protocoles/02 — In-game]]

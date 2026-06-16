@@ -126,4 +126,4 @@ Le retrait du 29/05 n'était pas causé par la perte financière (-$1432) — il
 
 ## Notes liées
 
-- [[00 — Index]] · [[La Honte]] · [[Frustration]] · [[00 — Protocole In-Game]]
+- [[Index]] · [[La Honte]] · [[Frustration]] · [[00 — Protocole In-Game]]

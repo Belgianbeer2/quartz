@@ -85,5 +85,5 @@ Boucle L1 : renforce *"je joue depuis moi"*
 > À enrichir au fil des feedbacks. Tagger `[L4:: X]` dans les sessions pour alimenter automatiquement.
 
 ## Notes liées
-- [[00 — Index]] · [[02 — Boucles L4 → L1]]
+- [[🧠 Inner Mapping/L4 — Comportements & Boucles/00 — Index]] · [[02 — Boucles L4 → L1]]
 - [[L3 — Émotions/]] · [[L1 — Structures profondes/]]

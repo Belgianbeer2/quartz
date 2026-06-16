@@ -121,7 +121,7 @@ Décisions impulsives · changements de situation · confrontations
 
 ## Notes liées
 
-- [[00 — Index]]
+- [[Index]]
 - [[Frustration]]
 - [[Colère IRL]]
 - [[01 — Fondements théoriques]]

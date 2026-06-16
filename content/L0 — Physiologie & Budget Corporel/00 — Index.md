@@ -33,6 +33,7 @@ date: 2026-06-06
 | [[01 — Intéroception]] | Lecture des signaux corporels internes | Seth (2013) · Garfinkel (2015) | 🟡 Documenté |
 | [[02 — Allostase]] | Gestion du budget corporel | Barrett (2017) · Sterling (1988) | 🟡 Documenté |
 | [[03 — Co-régulation sociale]] | Régulation par les liens sociaux | Cacioppo (2003) · Coan (2006) | 🟡 Documenté |
+| [[04 — Fenêtre d'activation]] | Hyper/hypoactivation · charge allostatique · largeur de fenêtre | Grossman (2023) · Dantzer (2008) · McEwen (1998) | 🟡 Documenté |
 
 ---
 

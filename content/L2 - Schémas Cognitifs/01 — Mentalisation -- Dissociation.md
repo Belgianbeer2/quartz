@@ -136,4 +136,4 @@ Touristes perçus comme observateurs → conduire plus vite pour montrer ce dont
 
 ## Notes liées
 
-- [[00 — Index]] · [[Anxiété d'évaluation]] · [[Plénitude IRL]] · [[00 — Protocole In-Game]]
+- [[Index]] · [[Anxiété d'évaluation]] · [[Plénitude IRL]] · [[00 — Protocole In-Game]]

@@ -123,4 +123,4 @@ Bluff-catch → impulsion de reprendre le contrôle → *"les propriétés de ce
 
 ## Notes liées
 
-- [[00 — Index]] · [[La Réactance]] · [[00 — Protocole In-Game]]
+- [[Index]] · [[La Réactance]] · [[00 — Protocole In-Game]]

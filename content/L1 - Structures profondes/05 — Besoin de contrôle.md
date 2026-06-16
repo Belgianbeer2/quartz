@@ -55,15 +55,107 @@ Le cadre distingue trois croyances indépendantes :
 ### I.3 Contrôle primaire vs contrôle secondaire
 
 > [!abstract] ✅ Fondement solide — Rothbaum, Weisz & Snyder (1982) · Heckhausen & Schulz (1995)
-> Deux formes de contrôle, toutes deux adaptatives selon le contexte :[^3]
+> Deux formes de contrôle, toutes deux adaptatives — mais dans des domaines différents.[^3]
 
-| Type | Définition | Stratégie | En poker |
-|---|---|---|---|
-| **Contrôle primaire** | Changer le monde pour correspondre à ses désirs | Action directe sur l'environnement | Décisions · lecture · adaptation technique |
-| **Contrôle secondaire** | S'adapter au monde tel qu'il est | Modifier ses attentes, ses interprétations | Accepter la variance · lâcher prise sur les outcomes |
+---
 
-> [!info] 🔬 Application — [inféré]
-> La performance durable en poker nécessite les deux formes simultanément : contrôle primaire maximal sur le processus (chaque décision) + contrôle secondaire sur les outcomes (la variance ne se contrôle pas). L'erreur documentée dans les L1 défensifs (Résultats-dépendance) = tenter du contrôle primaire là où seul le secondaire est possible.
+#### Contrôle primaire — agir sur le monde
+
+**Définition :** tenter de modifier l'environnement pour qu'il corresponde à ses désirs. Tu agis sur le monde extérieur pour produire un résultat.
+
+**Ce que c'est — au poker :**
+- Choisir sa table (reg, fish, stack sizes)
+- Définir son opening range préflop
+- Adapter son sizing selon la texture du board
+- Quitter une session dont le budget corporel est épuisé
+- Faire une étude technique ciblée sur un spot faible
+- Convoquer une Identité en construction sur lors de la timebank
+
+**Ce que c'est — IRL :**
+- Initier un appel avec la famille plutôt qu'attendre une réaction à un message
+- Mettre en place un rituel de sommeil pour gérer la chaleur
+- Convertir une partie de ses savings pour se couvrir sur l'USD/EURO
+- Avoir une conversation directe avec sa copine sur une tension
+- Choisir des activités sociales qui nourrissent la co-régulation
+
+**Ce que ce n'est PAS — au poker :**
+- Vouloir que le tirage soit favorable par la force de sa concentration
+- Penser qu'un bon play *garantit* un bon résultat
+- Rejouer mentalement un spot pour "corriger" un résultat déjà joué
+- Augmenter son agressivité pour "forcer" le retournement d'un bad run
+
+**Ce que ce n'est PAS — IRL :**
+- S'attendre à ce qu'une personne réagisse à un message d'une façon précise
+- S'énerver contre le cours USD/EURO
+- Se sentir responsable de la dynamique d'un groupe familial depuis le Cambodge
+- *"Si j'avais formulé ça différemment, ils auraient répondu"* sur quelque chose qui ne dépend pas de toi
+
+> La deuxième liste est du contrôle primaire *appliqué au mauvais domaine* — elle tente d'exercer une action là où il n'y a pas de levier réel.
+
+---
+
+#### Contrôle secondaire — s'adapter à la réalité
+
+**Définition :** tenter de modifier sa propre réaction pour s'aligner sur le monde tel qu'il est — indépendamment de tes désirs. Tu ajustes tes attentes, tes interprétations, tes états émotionnels.
+
+**Ce que c'est — au poker :**
+- Intégrer que AA perd 20% contre n'importe quelle main — et continuer à le jouer correctement
+- Recontextualiser un mauvais run comme variance attendue plutôt que signal d'incompétence
+- Accepter qu'une session difficile ne dit rien sur ta valeur comme joueur
+- Nommer l'émotion sans lui laisser piloter la décision
+- Ajuster l'intention de session quand le budget corporel est dégradé
+
+**Ce que c'est — IRL :**
+- Accepter que la distance crée une asymétrie réelle dans les échanges avec la famille — sans en faire un jugement sur la qualité des liens
+- Accepter que les autres membres de la famille aient des styles d'attachement différents du tien
+- Accepter que le cours des devises fluctue indépendamment de toi — et ajuster sa stratégie financière
+- Intégrer le sentiment de délaissement comme signal d'un besoin — sans le transformer en verdict sur les relations
+- Accepter que le changement politique soit lent sans que ça ne réduise la valeur de tes convictions
+
+**Ce que ce n'est PAS — au poker :**
+- Résignation (*"ça ne sert à rien, le hasard décide de tout"*)
+- Indifférence aux décisions (*"peu importe ce que je joue, c'est la variance"*)
+- Suppression émotionnelle (*"je ne dois rien ressentir"*)
+- Attribuer à la variance des erreurs réelles et corrigeables
+
+**Ce que ce n'est PAS — IRL :**
+- *"Il n'y a rien que je puisse faire pour rester connecté avec ma famille"* quand des appels réguliers sont tout à fait possibles
+- *"Je suis comme ça émotionnellement, c'est ma nature"* quand les réactions sont travaillables
+- Neutraliser une injustice réelle par du stoïcisme mal calibré
+- Accepter passivement une situation relationnelle douloureuse sans explorer les leviers disponibles
+
+> Le contrôle secondaire n'élimine pas la douleur. Il l'intègre sans en faire une preuve de quelque chose.
+
+---
+
+#### La question de calibration — le vrai problème
+
+Rothbaum et al. montrent que les deux formes sont saines. Ce qui est dysfonctionnel, c'est de les **appliquer au mauvais domaine** :
+
+| Erreur | Forme | Ce qui se passe |
+|---|---|---|
+| *"Si j'avais misé 75%, il aurait foldé"* sur un call mathématique | Contrôle primaire sur un outcome non contrôlable | Culpabilité · rumination · confabulation |
+| *"De toute façon la variance fait ce qu'elle veut"* sur une erreur technique réelle | Contrôle secondaire sur un domaine contrôlable | Stagnation · absence d'apprentissage |
+| *"S'ils ne répondent pas c'est qu'ils ne m'aiment pas"* sur un comportement qui dépend de dizaines de facteurs | Contrôle primaire sur la réaction d'autrui | Délaissement · impuissance · retrait |
+| *"La distance, c'est comme ça, je ne peux rien y faire"* sur le fait d'initier des appels | Contrôle secondaire sur quelque chose d'actionnable | Isolement aggravé · budget corporel en déficit |
+
+La question opérationnelle : **est-ce que ce domaine est objectivement dans mon contrôle ?**
+
+| Domaine | Contrôle disponible | Type à exercer |
+|---|---|---|
+| Qualité de chaque décision au poker | ✅ Oui | Primaire |
+| Table selection, gestion du temps de jeu | ✅ Oui | Primaire |
+| Initier le contact avec ses proches | ✅ Oui | Primaire |
+| Budget corporel (sommeil, récupération) | ✅ Partiellement | Primaire |
+| Stratégie de couverture financière | ✅ Partiellement | Primaire |
+| Résultat d'une main donnée | ❌ Non | Secondaire |
+| Run sur 100 mains | ❌ Non | Secondaire |
+| La réaction des autres à un message | ❌ Non | Secondaire |
+| Le cours USD/EURO | ❌ Non | Secondaire |
+| La dynamique d'un groupe familial à distance | ❌ En grande partie | Secondaire |
+
+> [!info] 🔬 Inféré — application au poker et à la vie
+> Cette distinction n'a pas été testée directement sur des joueurs de poker professionnels ni sur des expatriés. Elle est extrapolée des cadres de Rothbaum et de la littérature sur la performance sous incertitude. Cohérente, non vérifiée expérimentalement dans ces contextes précis.
 
 ---
 
