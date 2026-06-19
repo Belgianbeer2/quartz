@@ -52,6 +52,29 @@ Deux domaines pertinents :
 
 ---
 
+### I.3 Mode d'expression Agon
+
+> [!abstract] ✅ Fondement : Caillois (1958) · Blascovich & Tomaka (1996)
+> Le Besoin de Compétence peut s'exprimer dans plusieurs modes. Le mode **Agon** est le mode compétitif pur : la compétence ne se *sent* que lorsqu'elle est testée contre une résistance réelle et incertaine.
+> → Fondement complet : [[01 — Fondements théoriques/10 — Agon · Alea · Mimicry · Ilinx]]
+
+**Caractéristique centrale :** pour les profils à dominante Agon, une compétence non testée est une compétence non confirmée. La victoire facile n'est pas satisfaisante — elle ne *prouve* rien. Le Besoin de Compétence n'est pleinement satisfait que lorsque la difficulté de l'adversaire correspond au niveau de ressources mobilisées.
+
+**Interaction avec la variance au poker :**
+La variance remplit la fonction d'adversaire Agon — aveugle, non manipulable, indifférente à l'identité. C'est paradoxalement la forme d'adversité la plus pure disponible dans un environnement probabiliste. Ce qui explique partiellement l'engagement accru dans les sessions défavorables : l'adversaire (la variance) y est plus résistant.
+
+**Risque spécifique au mode Agon :**
+Si l'adversité externe est nécessaire pour que le Besoin de Compétence soit satisfait, les sessions gagnantes "faciles" restent cognitivement et identitairement creuses — indépendamment de leur qualité stratégique réelle. La compétence n'a pas été *testée*, donc elle n'a pas été *sentie*.
+
+**Piste de recalibrage :**
+Construire une adversité interne — le standard de précision du processus comme adversaire. *"Est-ce que j'ai joué ce spot à la limite de ce que je sais faire ?"* plutôt que *"est-ce que j'ai gagné ?"*. Déplace le référentiel de l'externe (résultats) vers l'interne (processus), tout en préservant la fonction activatrice de l'Agon.
+
+**Lien avec la Réactance :**
+La [[L3 - Émotions/La Réactance]] est la forme *réactive* de ce même besoin — s'active quand la résistance est subie (bad beat, blocage). L'Agon est la forme *proactive* — la résistance est recherchée. Les deux partagent le même substrat : un besoin d'opposition réelle.
+
+---
+
+
 ## II. Reformulation LFB — Le schéma comme prédiction entraînée
 
 > [!info] 🔬 Reformulation — Barrett (2017), intégrée dans le modèle Inner Mapping
@@ -175,6 +198,9 @@ Conscientisation profonde que l'erreur n'est pas un verdict. La culpabilité sur
 - Isolement social (Siem Reap) combiné à mauvaise période
 
 **Dépolarisations accomplies :**
+- [[01 — Fondements théoriques/08 — Need for Cognition]] · [[01 — Fondements théoriques/10 — Agon · Alea · Mimicry · Ilinx]]
+- [[L2 - Schémas Cognitifs/11 — Mobilisation compensatoire -- Suramplification]]
+- [[L3 - Émotions/La Réactance]]
 - [[Avantages d'avoir fait ma plus grosse session perdante au casino]] — travail direct sur la résultats-dépendance. Lâcher prise sur l'injonction aux résultats, standardisation des swings.
 - [[Mini dépos frustré de run bad en live]] — bénéfices du bad run, construction d'une homéostasie sur la variance.
 - [[Dépolarisation - revenir perdant du Séjour live]] — peur de 8/10 → 0/10. Travail sur le retour perdant et la spirale émotionnelle.
@@ -236,10 +262,13 @@ Le budget corporel est le vrai point de levier pour ces trois schémas. Qualité
 
 ## Notes liées
 
-- [[Index]] · [[01 — Fondements théoriques]]
+- [[Index]] · [[01 — Fondements théoriques/00 — Index]]
 - [[05 — Évaluation du soi -- Pensée binaire]] · [[Évaluation du soi -- Pensée binaire]]
 - [[04 — Calibration temporelle -- Vision zoomée]] · [[03 — Reconstruction mémorielle -- Sélectivité mémorielle]]
 - [[01 — Résultat négatif → Peur → Retrait]] · [[03 — Erreur technique → Colère → Étude compulsive]]
+- [[01 — Fondements théoriques/08 — Need for Cognition]] · [[01 — Fondements théoriques/10 — Agon · Alea · Mimicry · Ilinx]]
+- [[L2 - Schémas Cognitifs/11 — Mobilisation compensatoire -- Suramplification]]
+- [[L3 - Émotions/La Réactance]]
 - [[Avantages d'avoir fait ma plus grosse session perdante au casino]]
 - [[Dépolarisation - Faire des erreurs et être extrêmement mauvais]]
 - [[Mini-Dépolarisation - Haute Énergie et performeur idéal]]

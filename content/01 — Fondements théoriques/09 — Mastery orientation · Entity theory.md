@@ -52,11 +52,34 @@ auteurs_principaux: "Dweck · Elliot"
 
 ## III. Clarifications terminologiques
 
-> [!todo] 💬 Pourquoi ces noms ?
+> [!todo] 💬 Mapping complet des quatre termes
 >
-> **"Performance orientation"** — "performance" au sens théâtral : *mettre en scène*, *démontrer*. L'objectif n'est pas de performer mieux — c'est de *montrer* qu'on est compétent. En poker : jouer pour *paraître* un bon joueur vs jouer pour *devenir* un meilleur joueur.
+> Le modèle de Dweck articule deux axes — *ce qu'on croit sur l'intelligence* et *ce qu'on cherche à accomplir* — qui génèrent quatre termes distincts. Voici leur définition et leur relation.
 >
-> **"Entity theory"** — l'intelligence est traitée comme une *entité* — un objet fixe qu'on possède ou pas, comme la couleur des yeux. Ce qui en découle : si l'intelligence est une entité fixe, tes résultats la *révèlent* directement → tu t'identifies à eux. La [[L2 - Schémas Cognitifs/05 — Évaluation du soi -- Pensée binaire\|Pensée binaire]] ("bon joueur ou mauvais joueur") est la conséquence logique : sans gradient possible si l'entité est fixe.
+> ---
+>
+> **Entity theory** — la croyance
+> L'intelligence est traitée comme une *entité* — un objet fixe qu'on possède ou pas, en quantité déterminée, comme la couleur des yeux. On ne peut pas la changer, seulement la révéler ou la cacher. Ce qui en découle : tes résultats la *révèlent* directement → tu t'identifies à eux → la [[L2 - Schémas Cognitifs/05 — Évaluation du soi -- Pensée binaire\|Pensée binaire]] ("bon joueur ou mauvais joueur") est la conséquence logique.
+>
+> **Incremental theory** — la croyance opposée
+> L'intelligence *croît par incréments* — par l'effort, la stratégie et l'expérience. Pas de quantité fixe : une capacité évolutive. Ce qui en découle : tes résultats sont des *données* sur où tu en es, pas des preuves de ce que tu *es*. L'erreur est informationnelle, pas identitaire.
+>
+> **Performance orientation** — l'objectif généré par la croyance entity
+> "Performance" au sens théâtral : *mettre en scène*, *démontrer*. L'objectif n'est pas de performer mieux — c'est de *montrer* qu'on est compétent. Si l'intelligence est fixe, la seule chose à faire est de prouver qu'on en a. En poker : jouer pour *paraître* un bon joueur.
+>
+> **Mastery orientation** — l'objectif généré par la croyance incrémentale
+> Chercher à *maîtriser* — à développer la compétence plutôt qu'à la démontrer. Si l'intelligence peut croître, l'objectif logique est de la faire croître. En poker : jouer pour *devenir* un meilleur joueur — chaque session est du matériau.
+>
+> ---
+>
+> **La relation entre les deux axes :**
+>
+> | | Entity theory | Incremental theory |
+> |---|---|---|
+> | **Génère naturellement** | Performance orientation | Mastery orientation |
+> | **Mais** | Elliot (1999) montre que ce n'est pas une correspondance parfaite. On peut avoir une croyance incrémentale ET être motivé par l'évitement de l'échec (mastery-avoidance). La croyance et l'orientation sont liées mais pas identiques. |  |
+>
+> **Angle mort potentiel :** la croyance sur l'intelligence peut différer selon le domaine. On peut avoir une théorie incrémentale pour les compétences techniques (le jeu peut s'améliorer) et une théorie entity pour les compétences émotionnelles (je suis comme ça, ça ne change pas). → À explorer avec Alexis.
 
 ---
 
@@ -98,6 +121,33 @@ Le pattern observé en session suggère une **mastery-approach** dominante (enga
 
 > [!warning] Le mastery-avoidance est le cas que le binary fixed/growth ne peut pas capturer
 > Quelqu'un qui veut progresser mais est paralysé par la peur de stagner. Ce cas ne rentre ni dans "fixed" ni dans "growth" — c'est pourquoi la version académique est préférable.
+
+---
+
+## V.bis Discours internes typiques — performance orientation vs mastery orientation
+
+> *La façon la plus directe d'identifier son orientation dans le moment : écouter le langage spontané. Ces exemples sont des tendances, pas des diagnostics.*
+
+**Performance orientation (entity thinking) — exemples de discours interne :**
+- *"Si je loose encore ce pot, les autres vont voir que je suis pas au niveau."*
+- *"Ce bad beat prouve que ça sert à rien de bien jouer."*
+- *"Je dois récupérer ces buyins — sinon ça veut dire quoi cette session ?"*
+- *"J'aurais pas dû jouer cette main, maintenant ils savent que je bluffe avec ça."*
+- *"Pourquoi ça m'arrive à moi ? Je fais tout bien."* (attribution externe pour protéger l'entité)
+- *"Je peux pas fold maintenant, ils vont croire que j'ai bluffé."* (l'image avant la décision)
+- *"Cette session résume pas qui je suis."* (défense de l'entité face à une mauvaise performance)
+
+**Mastery orientation (incremental thinking) — exemples de discours interne :**
+- *"Qu'est-ce que ce spot m'apprend sur la dynamique de cette table ?"*
+- *"Ce call était juste même si je perds — la décision était correcte."*
+- *"Intéressant que j'ai eu ce timing tell — à noter pour la review."*
+- *"Cette session difficile, c'est du matériau pour comprendre mes patterns émotionnels."*
+- *"Je rejoue mentalement cette main parce que j'ai quelque chose à apprendre ici."*
+- *"Mon A-game ce soir était X — sur quoi est-ce que je veux travailler demain ?"*
+- *"Ce mauvais résultat dit quelque chose sur la variance, pas sur qui je suis."*
+
+> [!todo] Angle mort à surveiller
+> La même phrase peut venir des deux orientations selon son ancrage. *"Cette session résume pas qui je suis"* peut être incremental (l'erreur n'est pas identitaire) ou entity en mode défensif (l'entité fixe ne peut pas être "résumée" par un seul résultat). C'est l'*émotion derrière la phrase* qui différencie les deux — non pas le mot.
 
 ---
 

@@ -30,7 +30,7 @@ statut: document vivant — mise à jour continue
 | **Boucles L4→L1** — le comportement construit les prédictions futures directement | Gross (2015) · Barrett (2017) | 🟢 Intégré | [[L4 — Comportements & Boucles/02 — Boucles L4 → L1]] |
 | **Cascades mal placées en L2** — les cascades sont multi-niveaux, pas des schémas L2 | Architecture interne | 🟢 Intégré | Cascades déplacées dans [[L4 — Comportements & Boucles/00 — Index]] |
 | **Besoin de contrôle absent des L1** — traverse tous les patterns sans être nommé | Leotti et al. (2010) · Skinner (1996) · Rothbaum (1982) | 🟢 Intégré | [[L1 - Structures profondes/05 — Besoin de contrôle]] |
-| **Self-compassion** — réduit la punition envers soi sans réduire la motivation | Neff (2003, 2011) · Gilbert (2009) | 🟡 Partiellement | [[Fondements théoriques/07 — Self-compassion]] documenté · à intégrer dans [[L1 - Structures profondes/01 — Besoin de Compétence]] et [[L3 - Émotions/Accablement]] §III |
+| **Self-compassion** — réduit la punition envers soi sans réduire la motivation | Neff (2003, 2011) · Gilbert (2009) | 🟡 Partiellement | [[Fondements théoriques/07 — Self-compassion]] documenté · patch L1/01 créé mais fichier pas encore modifié dans le vault |
 | **Alexithymie** — difficulté à identifier ses émotions ; limite individuelle de la granularité | Taylor (1997) · Sifneos (1973) | 🔴 Non intégré | La granularité émotionnelle n'est pas universellement accessible |
 | **Régulation dyadique** — Sassa comme infrastructure de régulation physiologique active | Coan (2006) · Beckes (2013) | 🟡 Partiellement | Mentionné dans Co-régulation sociale · non formalisé comme variable de session |
 | **BAS frustré → Colère** — BAS bloqué génère une colère distincte du BIS réactif | Carver (2001) | 🟢 Intégré | [[Fondements théoriques/06 — Contrôle perçu & régulation émotionnelle]] §IV-V · [[L3 - Émotions/Colère IRL]] §0 |
@@ -58,12 +58,20 @@ statut: document vivant — mise à jour continue
 | Juin 2026 | Voie rapide vs concept entraîné par répétition — distinction vitesse subjective / voie pré-cognitive | [[Fondements théoriques/04 — Voie rapide & voie lente — au-delà de Pensée → Corps → Émotions]] | LeDoux & Brown (2017) · Moors (2013) · Hebb (1949) |
 | Juin 2026 | Contrôle perçu & régulation — pont entre L1 (contrôle primaire/secondaire), L3 (émotions) et BIS/BAS via les dimensions d'évaluation | [[Fondements théoriques/06 — Contrôle perçu & régulation émotionnelle]] | Smith & Ellsworth (1985) · Gross (1998, 2015) |
 | Juin 2026 | Accablement — nouvelle fiche L3, état d'hypoactivation envahissant L1-L4 | [[L3 - Émotions/Accablement]] | Synthèse fiches 05§II · 06§I,VI · L0/04 |
-| Juin 2026 | NFC · Mastery orientation · Agon — configuration profil + asymétrie d'engagement + connexion L1/L2/L3 | [[Fondements théoriques/08 — NFC · Mastery · Agon]] · [[L2 - Schémas Cognitifs/11 — Mobilisation compensatoire -- Suramplification]] | Cacioppo & Petty (1982) · Dweck (1986) · Caillois (1958) |
+| Juin 2026 | NFC · Mastery orientation · Agon découpés en 3 fiches indépendantes + document Connexions & Imbrications | [[Fondements théoriques/08 — Need for Cognition]] · [[Fondements théoriques/09 — Mastery orientation · Entity theory]] · [[Fondements théoriques/10 — Agon · Alea · Mimicry · Ilinx]] · [[02 — Connexions & Imbrications]] | Cacioppo & Petty · Dweck · Elliot · Caillois |
+| Juin 2026 | Discours internes typiques performance vs mastery · mapping complet des 4 termes · révision entity-in-execution (Beilock 2004) | [[Fondements théoriques/09 — Mastery orientation · Entity theory]] §III · §V.bis · §VII | Beilock et al. (2004) |
+| Juin 2026 | Logistique protocoles — MR conditionnel · Feedback restructuré · O&R champ protocoles · Switch Actif item · Drill 02 log YAML · Carte des protocoles | Templates + [[Journal/00 - Dashboard/🔧 Carte des protocoles]] | — |
+| Juin 2026 | NFC · Mastery orientation · Agon — configuration profil + asymétrie d'engagement + connexion L1/L2/L3 | [[Fondements théoriques/08 — Need for Cognition]] · [[Fondements théoriques/09 — Mastery orientation · Entity theory]] · [[Fondements théoriques/10 — Agon · Alea · Mimicry · Ilinx]] · [[L2 - Schémas Cognitifs/11 — Mobilisation compensatoire -- Suramplification]] | Cacioppo & Petty (1982) · Dweck (1986) · Elliot (1999) · Caillois (1958) |
 | Juin 2026 | Self-compassion — fondement théorique (3 composantes, mécanisme neurobiologique, contre-modèle Intransigeance, repos sans culpabilité) | [[Fondements théoriques/07 — Self-compassion]] | Neff (2003, 2011) · Gilbert (2009) · Breines & Chen (2012) |
 | Juin 2026 | Deux sources de Colère (BAS frustré vs BIS/éthique) + mécanisme reappraisal | [[L3 - Émotions/Colère IRL]] | Carver (2001) · Smith & Ellsworth (1985) · Gross (1998) |
 | Juin 2026 | Drill rétrospective d'accumulation — détecte le rétrécissement de fenêtre via le langage avant la bascule | [[Protocoles/Transversaux/02 — Drill · L0 Fenêtre d'activation — Rétrospective accumulation]] | McEwen (1998) |
 
 ---
+
+| **Asymétrie session length** — sessions perdantes longues · gagnantes courtes | NFC + Mastery + Agon (fiches 08-10) | 🟡 Partiellement | Identifié et expliqué · non encore formalisé comme cascade L4 complète |
+| **Insomnie post-session** — hyperactivation résiduelle · BIS encore actif → besoin de co-régulation externe | L0/04 · L0/03 | 🔴 Non intégré | Observé et discuté · routine de décompression post-session à construire · lien Sassa/co-régulation à formaliser |
+| **Entity theory selon le domaine** — croyance incrémentale sur la technique · entity sur les émotions | Fiche 09 §III | 🔴 Non intégré | Angle mort identifié en §III de fiche 09 · à explorer avec Alexis |
+| **Adversaire interne** — peut-on construire une adversité interne suffisante pour sessions gagnantes ? | Fiche 10 §V | 🔴 Non intégré | Hypothèse documentée · non encore testée par l'expérience |
 
 ## III. Pistes à explorer — non encore sourcées
 

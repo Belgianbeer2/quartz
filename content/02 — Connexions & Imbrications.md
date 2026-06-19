@@ -53,16 +53,16 @@ Ce ne sont pas des causes suffisantes — d'autres facteurs (L0, BIS/BAS, Besoin
 
 ## III. NFC → schémas L2
 
-> *Fondement : [[08 — Need for Cognition]]*
+*Fondement : [[08 — Need for Cognition]]*
 
-Le NFC amplifie les schémas qui impliquent une complexification ou une recherche de sens là où il n'y en a pas nécessairement :
+Le NFC amplifie les schémas qui impliquent une complexification ou une recherche de sens — parce que la complexité est elle-même récompensante pour un haut NFC. Le mécanisme : NFC → tendance à élaborer davantage → le schéma dispose de plus de "matériau" pour s'activer ou se maintenir.
 
-| Schéma | Interaction NFC |
-|---|---|
-| [[L2 - Schémas Cognitifs/02 — Évaluation causale -- Confabulation\|02 — Confabulation]] | NFC peut amplifier la rationalisation — construire des explications plus élaborées pour des positions déjà tenues |
-| [[L2 - Schémas Cognitifs/07 — Projection temporelle -- Suranticipation\|07 — Suranticipation]] | NFC peut alimenter la construction de scénarios complexes qui nourrissent la suranticipation |
-| [[L2 - Schémas Cognitifs/09 — Validation de la créativité -- Intellectualiser la créativité\|09 — Intellectualiser la créativité]] | **Lien fort** — intellectualiser = NFC appliqué à la validition de la créativité |
-| [[L2 - Schémas Cognitifs/11 — Mobilisation compensatoire -- Suramplification\|11 — Suramplification]] | **Lien fort** — NFC est le moteur principal du complexity creep |
+| Schéma | Nature du lien | Mécanisme |
+|---|---|---|
+| [[L2 - Schémas Cognitifs/02 — Évaluation causale -- Confabulation\|02 — Confabulation]] | Modéré | NFC amplifie la construction de rationalisations — plus le NFC est élevé, plus l'explication produite est élaborée et défendable, même si elle est construite a posteriori |
+| [[L2 - Schémas Cognitifs/07 — Projection temporelle -- Suranticipation\|07 — Suranticipation]] | Modéré | NFC alimente la construction de scénarios complexes — le cerveau haut NFC produit naturellement plus de "et si..." et peut amplifier la charge de la suranticipation |
+| [[L2 - Schémas Cognitifs/09 — Validation de la créativité -- Intellectualiser la créativité\|09 — Intellectualiser la créativité]] | Fort — lien direct | Ce schéma est *structurellement* une expression du NFC appliqué à la créativité : chercher la validation analytique d'un play créatif, c'est le désir d'effort cognitif (NFC) appliqué à un domaine qui fonctionne mieux sans lui |
+| [[L2 - Schémas Cognitifs/11 — Mobilisation compensatoire -- Suramplification\|11 — Suramplification]] | Fort — lien direct | NFC est le moteur principal du complexity creep : la complexité est récompensante → le système construit dépasse l'objectif initial précisément *parce que* construire est agréable |
 
 ---
 
