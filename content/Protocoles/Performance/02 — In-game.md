@@ -17,7 +17,8 @@ date: 2026-06-06
 
 ## Le Switch Actif — structure
 
-→ [documenté — Alexis Essaheli] · [[L3 — Émotions/00 — Protocole In-Game]]
+→ [documenté — Alexis Essaheli] · [[00 — Protocole In-Game]]
+
 
 **Trois couches en cascade rapide :**
 
@@ -76,4 +77,4 @@ Tension ? Contraction ? Rythme cardiaque élevé ?
 ## Notes liées
 - [[00 — Vue d'ensemble]] · [[01 — Avant session]] · [[03 — Post-session]]
 - [[🧭 Boussole émotionnelle]]
-- [[L3 — Émotions/00 — Protocole In-Game]]
+- [[00 — Protocole In-Game]]

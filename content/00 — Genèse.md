@@ -364,3 +364,64 @@ Conséquence : mise à jour du chemin Dataview dans la Boussole.
 - `01 — Angles morts & évolutions.md`
 - `Fondements théoriques/` (dossier)
 - Tous les niveaux L0→L4, Protocoles, Sources
+
+---
+
+## X. Nouvelles directions (juin 2026 — session du 17-18 juin)
+
+### 10.1 — Fenêtre d'activation : fondement L0 manquant
+
+L'hyperactivation et l'hypoactivation étaient documentées empiriquement (le collapse du 11/06) sans cadre théorique dédié. L0 n'avait pas de fiche pour l'état résultant du budget corporel à un instant donné — seulement pour le signal (Intéroception), la ressource (Allostase) et l'apport externe (Co-régulation).
+
+Intégration : `L0/04 — Fenêtre d'activation.md`. Ancré sur l'axe HPA + inflammation (Grossman 2023, Dantzer 2008, McEwen 1998) plutôt que sur le cadre polyvagal (contesté). Distinction charge allostatique ponctuelle vs cumulative. Double mécanisme : rétrécissement (McEwen) et élargissement (Meichenbaum).
+
+→ Voir [[L0 — Physiologie & Budget Corporel/04 — Fenêtre d'activation]]
+
+---
+
+### 10.2 — Contrôle perçu & régulation : pont théorique manquant
+
+La fiche 05 (BIS/BAS) et L1/05 (Besoin de contrôle) documentaient deux cadres qui ne se parlaient pas. Manquait un mécanisme explicite reliant l'état motivationnel (BIS/BAS) à l'émotion construite (L3) via une dimension d'évaluation pivot.
+
+Smith & Ellsworth (1985) fournit ce mécanisme : la dimension *contrôle self/autre* différencie Colère (contrôle attribué à l'extérieur) de Détermination (contrôle attribué au processus), avec effort anticipé constant dans les deux cas. La dépolarisation devient un *reappraisal* (Gross #4) qui déplace le contrôle perçu sans changer l'énergie mobilisée.
+
+→ Voir [[Fondements théoriques/06 — Contrôle perçu & régulation émotionnelle]]
+
+---
+
+### 10.3 — Voie rapide vs concept entraîné : correction d'une erreur
+
+Le cas du chien (11/06) avait été initialement catégorisé comme "voie rapide LeDoux". Correction après exploration : la colère avait un contenu spécifique immédiat ("à chaque fois ces images") — donc construction rapide par un concept entraîné par répétition, pas voie thalamo-amygdalienne pré-sémantique. LeDoux & Brown (2017) : circuits de survie inconscients et sentiment subjectif sont deux systèmes distincts. La vitesse ressentie ne renseigne pas sur le circuit.
+
+→ Voir [[Fondements théoriques/04 — Voie rapide & voie lente — au-delà de Pensée → Corps → Émotions]]
+
+---
+
+### 10.4 — NFC · Mastery · Agon : profil motivationnel documenté
+
+Émergé d'une exploration nocturne sur le pattern d'engagement asymétrique aux tables : sessions perdantes longues et stimulantes, sessions gagnantes courtes et "plates". L'exploration a révélé une configuration stable et transversale :
+
+- **Need for Cognition** (Cacioppo & Petty 1982) : motivation intrinsèque à l'effort cognitif — la complexité est récompensante en elle-même
+- **Mastery orientation** (Dweck 1986) : l'adversité est informationnelle, pas menaçante — l'échec est du matériau
+- **Agon** (Caillois 1958) : la compétence ne se sent que testée contre une résistance réelle et incertaine
+
+Ces trois traits, combinés au Besoin de Compétence, forment la configuration "Suramplification" : quand une faiblesse est identifiée dans un domaine d'identité, engagement maximal souvent disproportionné à l'objectif initial — productif (Inner Mapping) ou dérivant (GTO Lens).
+
+Question ouverte clé : peut-on construire une adversité interne (standard de précision du processus) suffisante pour que les sessions gagnantes activent le même niveau d'engagement que les sessions perdantes difficiles ?
+
+→ Voir [[Fondements théoriques/08 — NFC · Mastery · Agon]] · [[L2 - Schémas Cognitifs/11 — Mobilisation compensatoire -- Suramplification]]
+
+---
+
+### 10.5 — Logistique des protocoles : intégration dans les routines
+
+Travail structurel pour que les protocoles Inner Mapping s'activent sans friction dans le quotidien :
+- Morning Routine : bloc conditionnel DataviewJS sur les toggles signaux → Drill 02
+- Observation & ressentis : `[protocoles_utilisés:: ]`
+- Feedback session : zone Protocoles in-game (pendant) + résumé `[protocoles_utilisés:: ]` (après)
+- Switch Actif : item Templater pour capturer les reconvocations in-game
+- Drill 02 : log YAML style Bilan Bankroll avec bibliothèque des signaux évolutive
+- Carte des protocoles : référence visuelle signal → protocole dans Dashboard
+
+→ Voir [[Protocoles/00 — Vue d'ensemble]] · [[Journal/00 - Dashboard/🔧 Carte des protocoles]]
+

@@ -27,6 +27,10 @@ version: 1.0
 | [[04 — Voie rapide & voie lente — au-delà de Pensée → Corps → Émotions]] | Correction du modèle linéaire · Voie rapide/lente · Marqueurs somatiques | LeDoux · Damasio · Barrett |
 | [[05 — BIS & BAS]] | Systèmes motivationnels indépendants · 4 états combinatoires · Piédestal · Contradictions | Gray · Carver & White · Elliot |
 | [[06 — Contrôle perçu & régulation émotionnelle]] | Dimensions d'évaluation · Régulation (Gross) · Pont vers contrôle primaire/secondaire · Mécanisme de la dépolarisation | Smith & Ellsworth · Gross |
+| [[07 — Self-compassion]] | Trois composantes · Contre-modèle Intransigeance · Mécanisme neurobiologique · Repos sans culpabilité (Accablement) | Neff · Gilbert |
+| [[08 — Need for Cognition]] | NFC — motivation intrinsèque à l'effort cognitif · corrélats · manifestations vault | Cacioppo & Petty |
+| [[09 — Mastery orientation · Entity theory]] | Entity/Incremental theory · Fixed/Growth · Elliot 2×2 · quand entity gagne | Dweck · Elliot |
+| [[10 — Agon · Alea · Mimicry · Ilinx]] | Les quatre formes du jeu · application poker · substitut SDT | Caillois |
 
 ---
 
@@ -34,7 +38,7 @@ version: 1.0
 
 Les fiches se lisent dans l'ordre chronologique d'abstraction :
 
-[[01 — Architecture du modèle]] → [[03 — Cerveau prédictif]] → [[04 — Voie rapide & voie lente — au-delà de Pensée → Corps → Émotions]] → [[05 — BIS & BAS]] → [[06 — Contrôle perçu & régulation émotionnelle]] → [[02 — Opérations L2]] *(à consulter à la demande)*
+[[01 — Architecture du modèle]] → [[03 — Cerveau prédictif]] → [[04 — Voie rapide & voie lente — au-delà de Pensée → Corps → Émotions]] → [[05 — BIS & BAS]] → [[06 — Contrôle perçu & régulation émotionnelle]] → [[07 — Self-compassion]] → [[08 — Need for Cognition]] · [[09 — Mastery orientation · Entity theory]] · [[10 — Agon · Alea · Mimicry · Ilinx]] → [[02 — Opérations L2]] *(à consulter à la demande)*
 
 ---
 
