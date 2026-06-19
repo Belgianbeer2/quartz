@@ -126,28 +126,181 @@ Le pattern observé en session suggère une **mastery-approach** dominante (enga
 
 ## V.bis Discours internes typiques — performance orientation vs mastery orientation
 
-> *La façon la plus directe d'identifier son orientation dans le moment : écouter le langage spontané. Ces exemples sont des tendances, pas des diagnostics.*
+> *Avant les exemples : les patterns structurels. C'est la structure de la pensée — pas les mots — qui détermine l'orientation.*
 
-**Performance orientation (entity thinking) — exemples de discours interne :**
-- *"Si je loose encore ce pot, les autres vont voir que je suis pas au niveau."*
-- *"Ce bad beat prouve que ça sert à rien de bien jouer."*
-- *"Je dois récupérer ces buyins — sinon ça veut dire quoi cette session ?"*
-- *"J'aurais pas dû jouer cette main, maintenant ils savent que je bluffe avec ça."*
-- *"Pourquoi ça m'arrive à moi ? Je fais tout bien."* (attribution externe pour protéger l'entité)
-- *"Je peux pas fold maintenant, ils vont croire que j'ai bluffé."* (l'image avant la décision)
-- *"Cette session résume pas qui je suis."* (défense de l'entité face à une mauvaise performance)
+---
 
-**Mastery orientation (incremental thinking) — exemples de discours interne :**
-- *"Qu'est-ce que ce spot m'apprend sur la dynamique de cette table ?"*
-- *"Ce call était juste même si je perds — la décision était correcte."*
-- *"Intéressant que j'ai eu ce timing tell — à noter pour la review."*
-- *"Cette session difficile, c'est du matériau pour comprendre mes patterns émotionnels."*
-- *"Je rejoue mentalement cette main parce que j'ai quelque chose à apprendre ici."*
-- *"Mon A-game ce soir était X — sur quoi est-ce que je veux travailler demain ?"*
-- *"Ce mauvais résultat dit quelque chose sur la variance, pas sur qui je suis."*
+### Patterns structurels — performance orientation
 
-> [!todo] Angle mort à surveiller
-> La même phrase peut venir des deux orientations selon son ancrage. *"Cette session résume pas qui je suis"* peut être incremental (l'erreur n'est pas identitaire) ou entity en mode défensif (l'entité fixe ne peut pas être "résumée" par un seul résultat). C'est l'*émotion derrière la phrase* qui différencie les deux — non pas le mot.
+| Pattern | Ce qu'il signifie | Pourquoi c'est entity-based |
+|---|---|---|
+| **Référence au regard externe** | L'action est évaluée via ce que les autres vont en déduire sur soi | Si la compétence est fixe, la perception des autres devient une preuve de ce qu'on est |
+| **Résultat comme verdict identitaire** | Le résultat définit ce qu'on *est*, pas ce qu'on *a fait* | Entity : les résultats révèlent l'entité fixe sous-jacente |
+| **Attribution externe pour protéger l'entité** | L'échec est attribué à la chance, au soft, aux opponents — jamais à une décision révisable | Si l'entité est fixe et bonne, les mauvais résultats ne peuvent pas venir de moi |
+| **Récupération comme réparation identitaire** | L'urgence de "récupérer" dépasse la valeur financière — elle répare l'image de l'entité | La perte a *révélé* quelque chose → récupérer = effacer la preuve |
+| **L'enjeu comme test de l'entité** | Les sessions importantes sont vécues comme des épreuves de qui on *est* | Entity : l'enjeu *révèle* le niveau fixe, pas une opportunité d'exécuter |
+
+---
+
+### Patterns structurels — mastery orientation
+
+| Pattern | Ce qu'il signifie | Pourquoi c'est incremental-based |
+|---|---|---|
+| **Séparation décision / résultat** | La qualité de la décision est évaluée indépendamment du résultat | Incremental : le résultat est de la variance, la décision est du processus — les deux sont distincts |
+| **Événement comme information** | L'action ou le résultat est traité comme une donnée sur ce qu'il y a à développer | Intelligence malléable → les événements sont du matériau, pas des preuves |
+| **Curiosité observationnelle** | Face à une erreur ou un pattern, la réaction est "intéressant" ou "à comprendre" | L'erreur n'est pas une menace identitaire → elle peut être observée sans défense |
+| **Orientation future-proche** | Le focus se déplace vers "sur quoi est-ce que je veux travailler ?" | Incremental : le but est le développement → l'attention va vers ce qui peut évoluer |
+| **Contextualisation temporelle** | L'événement est situé dans un arc de développement plus long | Une session = un point dans une trajectoire, pas un verdict |
+
+---
+
+### Exemples calibrés — par situation
+
+> *Organisés par moment de la journée pour faciliter la reconnaissance en contexte réel.*
+
+---
+
+#### Avant session
+
+**Performance orientation :**
+
+*"Ce soir je dois montrer que le downswing de la semaine dernière était une anomalie."*
+→ **Récupération comme réparation identitaire.** La session devient un moyen de corriger l'image laissée par les résultats précédents, pas une opportunité d'exécuter.
+
+*"Si j'arrive pas à performer aujourd'hui après tout ce travail, ça veut dire quoi ?"*
+→ **L'enjeu comme test de l'entité.** L'effort fourni devient une dette que les résultats doivent honorer. Si les résultats ne suivent pas, l'entité est menacée.
+
+*"Je vais pas jouer en NL200 ce soir — j'ai besoin d'une session propre pour regagner de la confiance."*
+→ **Évitement du défi pour protéger l'entité.** Descendre de limite pour garantir un résultat positif plutôt que pour des raisons stratégiques ou de budget L0. La confiance cherchée est identitaire, pas processuelle.
+
+*"Je dois être concentré ce soir — il y a des gens qui suivent mes résultats."*
+→ **Référence au regard externe.** La qualité d'exécution est motivée par l'image projetée plutôt que par la qualité intrinsèque de la session.
+
+**Mastery orientation :**
+
+*"Mon budget L0 est à 6/10 ce matin — je calibre l'intensité et la durée en fonction, pas les objectifs de résultat."*
+→ **Contextualisation.** La session est définie par les ressources disponibles, pas par ce qu'elle doit prouver.
+
+*"L'objectif ce soir : maintenir ma qualité de lecture sur les spots 3bet pot en OOP. Les résultats, on verra."*
+→ **Orientation processuelle.** Un objectif de développement précis, indépendant du résultat.
+
+*"La semaine dernière était difficile — je regarde quels patterns émotionnels se sont activés, pas les chiffres."*
+→ **Événement comme information.** Le downswing est du matériau pour comprendre les patterns d'activation.
+
+---
+
+#### In-game
+
+**Performance orientation :**
+
+*"J'ai manqué ce spot évident — toute la session est foutue maintenant."*
+→ **Vision zoomée + verdict identitaire.** Une erreur sur un spot connu invalide la session entière. [[L2 - Schémas Cognitifs/04 — Calibration temporelle -- Vision zoomée\|Vision zoomée]] + Intransigeance simultanément.
+
+*"Je peux pas checker cette main, ils vont penser que j'ai pas de valeur."*
+→ **Référence au regard externe.** La décision est prise pour gérer l'image comme fin en soi, pas comme input stratégique.
+
+*"Deux bad beats de suite — c'est vraiment pas normal, il y a quelque chose contre moi ce soir."*
+→ **Attribution externe.** La variance est personnalisée pour protéger l'entité de la responsabilité des mauvais résultats. [[L2 - Schémas Cognitifs/02 — Évaluation causale -- Confabulation\|Confabulation]] en temps réel.
+
+*"Je joue trop bien pour que ça continue comme ça."*
+→ **Entité fixe + résultats comme révélateurs.** Confusion entre compétence et variance — la croyance que la qualité du jeu devrait mériter des résultats proportionnels.
+
+*"Ce fish m'a battu trois fois de suite — c'est humiliant."*
+→ **Verdict identitaire via le regard implicite.** La honte vient du fait qu'un "mauvais" joueur bat l'entité fixe — pas de la variance, qui est pourtant maximale contre les fish.
+
+*"J'aurais dû voir ce spot venir, je connais ce profil de joueur."*
+→ **Intransigeance sur le maîtrisé.** L'erreur sur un spot "connu" contredit l'entité. C'est le Perfectionnisme protecteur de [[L1 - Structures profondes/01 — Besoin de Compétence]].
+
+**Mastery orientation :**
+
+*"Je suis en train de sur-aggresser depuis 30 minutes — c'est quoi la dynamique qui génère ça ?"*
+→ **Curiosité observationnelle.** Le pattern comportemental est noté comme un phénomène à comprendre, pas comme une faute à corriger dans l'urgence.
+
+*"Ce bad beat a activé quelque chose — je nomme : frustration BAS bloqué. Je continue depuis mon process, pas depuis ça."*
+→ **Événement comme information + séparation état/action.** L'émotion est nommée et découplée de la décision suivante.
+
+*"Ce spot était ambigu entre deux lignes légitimes — j'ai choisi X. À voir si c'est cohérent sur le long terme."*
+→ **Séparation décision / résultat.** L'incertitude sur la ligne est reconnue sans anxiété — elle sera résolue par l'accumulation de données.
+
+*"J'ai joué ce spot mécaniquement sans vraiment traiter l'information disponible — noter."*
+→ **Curiosité observationnelle.** Le comportement automatique est capturé comme signal à approfondir.
+
+*"Ma lecture était juste, l'exécution était juste, le résultat était contre — prochaine main."*
+→ **Séparation décision / résultat.** Verdict rapide et sans charge émotionnelle : rien à changer sur le processus.
+
+*"Mon BIS s'est activé sur cette main après le bad beat précédent — j'ai pas eu la lucidité de le nommer avant d'agir. C'est exactement ça que je veux travailler."*
+→ **Curiosité observationnelle + orientation future-proche.** L'erreur est une information sur le pattern d'activation émotionnelle.
+
+---
+
+#### Après session
+
+**Performance orientation :**
+
+*"J'ai bien joué mais les résultats le montrent pas — c'est injuste."*
+→ **Attribution externe + entité protégée.** La dissociation résultat/processus est ici *défensive* (protéger l'entité) plutôt qu'analytique. La différence : le ton émotionnel. Défensif = frustration. Analytique = neutralité.
+
+*"Cette session à -5 buyins efface tout le travail fait ce mois-ci."*
+→ **Vision zoomée + résultat comme verdict.** La session devient la mesure de la période entière.
+
+*"Je peux pas aller dormir avec ces résultats."*
+→ **Récupération comme réparation identitaire.** L'urgence est partiellement cognitive mais principalement identitaire — le BIS reste actif tant que l'entité n'est pas "réparée". *Lien direct avec l'insomnie post-session documentée — voir [[00 — Genèse]] §X.5.*
+
+*"Je sens que je suis pas à mon niveau aujourd'hui."*
+→ **Entité fixe avec niveau défini.** "Mon niveau" présuppose une constante qu'on atteint ou non — plutôt que des ressources qui varient selon le budget L0.
+
+*"Si je close cette session maintenant avec ces résultats, ça me pèse."*
+→ **Récupération comme réparation identitaire.** La valeur du résultat final dépasse son impact financier — il devient la mesure de ce que valait la session en tant que démonstration.
+
+**Mastery orientation :**
+
+*"Les résultats étaient négatifs mais j'ai maintenu une qualité de décision correcte sur les spots complexes — c'est ça le critère."*
+→ **Séparation décision / résultat.** L'auto-évaluation porte sur le processus.
+
+*"Cette session m'a montré que je slip systématiquement en fin de session quand le budget L0 est bas — pattern à documenter dans le Drill 02."*
+→ **Événement comme information.** La session difficile génère une hypothèse précise et actionnable.
+
+*"J'ai fait deux erreurs sur le même type de spot en 3bet pot OOP. C'est précis — je sais quoi étudier demain."*
+→ **Orientation future-proche.** L'erreur est convertie en direction de travail.
+
+*"Ce call était -EV selon mes estimations mais j'avais des reads solides — la décision était cohérente avec ce que je savais, le résultat non."*
+→ **Séparation décision / résultat.** L'erreur potentielle porte sur la qualité du read, pas sur la valeur de la personne.
+
+---
+
+#### Étude / Review
+
+**Performance orientation :**
+
+*"Si j'arrive pas à comprendre ce concept après autant de temps, c'est que j'ai une limite sur ce type de raisonnement."*
+→ **Entité fixe appliquée à l'apprentissage.** La difficulté à comprendre est interprétée comme révélateur d'une capacité fixe plutôt que comme signal que l'approche n'est pas la bonne.
+
+*"J'étais censé être fort sur ces spots — comment j'ai pu rater ça en session ?"*
+→ **Intransigeance sur le maîtrisé + verdict identitaire.** L'écart entre maîtrise théorique et exécution en session devient une preuve de ce qu'on est plutôt qu'un signal sur le gap connaissance/automaticité.
+
+*"Ma review me montre que j'ai fait X erreurs — c'est trop, j'aurais dû mieux jouer."*
+→ **Standard excessif + auto-punition.** Le nombre d'erreurs est jugé en absolu plutôt que contextualisé dans les conditions de la session.
+
+**Mastery orientation :**
+
+*"Je comprends pas encore ce concept — c'est exactement pour ça que je l'étudie. Quelle partie manque ?"*
+→ **Curiosité observationnelle + orientation future-proche.** L'incompréhension est un signal de travail, pas un révélateur de limite.
+
+*"Je pensais maîtriser ce spot mais la review montre des gaps — utile à savoir. Ça m'évite de l'over-confidence en session."*
+→ **Événement comme information.** La découverte d'un gap est une bonne nouvelle.
+
+*"Cet écart entre ce que je joue en theory et ce que je joue en session me dit que le concept n'est pas encore automatisé — c'est une phase normale."*
+→ **Contextualisation temporelle.** L'écart théorie/pratique est situé dans un arc de progression connu, pas interprété comme une incapacité.
+
+*"Ma review montre que j'ai bien géré ma régulation émotionnelle sur les spots difficiles malgré la fatigue — à noter comme preuve."*
+→ **Capital générative.** Les moments de maîtrise sont documentés activement, pas seulement les erreurs.
+
+---
+
+> [!todo] Angle mort — même phrase, deux orientations possibles
+> *"Cette session résume pas qui je suis"* peut être mastery (résultat non identitaire) ou entity défensif (entité "bonne" qu'un résultat ne peut pas résumer). Ce n'est pas le mot mais l'émotion derrière : calme = mastery, défense contre quelque chose = entity.
+>
+> *"J'ai bien joué mais les résultats le montrent pas"* : analytique (mastery) si dit avec neutralité après évaluation froide. Défensif (performance) si dit avec frustration pour protéger l'image.
 
 ---
 
