@@ -30,6 +30,19 @@ version: 3.0
 - `[observation personnelle — date]` — instance personnelle qui ancre la fiche
 - `[adjacent — non encore observé]` — pattern prédit par la théorie depuis les pièces connues
 
+**Règle de lien obligatoire :**
+Chaque fois qu'un concept théorique est cité dans la fiche (dans un callout `[!abstract]`, dans un mécanisme, dans les sources), il doit être suivi d'un lien vers :
+- `[[Fondements théoriques/XX — Nom]]` si une fiche dédiée existe
+- `[[01 — Angles morts & évolutions]]` si le concept y est listé comme manquant ou partiel
+
+*Exemples :*
+- `Gross (1998)` → `[[Fondements théoriques/06 — Contrôle perçu & régulation émotionnelle]]`
+- `Kahneman (2011)` → `[[01 — Angles morts & évolutions]]` *(fiche manquante)*
+- `Barrett (2017)` → `[[Fondements théoriques/03 — Cerveau prédictif]]`
+- `Dweck (2006)` → `[[Fondements théoriques/09 — Mastery orientation · Entity theory]]`
+
+Ce lien transforme chaque référence en nœud navigable du vault plutôt qu'en citation orpheline.
+
 ---
 
 ## FRONTMATTER
@@ -229,3 +242,4 @@ if (sessions.length > 0) {
 - [ ] La distinction avec les L2 proches est clarifiée
 - [ ] Les connexions L0/L1/L3/L4 sont toutes renseignées dans les deux sens
 - [ ] Pas de contradiction interne avec les fondements (Barrett, Gross, Dweck, SDT)
+- [ ] Chaque référence théorique citée est liée vers sa fiche Fondements ou vers [[01 — Angles morts & évolutions]]
