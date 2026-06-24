@@ -110,6 +110,6 @@ L4 — Évaluation constante · perte de nuance · étude acharnée comme répon
 
 ## Notes liées
 
-- [[Index]]
+- [[__Index]]
 - [[Colère IRL]]
 - [[00 — Protocole In-Game]]

@@ -72,7 +72,7 @@ Le concept clinique est robuste. Le mécanisme habituellement invoqué pour l'ex
 | **Stable** | HPA régulé · budget disponible | Générateurs ET défensifs | Plein accès | Toute la gamme | Pleine |
 | **Hypoactivation** | Cytokines actifs · dopamine mésolimbique ↓ | Défensifs uniquement, accès très limité | Quasi nul | États non encore nommés *(cf. [[01 — Angles morts & évolutions]])* | Effort-based decision making fortement réduit |
 
-> [!info] 🔬 Inféré — effort-based decision making sous inflammation
+> [!todo] 🔬 Inféré — effort-based decision making sous inflammation
 > Des études sur la prise de décision basée sur l'effort sous inflammation montrent que les tâches demandant un effort pour une récompense différée deviennent disproportionnellement coûteuses à entreprendre. Ce n'est pas un manque de volonté — c'est un signal dopaminergique réduit qui change le calcul coût/bénéfice de *chaque* action, y compris les plus petites.
 
 ---
@@ -98,7 +98,7 @@ Dans la zone stable, les deux types de L1 (générateurs ET défensifs) sont acc
 
 ### IV.4 Charge allostatique latente — un cas documenté
 
-> [!info] 🔬 Observation personnelle — juin 2026
+> [!todo] 🔬 Observation personnelle — juin 2026
 > Une bonne nuit de sommeil (8h30) n'a pas suffi à restaurer la capacité de travail le lendemain matin — signal d'une charge allostatique déjà accumulée sur plusieurs jours, non visible jusqu'à ce que la réparation attendue (une nuit) échoue à la combler.
 >
 > Ce cas illustre la distinction entre **budget épuisé ponctuellement** (se répare avec une bonne nuit — [[02 — Allostase]]) et **charge allostatique cumulative** (nécessite plusieurs cycles de récupération consécutifs).

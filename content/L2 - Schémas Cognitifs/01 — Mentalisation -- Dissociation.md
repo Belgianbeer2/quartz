@@ -1,139 +1,180 @@
 ---
-type: pattern_cognitif
+type: schema_L2
 tags:
-  - pattern
-  - mentalisation
+  - L2
+  - schema
   - dissociation
-  - cognition
+  - mentalisation
+  - inner-mapping
 L2_neutre: "Mentalisation"
-pôle_mal_être: "Dissociation"
-pôle_bien_être: "Empathie · connexion réelle"
-émotion_véhiculée: "[[Anxiété d'évaluation]]"
-date: 2026-06-06
-statut: en cours
+pôle_défensif: "Dissociation"
+pôle_générateur: "Empathie · connexion réelle"
+L1_déclencheurs: ["Besoin d'Appartenance défensif", "Besoin de Compétence défensif"]
+émotions_produites: ["[[Anxiété d'évaluation]]", "[[La Honte]]"]
+stratégies_Gross: ["3 — Déploiement attentionnel", "4 — Reappraisal"]
+entity_mastery: "défensif"
+date: 2026-06-21
+statut: documenté
 ---
 
 # ⚙️ Mentalisation -- Dissociation
 
-> *L'opération est neutre. L'appui L1 détermine si elle produit de la connexion ou de la surveillance.*
+> *"On n'est pas des êtres personnels — on est des êtres sociaux."* [documenté — Moukheiber 2026]
 
 ---
 
 ## I. L'opération neutre — Mentalisation
 
-**Définition :** Capacité à modéliser les états mentaux d'autrui — ses intentions, émotions, pensées, perspectives. Mécanisme cognitif fondamental de la vie sociale, actif en continu dans les interactions et même en l'absence d'interlocuteur réel.
+**Définition fonctionnelle :** Capacité à modéliser les états mentaux d'autrui — ses intentions, émotions, pensées, perspectives. Mécanisme fondamental de la vie sociale, actif en continu dans les interactions et même en l'absence d'interlocuteur réel.
 
-**[documenté]** Fonagy désigne ce processus comme la *theory of mind* — la capacité à traiter autrui comme un agent avec des états internes distincts des siens.[^1]
+> [!abstract] ✅ Fondement — Fonagy & Bateman (2006) · Moukheiber (2026)
+> Fonagy désigne ce processus comme la *theory of mind* — traiter autrui comme un agent avec des états internes distincts des siens. [documenté]
+> Moukheiber : l'identité se construit par l'action sociale répétée. La mentalisation est le moteur permanent de cette construction — actif même sans interlocuteur réel. [documenté]
 
-**[documenté]** Moukheiber affirme que l'identité se construit par l'action sociale répétée. *"On n'est pas des êtres personnels — on est des êtres sociaux."* La mentalisation est le moteur de cette construction.[^2]
+**Modulation par L0 :** budget épuisé → Default Mode Network plus actif → mentalisation plus intense et moins contrôlée. Le cerveau "tourne" en modélisant autrui faute d'une tâche précise qui l'en détourne.
 
-**Pourquoi c'est l'état par défaut :** Quand le cortex préfrontal est épuisé, le cerveau bascule dans le Default Mode Network — le terreau naturel de la pensée autoréférentielle et de la modélisation d'autrui.[^2]
-
----
-
-## II. Pôle mal-être — Dissociation
-
-> *"Je me projette dans la tête des autres en continu, et j'y projette mon propre jugement sur moi-même."*
-
-### Mécanisme biaisé
-
-La dissociation est la mentalisation sous appui Peur : sans interlocuteur réel, le cerveau invente un autrui et lui prête son propre jugement négatif sur soi. On se juge soi-même déguisé en observateur extérieur.
-
-**[inféré]** La dissociation est structurellement incompatible avec le principe *"être avant d'agir"* — on ne peut pas construire son identité depuis un regard imaginé. Les deux directions sont opposées : l'une de l'intérieur vers l'extérieur, l'autre de l'extérieur imaginé vers l'intérieur.
-
-**[observation personnelle — 04-06-2026]** *"J'ai presque envie de dire que c'est un état d'être par défaut inné en moi."* Le Stratège n'est pas l'état naturel — c'est un état construit. La dissociation est ce qui précède ou suit cet effort.
-
-### Conditions d'activation
-
-- Fatigue physique ou mentale
-- Baisse des gardes cognitives
-- Faible engagement dans une tâche précise
-- **Présence d'un observateur perçu comme compétent** — le déclencheur spécifique : pas n'importe quel regard, un regard qualifié pour évaluer
-
-### Manifestations documentées
-
-**L'observateur fantasmé — structure commune**
-Dans toutes les manifestations, l'observateur qui déclenche le pattern **n'est probablement pas en train d'observer**. C'est la signature centrale.
-
-**Manifestation 1 — Le reg identifié comme "source de danger"** *(in-game)*
-Reg compétent identifié → étiquette "source de danger" → projection dans sa tête *avant* toute main jouée. Online, le reg joue plusieurs tables en parallèle — la probabilité qu'il ait traité une main spécifique est quasi nulle. On s'ajuste contre sa propre auto-critique déguisée en regard adverse.
-
-**Manifestation 2 — Le reg spectateur d'un pot** *(in-game)*
-Play créatif contre un autre joueur — projection que le reg, depuis sa position de spectateur, a vu et en a tiré des conclusions. Observateur fantasmé à 100% — aucun déclencheur relationnel réel.
-
-**Manifestation 3 — Le scooter à Siem Reap** *(IRL)*
-Touristes perçus comme observateurs → conduire plus vite pour montrer ce dont on est capable. Structure identique aux cas in-game.
+**Universalité :** modéliser l'autre est nécessaire pour toute interaction sociale réussie. La dysfonction naît de l'absence d'ancrage réel — quand le cerveau invente l'autrui et lui prête son propre jugement.
 
 ---
 
-## III. Pôle bien-être — Empathie · connexion réelle
+## II. Cartographie des pôles
 
-> *La même opération, sous appui Confiance : modéliser l'autre pour se connecter, pas pour se juger.*
+#### A. Pôle défensif — Dissociation
 
-**Mécanisme :** La mentalisation sous appui Confiance oriente le traitement vers l'autre réel — ses besoins, sa perspective, ce qu'il ressent. Elle produit de l'empathie et de la connexion authentique, pas de la surveillance imaginée.
+**Expression 1 — Reg comme observateur fantasmé (in-game)**
+- **Condition :** reg compétent identifié à la table + entity thinking + L1 Compétence défensif
+- **Mécanisme :** reg identifié → projection dans sa tête *avant* toute interaction réelle → ajustement contre la propre auto-critique déguisée en regard adverse. Online, le reg joue plusieurs tables en parallèle — la probabilité qu'il ait traité une main spécifique est quasi nulle. On s'ajuste contre soi-même.
+- **Lien entity thinking :** l'entity thinker cherche une validation externe de son entité. Le reg compétent devient le juge imaginaire. La dissociation est la mentalisation au service de l'évaluation identitaire.
+- **Output typique :** jeu d'image plutôt que jeu de processus · décisions orientées vers "ce que le reg va penser" plutôt que vers l'EV
+- **L3 générée :** [[Anxiété d'évaluation]]
+- **Statut :** [observation personnelle — documenté]
 
-**In-game :** Modéliser le range adverse depuis des données objectives (actions, timing, sizing) pour prendre une décision fondée — pas depuis un jugement imaginé sur ce qu'il pense de toi.
+**Expression 2 — Reg spectateur d'un pot tiers (in-game)**
+- **Condition :** play créatif contre un autre joueur + dissociation déjà active
+- **Mécanisme :** play contre joueur X → projection que le reg depuis sa position de spectateur a vu et tiré des conclusions → observateur fantasmé à 100% — aucun déclencheur relationnel réel
+- **Lien entity thinking :** le play créatif expose l'entité au jugement — même imaginaire
+- **Statut :** [observation personnelle — documenté]
 
-**IRL :** Connexion documentée dans [[Plénitude IRL]] — *"se connecter en empathie avec une personne qui partage ses vulnérabilités"* — c'est la mentalisation bien-être en action.
+**Expression 3 — Regard de compétence IRL (scooter Siem Reap)**
+- **Condition :** touristes perçus comme observateurs compétents + entity thinking + contexte public
+- **Mécanisme :** structure identique aux cas in-game. La présence d'un regard perçu comme qualifié pour évaluer suffit à activer la dissociation
+- **Signature centrale :** dans toutes les manifestations, l'observateur qui déclenche le pattern **n'est probablement pas en train d'observer**
+- **L3 générée :** [[Anxiété d'évaluation]]
+- **Statut :** [observation personnelle — documenté]
 
-> [!note] Documentation à compléter
-> Les conditions d'activation et les manifestations du pôle bien-être sont à documenter par l'expérience.
+**Expression 4 — Dissociation préventive (avant session)**
+- **Condition :** anticipation d'une session avec regs identifiés + entity thinking
+- **Mécanisme :** avant même de lancer, modélisation anxieuse de ce que les adversaires vont penser → budget dépensé sur un regard non encore existant
+- **Statut :** [adjacent — inféré depuis entity theory · non encore documenté séparément]
+
+#### B. Pôle générateur — Empathie · connexion réelle
+
+**Expression 1 — Modélisation du range adverse (in-game)**
+- **Condition :** mastery thinking + focus sur la décision présente
+- **Mécanisme :** mentalisation orientée vers l'autre réel — ses actions, son timing, son sizing — pour construire un modèle fondé sur des données objectives. Pas de jugement imaginé sur soi.
+- **Lien mastery thinking :** la compétence est incrémentale → l'enjeu du regard adverse est neutralisé. On modélise pour décider, pas pour être évalué.
+- **Output typique :** exploitation précise du range adverse · décisions fondées sur des données
+- **Statut :** [inféré depuis Fonagy 2006 · à documenter par l'expérience]
+
+**Expression 2 — Connexion authentique IRL**
+- **Condition :** L1 Appartenance générateur + budget L0 satisfait
+- **Mécanisme :** mentalisation orientée vers les besoins et la perspective réelle de l'autre — empathie, connexion, partage de vulnérabilités
+- **Statut :** [documenté — Plénitude IRL]
 
 ---
 
-## IV. Signaux de détection
+## III. Instances personnelles documentées
+
+| Date | Contexte | Expression | Émotion |
+|---|---|---|---|
+| — | Scooter Siem Reap · touristes observateurs | Expression 3 | Anxiété d'évaluation |
+| — | Reg identifié · ajustement avant interaction | Expression 1 | Anxiété d'évaluation |
+| — | Play créatif · reg spectateur imaginé | Expression 2 | Anxiété d'évaluation |
+
+---
+
+## IV. Connexions dans l'écosystème L0→L4
+
+| Niveau | Connexion |
+|---|---|
+| **L0** | Budget épuisé → DMN plus actif → dissociation plus intense · co-régulation sociale (L0/03) comme levier direct |
+| **L1 déclencheurs** | Besoin d'Appartenance défensif · Besoin de Compétence défensif (regard juge de l'entité) |
+| **L2 associés** | Confabulation (justification post-hoc du jeu d'image) · Piédestal (regard imaginé gonfle l'enjeu) |
+| **L3 produites** | Anxiété d'évaluation · Honte (post-session si résultat mauvais) |
+| **L4 comportements** | Jeu contracté · Over-fold défensif · Décisions d'image |
+
+**Distinction des schémas proches :**
+- vs **Confabulation** : la Confabulation justifie une décision déjà prise. La Dissociation oriente la décision vers un regard imaginé *avant* qu'elle soit prise.
+- vs **Piédestal** : le Piédestal gonfle l'enjeu de la session. La Dissociation ajoute un observateur imaginé qui gonfle encore davantage l'enjeu identitaire.
+
+---
+
+## V. Régulation — Stratégies Gross
+
+| Stratégie | Applicable | Application |
+|---|---|---|
+| 1 · Sélection | non | On ne sélectionne pas les tables sans regs |
+| 2 · Modification | partiel | Ancrage corporel avant session si dissociation détectée au warmup |
+| 3 · Attentionnel | oui | *"Est-il dans ce pot ?"* → orienter vers la main devant soi · question de réalité |
+| 4 · Reappraisal | oui | *"Je joue ce coup depuis moi — pas pour l'image que je projette"* |
+| 5 · Modulation | partiel | Nommer : *"dissociation"* — puis revenir à la main |
+
+**Stratégie prioritaire :** Déploiement attentionnel (3) — question de réalité in-game. Simple, rapide, ne requiert pas de PFC élevé.
+**Si L0 épuisé :** ancrage corporel (pieds au sol, respiration) avant de lancer. La dissociation s'active plus facilement sous budget bas.
+
+---
+
+## VI. Signaux de détection
 
 > [!warning] Le pattern Dissociation est actif quand...
->
 > - Tu modélises ce qu'un adversaire pense de toi *pendant* une main plutôt qu'après
 > - Tu ajustes ta stratégie *avant* d'avoir joué contre quelqu'un
 > - Tu imagines être observé dans un pot où l'adversaire que tu surveilles n'est pas impliqué
 > - Tu agis pour une image projetée plutôt que depuis ton propre jeu
 >
 > **Question de détection :** *"Est-ce que je joue ce coup depuis moi — ou pour l'image que je projette ?"*
+> **Question de réalité :** *"Est-il dans ce pot ? Si oui — combien de tables joue-t-il ?"*
 
 ---
 
-## V. Protocole d'interruption
+## VII. Protocoles d'interruption
 
-> [!tip] In-game
-> - **Question de réalité :** est-il dans ce pot ? Si non → observateur fantasmé à 100%. Si oui → combien de tables joue-t-il ? Si plus de 4 → il n'a probablement pas traité cette main.
-> - **Nommer** : *"dissociation"* — puis revenir à la main devant soi.
+> [!tip] In-game · Timebank
+> Question de réalité : *"Est-il dans ce pot ?"* Si non → observateur fantasmé à 100%.
+> Nommer : *"dissociation"* → revenir à la main devant soi.
 
-> [!tip] Avant session — warmup
-> - Ancrage corporel avant de poser les intentions : sensation physique concrète (pieds au sol, respiration abdominale).
-> - Si dissociation détectée pendant le warmup : différer le lancement des tables.
+> [!tip] Avant session · Warmup
+> Ancrage corporel : sensation physique concrète avant de poser les intentions.
+> Si dissociation détectée pendant le warmup → différer le lancement.
 
 > [!tip] Hors session
-> - Engagement dans une tâche à concentration requise (sport, lecture, conversation réelle) pour sortir du DMN.
+> Engagement dans une tâche à concentration requise (sport, lecture, conversation réelle) pour sortir du DMN.
 
 ---
 
-## VI. Suivi en session
+## VIII. Suivi en session
 
-> [!note]- 📜 Sessions où ce pattern a été identifié
-> ```dataviewjs
-> let p = dv.current();
-> let targetPattern = p["pôle_mal_être"] || p.file.name;
-> let sessions = dv.pages('"Journal/Session/Feedback/2026"')
->     .where(page => {
->         const patterns = page.file.lists.pattern;
->         return dv.array(patterns).includes(targetPattern);
->     });
-> if (sessions.length > 0) {
->     dv.list(sessions.sort(s => s.file.name, 'desc').file.link);
-> } else {
->     dv.paragraph("*Aucune session — tagger avec `[pattern:: Dissociation]`*");
-> }
-> ```
+```dataviewjs
+let p = dv.current();
+let targetPattern = p["pôle_défensif"] || p.file.name;
+let sessions = dv.pages('"Journal/Session/Feedback/2026"')
+    .where(page => dv.array(page.file.lists.pattern).includes(targetPattern));
+if (sessions.length > 0) {
+    dv.list(sessions.sort(s => s.file.name, 'desc').file.link);
+} else {
+    dv.paragraph(`*Aucune session — tagger avec \`[pattern:: ${targetPattern}]\`*`);
+}
+```
 
 ---
 
 ## Sources
 
 [^1]: Fonagy, P. & Bateman, A. (2006). *Mentalization-based Treatment*. Oxford University Press.
-[^2]: Albert Moukheiber — Interview × Les Lueurs (2026). Voir [[01 — Albert Moukheiber × Les Lueurs]].
+[^2]: Moukheiber, A. — Interview × Les Lueurs (2026). Voir [[Sources/01 — Albert Moukheiber × Les Lueurs]].
 
 ## Notes liées
-
-- [[Index]] · [[Anxiété d'évaluation]] · [[Plénitude IRL]] · [[00 — Protocole In-Game]]
+- [[00 - Index Schémas]] · [[01 — Architecture du modèle]]
+- [[Fondements théoriques/09 — Mastery orientation · Entity theory]]
+- [[L1 - Structures profondes/02 — Besoin d'Autonomie]] · [[L1 - Structures profondes/03 — Besoin d'Appartenance]]
+- [[L3 - Émotions/Anxiété d'évaluation]] · [[L3 - Émotions/00 — Protocole In-Game]]

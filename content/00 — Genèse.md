@@ -423,5 +423,5 @@ Travail structurel pour que les protocoles Inner Mapping s'activent sans frictio
 - Drill 02 : log YAML style Bilan Bankroll avec bibliothèque des signaux évolutive
 - Carte des protocoles : référence visuelle signal → protocole dans Dashboard
 
-→ Voir [[Protocoles/00 — Vue d'ensemble]] · [[Journal/00 - Dashboard/🔧 Carte des protocoles]]
+→ Voir [[Protocoles/00 — Vue d'ensemble]] · [[🔧 Carte des protocoles]]
 

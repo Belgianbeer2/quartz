@@ -39,7 +39,7 @@ statut: L1 générateurs forts · tension collectif/individuel en cours
 
 ## II. Reformulation LFB — Autonomie comme prédiction de provenance
 
-> [!info] 🔬 Reformulation — Barrett (2017)
+> [!todo] 🔬 Reformulation — Barrett (2017)
 > LFB : le cerveau génère en permanence des prédictions sur l'origine de ses propres actions — *"est-ce que j'agis depuis moi ou depuis une pression externe ?"* C'est une métaprediction.[^3]
 >
 > Quand le **budget corporel** (*body budget*, terme technique : *allostase*) est plein, cette métaprediction est nuancée : le cerveau peut distinguer ses propres valeurs des pressions contextuelles. Quand le budget est épuisé, la métaprediction se simplifie : les automatismes (dont les contraintes subies) dominent.
@@ -160,7 +160,7 @@ Valeurs politiques ancrées entre le communisme et le socialisme (partage, justi
 [^3]: Barrett, L.F. (2017). *How Emotions Are Made.* Houghton Mifflin.
 
 ## Notes liées
-- [[Index]] · [[01 — Fondements théoriques]]
+- [[__Index]] · [[01 — Fondements théoriques]]
 - [[01 — Mentalisation -- Dissociation]] · [[09 — Validation de la créativité -- Intellectualiser la créativité]]
 - [[Colère IRL]] · [[Impuissance]]
 - [[Dépolarisation - l'injustice]] · [[Mini dépolarisation - devenir un stratège de la performance]]

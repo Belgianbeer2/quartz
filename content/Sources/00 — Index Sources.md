@@ -136,4 +136,4 @@ Les épisodes solos Huberman → à vérifier avant d'utiliser comme [documenté
 
 - [[Fondements théoriques — Inner Mapping]]
 - [[01 — Albert Moukheiber × Les Lueurs]]
-- [[Index]]
+- [[__Index]]

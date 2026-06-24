@@ -77,7 +77,7 @@ La [[L3 - Émotions/La Réactance]] est la forme *réactive* de ce même besoin 
 
 ## II. Reformulation LFB — Le schéma comme prédiction entraînée
 
-> [!info] 🔬 Reformulation — Barrett (2017), intégrée dans le modèle Inner Mapping
+> [!todo] 🔬 Reformulation — Barrett (2017), intégrée dans le modèle Inner Mapping
 > LFB reframe ce qu'est un schéma L1 : ce n'est pas une croyance stockée quelque part. C'est une **prédiction entraînée** — le cerveau defaulte dessus parce qu'il l'a pratiquée le plus souvent. Quand une prédiction est entraînée depuis longtemps, elle est aussi la plus économique métaboliquement.[^4]
 
 **Ce que ça change dans la lecture des instances :**
@@ -262,7 +262,7 @@ Le budget corporel est le vrai point de levier pour ces trois schémas. Qualité
 
 ## Notes liées
 
-- [[Index]] · [[01 — Fondements théoriques/00 — Index]]
+- [[__Index]] · [[01 — Fondements théoriques/00 — Index]]
 - [[05 — Évaluation du soi -- Pensée binaire]] · [[Évaluation du soi -- Pensée binaire]]
 - [[04 — Calibration temporelle -- Vision zoomée]] · [[03 — Reconstruction mémorielle -- Sélectivité mémorielle]]
 - [[01 — Résultat négatif → Peur → Retrait]] · [[03 — Erreur technique → Colère → Étude compulsive]]

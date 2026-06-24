@@ -102,7 +102,7 @@ patterns_ciblés:
 > **Tu utilises déjà ce format dans ton fichier `prix à payer de la journée`.**
 > C'est exactement ce mode — tu y accèdes directement.
 >
-> → [[Journal/_test nouveau coffre/prix à payer de la journée]]
+> → [[⚡ prix à payer de la journée]]
 
 **Quand l'ouvrir :**
 - Budget corporel bas détecté au scan intéroceptif *(activation haute + valence désagréable)*

@@ -154,7 +154,7 @@ La question opérationnelle : **est-ce que ce domaine est objectivement dans mon
 | Le cours USD/EURO | ❌ Non | Secondaire |
 | La dynamique d'un groupe familial à distance | ❌ En grande partie | Secondaire |
 
-> [!info] 🔬 Inféré — application au poker et à la vie
+> [!todo] 🔬 Inféré — application au poker et à la vie
 > Cette distinction n'a pas été testée directement sur des joueurs de poker professionnels ni sur des expatriés. Elle est extrapolée des cadres de Rothbaum et de la littérature sur la performance sous incertitude. Cohérente, non vérifiée expérimentalement dans ces contextes précis.
 
 ---

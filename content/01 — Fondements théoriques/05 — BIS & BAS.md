@@ -32,7 +32,7 @@ auteurs_principaux: "Gray · Carver & White · Elliot"
 
 ## II. Les quatre états combinatoires
 
-> [!info] Lecture de cette section
+> [!todo] Lecture de cette section
 > Chaque combinaison BAS/BIS est d'abord caractérisée de façon générale (ce que dit la littérature sur ce type de profil motivationnel, indépendamment du poker), puis illustrée par des exemples — **non exhaustifs**. L'état nommé pour Pierre (Stratège actif, Piédestal, Retrait, Apathie) est *un* exemple parmi d'autres possibles pour cette combinaison, pas sa définition.
 
 ### BAS élevé + BIS bas

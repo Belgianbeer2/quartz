@@ -19,7 +19,7 @@ date: 2026-06-06
 > [!abstract] ✅ Fondement solide — Sterling & Eyer (1988) · Barrett (2017, 2020)
 > L'**allostase** est le processus par lequel le cerveau anticipe les besoins énergétiques du corps et les régule *avant* qu'ils ne deviennent déficits. C'est une gestion prédictive des ressources — différent de l'homéostasie (réaction après déséquilibre).[^1]
 >
-> Barrett l'appelle le **budget corporel** : une métaphore comptable pour l'énergie, le glucose, l'eau, la chaleur. Chaque prédiction, chaque émotion, chaque décision a un coût métabolique.[^2]
+> Barrett l'appelle le **budget corporel** : une métaphore comptable pour l'énergie, le glucose, l'eau, la chaleur. Chaque prédiction, chaque émotion, chaque décision a un coût métabolique[^2].
 
 ---
 
@@ -66,7 +66,7 @@ Avant une session ou en état émotionnel difficile :
 
 ## V. Budget corporel et dépolarisation
 
-> [!info] 🔬 Inféré — Barrett (2017)
+> [!todo] 🔬 Inféré — Barrett (2017)
 > Les dépolarisations (construction de nouvelles prédictions) ont probablement un coût métabolique. Les faire en état de budget épuisé est moins efficace — le cerveau n'a pas les ressources pour construire une prédiction alternative durable.
 >
 > Hypothèse : les dépolarisations sont plus efficaces en état de budget satisfait (bonne nuit, connexion sociale récente, pas de stress thermique).

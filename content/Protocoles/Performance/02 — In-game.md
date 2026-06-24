@@ -75,6 +75,6 @@ Tension ? Contraction ? Rythme cardiaque élevé ?
 ---
 
 ## Notes liées
-- [[00 — Vue d'ensemble]] · [[01 — Avant session]] · [[03 — Post-session]]
+- [[🧠 Inner Mapping/Protocoles/00 — Vue d'ensemble]] · [[01 — Avant session]] · [[03 — Post-session]]
 - [[🧭 Boussole émotionnelle]]
 - [[00 — Protocole In-Game]]

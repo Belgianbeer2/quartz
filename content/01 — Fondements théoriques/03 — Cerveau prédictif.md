@@ -39,17 +39,19 @@ Ce cadre reformule chaque niveau du modèle :
 
 > [!abstract] ✅ Fondement solide — Barrett (2017)
 > Deux composantes distinctes dans ce qu'on appelle "émotion" :[^1]
+> 
+> | Composante | Définition | Caractère |
+> |---|---|---|
+> | **Affect** | Signal brut permanent — valence (agréable/désagréable) + activation (haute/basse) | Toujours présent · source intéroceptive |
+> | **Émotion** | Narration construite par le cerveau pour expliquer l'affect | Construite · conceptuelle · variable |
+> 
+> 
+> **La même activation physique peut produire des émotions radicalement différentes selon le concept appliqué.**
+> 
+> Exemples :
+> - Cœur qui bat vite → anxiété *ou* excitation *ou* détermination
+> - Colère IRL → *"je la subis"* *ou* *"je la gère"* *ou* *"je la transforme en levier"*
 
-| Composante | Définition | Caractère |
-|---|---|---|
-| **Affect** | Signal brut permanent — valence (agréable/désagréable) + activation (haute/basse) | Toujours présent · source intéroceptive |
-| **Émotion** | Narration construite par le cerveau pour expliquer l'affect | Construite · conceptuelle · variable |
-
-**La même activation physique peut produire des émotions radicalement différentes selon le concept appliqué.**
-
-Exemples :
-- Cœur qui bat vite → anxiété *ou* excitation *ou* détermination
-- Colère IRL → *"je la subis"* *ou* *"je la gère"* *ou* *"je la transforme en levier"* [documenté — Alexis]
 
 > [!warning] ⚠️ Limite — Panksepp vs Barrett
 > Jaak Panksepp (Basic Emotion Theory) a montré que des émotions peuvent être déclenchées par stimulation subcorticale — avant tout traitement cortical. Ce résultat est difficile à concilier avec la thèse que toutes les émotions sont construites corticallement. Le consensus actuel est une synthèse : certaines réponses primaires (voie rapide — LeDoux) + construction contextuelle (Barrett). Le modèle Inner Mapping capture cette bidirectionnalité via le Low Road / High Road.

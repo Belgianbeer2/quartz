@@ -25,7 +25,7 @@ statut: prédictions génératives stables · éducation politique en cours
 
 ### I.1 Ce que les frameworks existants ne couvrent pas
 
-> [!info] 🔬 Gap théorique documenté
+> [!todo] 🔬 Gap théorique documenté
 > La Théorie de l'auto-détermination (Deci & Ryan) et les schémas de Young modélisent les besoins et schémas *intraindividuels*. Ils ne couvrent pas les prémisses éthiques et politiques — qui opèrent à un niveau différent : non pas des croyances sur soi, mais des convictions sur comment le monde *devrait* fonctionner.
 
 **Cadre de référence partiel :**
@@ -160,7 +160,7 @@ La même tension que dans [[02 — Besoin d'Autonomie]] mais lue ici depuis l'an
 [^2]: Barrett, L.F. (2017). *How Emotions Are Made.* Houghton Mifflin. · (2020). *Seven and a Half Lessons About the Brain.*
 
 ## Notes liées
-- [[Index]] · [[01 — Fondements théoriques]]
+- [[__Index]] · [[01 — Fondements théoriques]]
 - [[Colère IRL]] · [[Impuissance]] · [[Plénitude IRL]]
 - [[Dépolarisation - l'injustice]]
 - [[Mini dépolarisation - devenir un stratège de la performance]]

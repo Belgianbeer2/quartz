@@ -65,6 +65,15 @@ if (!log || !log.entries) {
 
 ## 🔬 0. Comprendre l'émotion
 
+> [!abstract] ✅ Fondement — Brehm (1966, 1981) · Carver (2001)
+> La **réactance** est la réponse motivationnelle à la perception d'une menace sur une liberté d'action. Brehm (1966) la définit comme une pression interne dirigée vers la *restauration* de la liberté menacée — proportionnelle à l'importance de cette liberté et à l'intensité de la menace perçue.
+>
+> Le mécanisme : une liberté est perçue comme menacée ou supprimée → activation d'un état motivationnel orienté vers la restauration → impulsion d'agir dans la direction bloquée, souvent avec une intensité *supérieure* à ce qu'elle aurait été sans blocage.
+>
+> Carver (2001) ancre ce mécanisme dans le BAS : la réactance est une réponse BAS à un obstacle — l'élan toward était actif, l'obstacle l'intensifie plutôt que de le stopper. Ce n'est pas du désespoir — c'est de l'énergie réorientée contre le blocage.
+>
+> *Lien L1 :* [[L1 - Structures profondes/02 — Besoin d'Autonomie]] — la réactance est l'émotion-signal que le besoin d'autonomie est entravé dans ce contexte. La liberté d'action perçue comme menacée est précisément l'autonomie décisionnelle.
+
 > [!abstract] Ce que Moukheiber éclaire — La confabulation
 > La réactance est particulièrement piégeuse parce qu'elle **utilise le vocabulaire du jeu** pour habiller une impulsion émotionnelle. *"Les propriétés de cette main sont pas mal pour reprendre l'initiative"* ressemble à de l'analyse GTO. Mais la décision de jouer a été prise avant le raisonnement — le raisonnement est venu justifier après coup.
 >
@@ -87,6 +96,23 @@ if (!log || !log.entries) {
 > Si c'est pour reprendre le contrôle — c'est de la réactance. Et une question de test complémentaire : *"Si cet adversaire n'avait pas été agressif juste avant, est-ce que cette main m'aurait semblé jouable de la même façon ?"* Si la réponse est non — c'est de la réactance, pas de la stratégie.
 >
 > *→ Voir aussi :* [[Être et Faire — Réconciliation Moukheiber × Alexis]] *— Cas pratique Réactance*
+
+
+> [!abstract] Réactance et dimension Agon — Caillois (1958) · Carver (2001)
+> La Réactance et le mode Agon partagent la même structure profonde : **un besoin que quelque chose résiste**. Ils se distinguent par leur temporalité et leur direction.
+>
+> | | Réactance | Agon |
+> |---|---|---|
+> | **Direction** | Réactive — réponse à un blocage déjà présent | Proactive — recherche délibérée d'un adversaire |
+> | **Temporalité** | Se déclenche *après* la frustration | S'active *avant* ou *dès* l'identification d'un défi |
+> | **Objet** | La liberté d'action perçue comme menacée | La compétence à tester contre une résistance |
+> | **Émotion produite** | Impulsion de reprendre le contrôle · colère | Engagement · énergie orientée · détermination |
+>
+> Pour un profil Agon dominant, la Réactance peut être vue comme la *forme défensive* de ce besoin (réponse à une résistance imposée), tandis que l'Agon en est la *forme proactive* (recherche délibérée d'une résistance choisie).
+>
+> **Application session poker :** dans une session à -5 buyins, les deux coexistent — l'Agon s'active sur la variance comme adversaire (engagement fonctionnel) et la Réactance peut s'activer sur les bad beats spécifiques (impulsion de reprendre le contrôle). Le premier est fonctionnel. Le second bascule vers le tilt si non régulé via [[Protocoles/Transversaux/03 — Drill · L3 Colère froide — Interrupt d'escalade]].
+>
+> *→ Voir :* [[Fondements théoriques/10 — Agon · Alea · Mimicry · Ilinx]] · [[L2 - Schémas Cognitifs/11 — Mobilisation compensatoire -- Suramplification]]
 
 ---
 
@@ -295,4 +321,9 @@ if (!log || !log.entries) {
 > ```
 
 ## 📝 Notes de suivi & Coaching
--
+
+*L1 entravé :* [[L1 - Structures profondes/02 — Besoin d'Autonomie]]
+*L2 lié :* [[L2 - Schémas Cognitifs/02 — Évaluation causale -- Confabulation]]
+*Connexion Agon :* [[Fondements théoriques/10 — Agon · Alea · Mimicry · Ilinx]]
+*Connexion L1 :* [[L1 - Structures profondes/01 — Besoin de Compétence]] — mode Agon §I.3
+*Protocole associé :* [[Protocoles/Transversaux/03 — Drill · L3 Colère froide — Interrupt d'escalade]]

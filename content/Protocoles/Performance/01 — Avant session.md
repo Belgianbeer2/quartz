@@ -67,6 +67,6 @@ Une seule phrase. Depuis l'identité, pas depuis le résultat.
 ---
 
 ## Notes liées
-- [[00 — Vue d'ensemble]] · [[02 — In-game]] · [[03 — Post-session]]
+- [[🧠 Inner Mapping/Protocoles/00 — Vue d'ensemble]] · [[02 — In-game]] · [[03 — Post-session]]
 - [[🧭 Boussole émotionnelle]]
 - [[L3 — Émotions/00 — Protocole In-Game]]

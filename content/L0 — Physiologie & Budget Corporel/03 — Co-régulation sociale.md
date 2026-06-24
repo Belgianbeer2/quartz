@@ -28,7 +28,7 @@ date: 2026-06-06
 
 ## II. Application directe — contexte Cambodge
 
-> [!info] 🔬 Application au modèle — [observation personnelle]
+> [!todo] 🔬 Application au modèle — [observation personnelle]
 > La distance géographique (Cambodge / Europe) n'est pas seulement une variable émotionnelle (sentiment de délaissement). C'est une variable de **budget corporel** :
 >
 > - Moins d'interactions réelles avec le réseau familial/amical européen
@@ -63,7 +63,7 @@ date: 2026-06-06
 
 ## V. Régulation dyadique active
 
-> [!info] 🔬 Non encore documenté formellement
+> [!todo] 🔬 Non encore documenté formellement
 > Coan (2006) a montré que tenir la main de quelqu'un de confiance réduit la réponse neurale à la douleur. La simple présence physique d'un proche régule le système nerveux indépendamment de l'interaction verbale.
 >
 > Application : Sassa comme ressource de régulation physiologique active — non seulement émotionnelle. À documenter dans le contexte des sessions difficiles.

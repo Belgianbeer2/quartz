@@ -59,8 +59,9 @@ statut: document vivant — mise à jour continue
 | Juin 2026 | Contrôle perçu & régulation — pont entre L1 (contrôle primaire/secondaire), L3 (émotions) et BIS/BAS via les dimensions d'évaluation | [[Fondements théoriques/06 — Contrôle perçu & régulation émotionnelle]] | Smith & Ellsworth (1985) · Gross (1998, 2015) |
 | Juin 2026 | Accablement — nouvelle fiche L3, état d'hypoactivation envahissant L1-L4 | [[L3 - Émotions/Accablement]] | Synthèse fiches 05§II · 06§I,VI · L0/04 |
 | Juin 2026 | NFC · Mastery orientation · Agon découpés en 3 fiches indépendantes + document Connexions & Imbrications | [[Fondements théoriques/08 — Need for Cognition]] · [[Fondements théoriques/09 — Mastery orientation · Entity theory]] · [[Fondements théoriques/10 — Agon · Alea · Mimicry · Ilinx]] · [[02 — Connexions & Imbrications]] | Cacioppo & Petty · Dweck · Elliot · Caillois |
+| Juin 2026 | Bid for connection rejetée — mécanisme, triple activation L1, trajectoire vers Délaissement, instances personnelles documentées | [[L1 - Structures profondes/03 — Besoin d'Appartenance]] (patch) · [[L3 - Émotions/Délaissement]] (patch) | Gottman (1999) · Brown (2010) · Barrett (2017) |
 | Juin 2026 | Discours internes typiques performance vs mastery · mapping complet des 4 termes · révision entity-in-execution (Beilock 2004) | [[Fondements théoriques/09 — Mastery orientation · Entity theory]] §III · §V.bis · §VII | Beilock et al. (2004) |
-| Juin 2026 | Logistique protocoles — MR conditionnel · Feedback restructuré · O&R champ protocoles · Switch Actif item · Drill 02 log YAML · Carte des protocoles | Templates + [[Journal/00 - Dashboard/🔧 Carte des protocoles]] | — |
+| Juin 2026 | Logistique protocoles — MR conditionnel · Feedback restructuré · O&R champ protocoles · Switch Actif item · Drill 02 log YAML · Carte des protocoles | Templates + [[🔧 Carte des protocoles]] | — |
 | Juin 2026 | NFC · Mastery orientation · Agon — configuration profil + asymétrie d'engagement + connexion L1/L2/L3 | [[Fondements théoriques/08 — Need for Cognition]] · [[Fondements théoriques/09 — Mastery orientation · Entity theory]] · [[Fondements théoriques/10 — Agon · Alea · Mimicry · Ilinx]] · [[L2 - Schémas Cognitifs/11 — Mobilisation compensatoire -- Suramplification]] | Cacioppo & Petty (1982) · Dweck (1986) · Elliot (1999) · Caillois (1958) |
 | Juin 2026 | Self-compassion — fondement théorique (3 composantes, mécanisme neurobiologique, contre-modèle Intransigeance, repos sans culpabilité) | [[Fondements théoriques/07 — Self-compassion]] | Neff (2003, 2011) · Gilbert (2009) · Breines & Chen (2012) |
 | Juin 2026 | Deux sources de Colère (BAS frustré vs BIS/éthique) + mécanisme reappraisal | [[L3 - Émotions/Colère IRL]] | Carver (2001) · Smith & Ellsworth (1985) · Gross (1998) |
@@ -70,6 +71,7 @@ statut: document vivant — mise à jour continue
 
 | **Asymétrie session length** — sessions perdantes longues · gagnantes courtes | NFC + Mastery + Agon (fiches 08-10) | 🟡 Partiellement | Identifié et expliqué · non encore formalisé comme cascade L4 complète |
 | **Insomnie post-session** — hyperactivation résiduelle · BIS encore actif → besoin de co-régulation externe | L0/04 · L0/03 | 🔴 Non intégré | Observé et discuté · routine de décompression post-session à construire · lien Sassa/co-régulation à formaliser |
+| **Bid for connection rejetée** — offre d'aide non-reçue dans une relation intime → blessure disproportionnée · trajectoire vers Délaissement | Gottman (1999) · Brown (2010) · Barrett (2017) | 🟡 Partiellement | Patches L1/03 et L3/Délaissement créés · protocole transversal à construire |
 | **Entity theory selon le domaine** — croyance incrémentale sur la technique · entity sur les émotions | Fiche 09 §III | 🔴 Non intégré | Angle mort identifié en §III de fiche 09 · à explorer avec Alexis |
 | **Adversaire interne** — peut-on construire une adversité interne suffisante pour sessions gagnantes ? | Fiche 10 §V | 🔴 Non intégré | Hypothèse documentée · non encore testée par l'expérience |
 
@@ -79,9 +81,30 @@ statut: document vivant — mise à jour continue
 - **Cohérence cardiaque** comme proxy mesurable du budget corporel en temps réel
 - **Bibliothèque des auteurs** — à construire quand la structure est stable
 
+### Pistes personnel 
+- je ne comprends toujours pas ce qu'est la voie rapide de l'émotion
+	j'ai l'impression que toute mes émotions sont activé en voie lente. Besoin d'exemple.
+- Dans le BIS&BAS, on parle du controle perçu avec la dimension pivot. besoin de développement
+- Si NFC est un profile, quels sont les autres profiles des études de Cacioppo & Petty, 1982
+- Dans 09 — Mastery orientation · Entity theory
+	- Il manque les raisons pour lesquels on va privilégier un mindset entity à mastery. le role de l'éducation, du regard des autres, de ce qu'on a dit de nous.
+	- il manque beaucoup de entity avoidance :
+		- importance donné aux regards des autres joueur à table
+		- en live, difficile de quitter une table en étant perdant sur la session
+		- ...
+	- je ne pense pas être concerné par le mastery avoidance : à confirmer
+	- quid de : je me soucie du regard des autres car je pense qu'ils sont en entity mindset et qu'ils me jugent malgré que je suis en mastery mindset et mais que je n'aime pas me faire juger à tord. C'est sans doute connecté à m'on isolement social qui induit un biais sur l'importance que je donne au jugement d'autrui.
+	- pour L0 
+		- recherche sur le système sympathique et le système parasympathique 
+		- recherche impact de la chaleur sur les capacités cognitives 
+	- index L2 : mal construit, incomplet, certaines cascades sont trop raccourci et utilise des termes mal approprié.
+	- en cours de performance identifier tous les switch entre entités et mastery sur une timeline
+	- créer une section fondement théorique pour l'experiencing self et le remembering self [[Reconstruction mémorielle -- Sélectivité mémorielle]]
+	- recherche fondement théorique : comment les donner négatives influencent notre perception
+
 ---
 
-## Notes liées
+￼## Notes liées
 - [[Fondements théoriques/00 — Index]]
 - [[00 — Genèse]]
 - [[L0 — Physiologie & Budget Corporel/00 — Index]]

@@ -19,13 +19,13 @@ auteurs_principaux: "Neff · Gilbert"
 ## I. Définition — les trois composantes de Neff
 
 > [!abstract] ✅ Fondement solide — Neff (2003, 2011)
-> La self-compassion n'est pas un état émotionnel isolé — c'est une posture composée de trois éléments simultanés :[^1]
+> La self-compassion n'est pas un état émotionnel isolé — c'est une posture composée de trois éléments simultanés[^1] :
 
-| Composante | Définition | Ce que ça n'est pas |
-|---|---|---|
-| **Self-kindness** (bienveillance envers soi) | Se traiter avec la même chaleur qu'on offrirait à un ami proche dans la même situation | Se féliciter excessivement · minimiser la difficulté |
-| **Common humanity** (humanité commune) | Reconnaître que l'échec, la difficulté, et l'imperfection font partie de l'expérience humaine universelle — pas une anomalie personnelle | Se consoler en comparant à pire |
-| **Mindfulness** (pleine conscience) | Observer ses pensées et émotions négatives sans les amplifier ni les supprimer — les tenir en conscience avec équanimité | Ruminer · surinvestir émotionnellement |
+| Composante                                   | Définition                                                                                                                               | Ce que ça n'est pas                                  |
+| -------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
+| **Self-kindness** (bienveillance envers soi) | Se traiter avec la même chaleur qu'on offrirait à un ami proche dans la même situation                                                   | Se féliciter excessivement · minimiser la difficulté |
+| **Common humanity** (humanité commune)       | Reconnaître que l'échec, la difficulté, et l'imperfection font partie de l'expérience humaine universelle — pas une anomalie personnelle | Se consoler en comparant à pire                      |
+| **Mindfulness** (pleine conscience)          | Observer ses pensées et émotions négatives sans les amplifier ni les supprimer — les tenir en conscience avec équanimité                 | Ruminer · surinvestir émotionnellement               |
 
 Les trois composantes sont nécessaires simultanément. La self-kindness seule sans mindfulness peut glisser vers l'évitement. La mindfulness seule sans self-kindness reste froide et peut maintenir la douleur en conscience sans la réguler.
 

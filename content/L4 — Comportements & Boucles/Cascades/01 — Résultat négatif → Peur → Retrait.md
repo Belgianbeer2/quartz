@@ -112,6 +112,6 @@ L4 — Retrait · évitement · rumination financière
 
 ## Notes liées
 
-- [[Index]]
+- [[__Index]]
 - [[01 — Fondements théoriques]]
 - [[00 — Protocole In-Game]]

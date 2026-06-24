@@ -83,6 +83,25 @@ if (!log || !log.entries) {
 >
 > *→ Voir :* [[L1 — Structures profondes/03 — Besoin d'Appartenance]]
 
+> [!abstract] La route Bid for Connection → Délaissement
+> Le Délaissement peut se construire par accumulation de **bids for connection** non-reçues — tentatives de connexion ou d'aide dont le refus ou l'absence de réponse est interprété comme un signal sur la relation, pas seulement sur l'événement.
+>
+> **Refus ponctuel vs pattern répété :**
+>
+> | | Refus ponctuel | Pattern répété |
+> |---|---|---|
+> | Ce que le cerveau met à jour | La prédiction sur cet événement | La prédiction sur la *relation* |
+> | Question générée | "Pourquoi a-t-il/elle refusé ?" | "Est-ce que je compte vraiment ici ?" |
+> | Émotion résultante | Blessure localisée · récupération possible | Délaissement · réévaluation de l'appartenance |
+>
+> **Le cas particulier du silence**
+> Un refus actif peut être traité — il y a une information à comprendre. Un silence (message non répondu, absence de réaction) maintient l'erreur de prédiction ouverte sans signal sur lequel s'appuyer. Le Délaissement par silence s'installe plus insidieusement — pas d'événement à traiter, juste une absence à absorber.
+>
+> **Spécificité du profil haut NFC**
+> Pour un profil haut NFC + Agon, offrir de l'aide est l'expression du mode d'engagement le plus intense disponible. Un refus active simultanément trois L1 : Appartenance (*"je ne compte pas assez"*) + Compétence (*"ma lecture était fausse ?"*) + Autonomie (*"je n'ai pas le droit d'intervenir"*). Cette triple activation explique l'intensité disproportionnée de la blessure par rapport à l'événement objectif.
+>
+> *→ Voir :* [[L1 — Structures profondes/03 — Besoin d'Appartenance]] §I.3
+
 ---
 
 ## 📊 1. Patterns de l'émotion
@@ -210,5 +229,7 @@ if (!log || !log.entries) {
 
 - *L2 liés :* [[Mentalisation -- Dissociation]] · [[Évaluation causale -- Confabulation]]
 - *L3 secondaires :* [[Colère_IRL]] · [[Impuissance]]
-- *L1 entravé :* [[L1 — Structures profondes/03 — Besoin d'Appartenance]]
+- *L1 entravé :* [[L1 — Structures profondes/03 — Besoin d'Appartenance]] §I.3
 - *Comportement associé :* stratégie de l'autruche (L4)
+- *Protocole :* [[Protocoles/Transversaux/04 — Drill · L1 Appartenance — Bid for connection rejetée]] *(à créer)*
+- *Connexions :* [[02 — Connexions & Imbrications]]

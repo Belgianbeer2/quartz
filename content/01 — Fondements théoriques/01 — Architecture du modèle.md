@@ -41,15 +41,15 @@ Conditions documentées de budget épuisé : *mauvais sommeil · chaleur intense
 
 ---
 
-### L1 — Prémisse opératoire
+### L1 — Structures profondes
 
-**Définition :** Proposition sur soi, l'autre, ou le monde traitée comme vraie sans être questionnée, qui préconditionne le traitement de toute information ultérieure.
+**Définition :** Besoin fondamental (SDT) en mode générateur ou défensif — structure profonde qui oriente le traitement de toute information et préconditionne les opérations L2. Les besoins documentés : Compétence · Autonomie · Appartenance · Prémisses éthiques · Besoin de contrôle.
 
 **Propriétés structurelles :**
 - *Pré-situationnelle* — existe avant la situation
 - *Globale* — s'applique au soi total
 - *Stable* — change sur des semaines à mois
-- *Non-accessible spontanément* — vécue comme réalité, pas comme croyance
+- *Bidirectionnelle* — chaque besoin a un pôle générateur (satisfait) et un pôle défensif (chroniquement entravé)
 
 > [!abstract] ✅ Fondement solide — Beck (1979) · Young (2003) · Deci & Ryan (2000)
 > Beck distingue *croyance explicite* (examinable) et *croyance implicite* (core belief). Les core beliefs se présentent comme le monde lui-même, pas comme des opinions sur lui.[^2]
@@ -60,7 +60,7 @@ Conditions documentées de budget épuisé : *mauvais sommeil · chaleur intense
 
 **Reformulation LFB :** Un L1 est une **prédiction entraînée** — le cerveau y revient parce qu'il l'a le plus pratiquée. Quand conscientisé, il n'est plus la prédiction par défaut mais reste disponible, surtout quand L0 est épuisé.
 
-**Discrimination vs L2 :** L1 est le *pourquoi* du traitement. L2 est le *comment*.
+**Discrimination vs L2 :** L1 est le *besoin sous-jacent* qui oriente le traitement. L2 est l'*opération* qui produit l'interprétation.
 
 **Fenêtre d'intervention :** Semaines — mois. Hors session. Dépolarisation · travail de fond.
 
@@ -128,7 +128,7 @@ Conditions documentées de budget épuisé : *mauvais sommeil · chaleur intense
 | Niveau | Type | Fenêtre | Intervention |
 |---|---|---|---|
 | **L0** | Physiologique | Continue | Sommeil · co-régulation · récupération |
-| **L1** | Prémisse profonde | Semaines–mois | Dépolarisation · travail de fond |
+| **L1** | Structures profondes | Semaines–mois | Dépolarisation · travail de fond |
 | **L2** | Opération cognitive | Session → timebank | Détection · protocole |
 | **L3** | État émotionnel | Timebank | Nommage · reconvocation |
 | **L4** | Comportement | Post-session | Feedback · choix conscient |
@@ -165,7 +165,7 @@ L'**appui L1** [documenté — Alexis Essaheli] détermine la direction de la ca
 [^7]: Gross, J.J. (2015). *Emotion regulation: Current status and future prospects.* Psychological Inquiry, 26(1).
 
 ## Notes liées
-- [[🧠 Inner Mapping/01 — Fondements théoriques/00 — Index]] · [[03 — Cerveau prédictif]] · [[04 — Modèle Pensée-Corps-Émotions]]
+- [[🧠 Inner Mapping/01 — Fondements théoriques/00 — Index]] · [[03 — Cerveau prédictif]] · [[04 — Voie rapide & voie lente — au-delà de Pensée → Corps → Émotions]]
 - [[L0 — Physiologie & Budget Corporel/00 — Index]]
 - [[L1 - Structures profondes/01 — Besoin de Compétence]]
 - [[L4 — Comportements & Boucles/02 — Boucles L4 → L1]]

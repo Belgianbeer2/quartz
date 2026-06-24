@@ -321,26 +321,128 @@ Même les individus mastery-orientés peuvent basculer vers des réponses perfor
 
 ## VII. Quand l'entity theory est supérieure — contextes spécifiques
 
-> [!warning] ⚠️ La version simpliste "growth mindset = toujours mieux" est empiriquement incorrecte
+> [!warning] ⚠️ La version simpliste "growth mindset = toujours mieux" est empiriquement incorrecte (Wood & Bandura, 1989 · Beilock et al., 2004)
 
-**1. Exécution en zone de maîtrise établie**
-Quand une compétence est véritablement automatisée, la posture incrémentale ("et si j'essayais autrement ?") dégrade la performance en interrompant l'automaticité. Les experts performent moins bien quand ils se concentrent sur le processus — *paralysis by analysis*. Dans ces cas, "je sais faire ça" (entity) est plus efficace.
+---
 
-*Application poker :* Sur les spots qui font partie du répertoire solide, la confiance entity ("je connais ce nœud") protège l'exécution. C'est le principe du Stratège actif — décision depuis l'identité acquise.
+### VII.1 — Ce qui détermine l'orientation d'une pensée
 
-**2. Décision sous contrainte de temps**
-Après une décision prise, maintenir "cette décision était juste" (entity) prévient le second-guessing qui crée des timing tells et des leaks cognitifs.
+L'orientation d'une pensée n'est pas déterminée par sa formulation mais par son **ancrage mental** — la croyance sous-jacente qui la génère. La même phrase peut être entity ou incremental selon cet ancrage :
 
-**3. Résistance au downswing**
-Tenir "je suis un joueur gagnant à ce stake" comme croyance stable (entity appliquée à l'identité de joueur) protège contre la spirale de confiance effondrée sous variance défavorable.
+| Phrase | Ancrage entity | Ancrage incremental |
+|---|---|---|
+| *"Je sais faire ça"* | Je *possède* cette capacité — elle fait partie de ce que je suis | J'ai *développé* cette compétence par la pratique — elle est fiable parce que je l'ai construite |
+| *"Je connais ce nœud"* | Ce spot révèle un niveau fixe que j'ai ou pas | J'ai accumulé suffisamment de répétitions pour avoir un pattern fiable |
+| *"Cette décision était juste"* | Ma nature de bon joueur implique que la décision était correcte | L'analyse du processus décisionnel, indépendamment du résultat, indique qu'elle était cohérente |
+| *"Je suis un joueur gagnant"* | C'est une entité fixe que je suis ou que je ne suis pas | C'est une tendance statistique construite sur un échantillon, qui peut évoluer |
 
-**4. Contextes de performance courte et évaluée**
-Wood & Bandura (1989) : des individus avec une croyance plus fixe de leur capacité performent mieux sur des tâches *courtes* et *évaluées*. La clarté de "je suis capable" génère une mobilisation directe.
+Ce qui est structurellement entity en contexte d'exécution : la **suspension du questionnement processus**. L'entity thinker ne questionne pas son approche par design — il n'a aucune raison de monitorer son processus puisqu'il ne cherche pas à apprendre en temps réel.
 
-> [!todo] La distinction-clé que Dweck elle-même formule
-> Entity thinking sur la **compétence actuelle** (confiance dans ce qu'on sait faire) ≠ entity thinking sur la **capacité à évoluer** (fermeture à l'apprentissage). Le premier peut coexister avec une posture incrémentale générale.
->
-> *En poker :* avoir confiance dans son A-game actuel (entity, sain) ≠ croire que son A-game ne peut pas s'améliorer (entity, problématique).
+**La confusion mode d'apprentissage / mode d'exécution**
+
+La question "et si j'essayais autrement ?" pendant l'exécution n'est pas une feature de l'incremental theory — c'est une conséquence de l'application de l'orientation d'apprentissage au *mauvais moment*. L'incremental theory distingue deux modes distincts qui opèrent en des moments différents :
+
+- **Mode apprentissage** — study, review, débriefs : "et si j'essayais autrement ?" est ici le signal correct
+- **Mode exécution** — in-game : le monitoring cognitif interfère avec l'automaticité (Beilock et al., 2004) et devrait être suspendu
+
+Un mastery thinker mature qui a appris à switcher de mode ne présente pas d'avantage inférieur à l'entity thinker en exécution. L'entity thinker a un avantage *structurel* uniquement — il ne questionne jamais par design, sans avoir à apprendre le switch.
+
+**Les deux types de doute — une distinction structurelle**
+
+L'absence de questionnement processus chez l'entity thinker ne signifie pas l'absence de doute. L'entity thinker et le mastery thinker doutent tous les deux — mais d'objets structurellement différents :
+
+| | Doute processus | Doute identitaire |
+|---|---|---|
+| **Qui le ressent** | Mastery thinker | Entity thinker |
+| **Question** | *"Comment faire mieux ?"* | *"Suis-je vraiment au niveau ?"* |
+| **Déclencheur** | Une erreur ou un gap identifié | Un résultat négatif |
+| **Nature** | Actionnable — une méthode peut être changée | Paralysant — une entité fixe ne peut être que révélée ou cachée, pas changée |
+| **Issue typique** | Curiosité · direction de travail | [[L2 - Schémas Cognitifs/10 -- Traitement mémoriel -- Rumination\|Rumination]] · [[L2 - Schémas Cognitifs/05 — Évaluation du soi -- Pensée binaire\|Pensée binaire]] · évitement du défi |
+
+L'entity thinker est paradoxalement *plus* sujet au doute que le mastery thinker — non pas sur son approche, mais sur son identité. C'est précisément pour cette raison qu'il évite les défis difficiles : pas pour éviter d'apprendre, mais pour éviter de générer de l'*evidence* contre son entité. Sa confiance fluctue avec les résultats parce que chaque résultat *révèle ou menace* l'entité fixe.
+
+Les trois instances documentées dans [[L1 - Structures profondes/01 — Besoin de Compétence]] sont des expressions directes de ce doute identitaire entity :
+- **Perfectionnisme protecteur** → éviter l'erreur qui générerait une evidence négative sur l'entité
+- **Résultats-dépendance** → confiance indexée sur les résultats parce qu'ils révèlent l'entité
+- **Intransigeance** → l'erreur sur un spot maîtrisé est l'evidence la plus indiscutable contre l'entité
+
+---
+
+### VII.2 — Contextes de fonctionnalité de l'entity thinking
+
+**Exécution en zone de maîtrise automatisée**
+
+Beilock et al. (2004) démontrent que la surveillance explicite du processus dégrade la performance sur des habiletés hautement automatisées. Ce n'est pas l'entity theory qui est supérieure — c'est la suspension du monitoring cognitif qui protège l'automaticité. L'entity thinker y arrive structurellement ; l'incremental thinker peut y arriver en apprenant le switch de mode.
+
+*Application :* sur les spots répertoriés, la question opérationnelle n'est pas "entity ou incremental ?" mais "suis-je en mode exécution ou mode apprentissage ?" En mode exécution, faire confiance à la réponse automatique quelle qu'en soit la source.
+
+**Stabilité identitaire post-décision**
+
+Après une décision prise, maintenir la cohérence de la décision prévient le second-guessing qui génère des timing tells et des leaks cognitifs. L'évaluation appartient au mode apprentissage (post-session), pas au mode exécution.
+
+**Résistance identitaire sous variance défavorable**
+
+Tenir une croyance stable sur son niveau de compétence ("je suis un joueur gagnant sur cet échantillon") protège contre la spirale de confiance effondrée sous variance hostile. Il s'agit d'une entity thinking appliquée à l'*identité accumulée*, distincte de l'entity thinking appliquée aux résultats immédiats.
+
+> [!abstract] La distinction-clé — Dweck (1999)
+> Entity thinking sur la **compétence actuelle** (confiance dans ce qu'on sait faire maintenant) est compatible avec une posture incrémentale générale. Entity thinking sur la **capacité à évoluer** (fermeture à l'apprentissage futur) est la forme problématique. Les deux utilisent la même croyance de surface mais s'appliquent à des objets distincts.
+
+---
+
+### VII.3 — États mixtes — cumulation des orientations
+
+Elliot (1999) a démontré que mastery et performance ne s'excluent pas — le même individu les combine selon le contexte. Trois états documentés :
+
+**Performance-approach + Mastery-approach**
+Les deux systèmes actifs simultanément génèrent l'engagement maximal. Le risque : si la composante performance devient primaire, elle crowd out le mastery — la session devient un test identitaire avec une couche d'apprentissage en surface. Signal de bascule : la réaction émotionnelle aux résultats devient disproportionnée par rapport à l'analyse du processus.
+
+*Application au profil observé :* une session à -5 buyins active les trois systèmes (Performance-approach · Mastery-approach · Agon) simultanément — la variance hostile teste l'entité, révèle des patterns, et offre une résistance réelle. État d'engagement maximal.
+
+**Mastery-approach + Performance-avoidance**
+Vouloir progresser et simultanément éviter de paraître incompétent sur les erreurs visibles. Produit de l'hésitation sur les plays créatifs — le coût social d'une erreur visible bloque l'expérimentation. [[L2 - Schémas Cognitifs/09 — Validation de la créativité -- Intellectualiser la créativité|Schéma 09 — Intellectualiser la créativité]] est une expression fréquente de cet état : chercher une validation analytique avant d'exécuter un read pourtant solide.
+
+**Pure mastery-approach**
+La session est du matériau, les résultats informent sans menacer. L'engagement est stable indépendamment du solde — sessions gagnantes et perdantes ont la même valeur informationnelle. C'est l'état que le travail de dépolarisation cherche à ancrer comme structure de fond.
+
+*Application au pattern documenté :* les sessions à +4 buyins produisent la satisfaction de la Performance-approach et désactivent l'Agon (plus de résistance réelle). Sans ces deux composantes, seul le mastery-approach reste actif — insuffisant pour maintenir le niveau d'engagement des sessions difficiles. Ce déséquilibre explique l'asymétrie de durée.
+
+---
+
+### VII.4 — Besoins L1 et structure du discours entity
+
+Chaque besoin L1 génère une version entity spécifique du discours — une façon de formuler l'expérience qui présuppose une entité fixe. L'identification du besoin L1 sous-jacent permet de comprendre le mécanisme qui produit la pensée et d'identifier le levier d'intervention.
+
+| Besoin L1                                                                 | Discours entity typique                                                                                                | Mécanisme                                                                                                 | Reformulation mastery                                                                                                                    |
+| ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| [[L1 - Structures profondes/01 — Besoin de Compétence\|Compétence]]       | *"Je suis bon ou pas à ce stake"* · *"J'aurais dû maîtriser ce spot"* · *"Ce résultat révèle mon niveau"*              | La compétence est traitée comme une entité binaire — les résultats la révèlent directement                | *"Quel gap ce spot révèle-t-il ?"* · *"Quelle compétence spécifique est en développement ici ?"*                                         |
+| [[L1 - Structures profondes/02 — Besoin d'Autonomie\|Autonomie]]          | *"J'aurais dû décider autrement"* · *"Je me suis laissé dicter par la dynamique"*                                      | L'autonomie comme capacité fixe — un individu pleinement autonome prend toujours la décision correcte     | *"Quelles informations me manquaient au moment de la décision ?"* · *"Comment protéger l'espace décisionnel dans ce type de contexte ?"* |
+| [[L1 - Structures profondes/03 — Besoin d'Appartenance\|Appartenance]]    | *"Les autres voient que je perds"* · *"Je suis pas à ma place à cette table"* · *"Ce fish m'a battu, c'est humiliant"* | L'appartenance est un statut fixe dans la hiérarchie — les résultats menacent ou confirment cette place   | *"Mon état émotionnel actuel indique quoi sur mes besoins de co-régulation ?"*                                                           |
+| [[L1 - Structures profondes/04 — Prémisses éthiques\|Prémisses éthiques]] | *"C'est injuste que la variance m'affecte"* · *"Ce joueur mérite de perdre"*                                           | La justice est un principe fixe — la variance qui viole l'équité est vécue comme une anomalie personnelle | *"Qu'est-ce que ma réaction face à l'injustice perçue révèle sur les prémisses éthiques actives ?"*                                      |
+| [[L1 - Structures profondes/05 — Besoin de contrôle\|Contrôle]]           | *"J'aurais dû contrôler ce résultat"* · *"La chance est contre moi"*                                                   | Le contrôle est une capacité fixe sur les outcomes — ne pas contrôler = absence de l'entité "contrôle"    | *"Quel contrôle secondaire est exercé ici ?"* → [[05 — Besoin de contrôle]]                                                              |
+
+---
+
+### VII.5 — Classification — quand garder, quand recadrer
+
+**Contextes où l'entity thinking est fonctionnel — à conserver :**
+
+| Contexte | Pensée entity fonctionnelle | Raison |
+|---|---|---|
+| Exécution de spots automatisés | *"Je connais ce nœud, j'exécute"* | Protège l'automaticité — le monitoring cognitif dégrade la performance (Beilock 2004) |
+| Post-décision en cours de main | *"Cette décision était cohérente avec mes informations"* | Prévient le second-guessing et les timing tells |
+| Downswing prolongé | *"Je suis un joueur gagnant sur cet échantillon"* | Ancre identitaire stable — protège contre la spirale de confiance |
+| Activation pré-session | *"Je suis préparé et capable d'exécuter ce soir"* | Génère une mobilisation directe sans questionnement parasitaire |
+| Confrontation avec un adversaire fort | *"Mon edge sur ce type de joueur est documenté"* | Confiance d'exécution nécessaire pour la prise de risque calculée |
+
+**Contextes où l'entity thinking génère un coût — à recadrer en mastery :**
+
+| Contexte                   | Pensée entity problématique                         | Reformulation mastery                                                                 | Coût évité                                                                                                               |
+| -------------------------- | --------------------------------------------------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| Session perdante prolongée | *"Je peux pas partir, ça définirait cette session"* | *"Est-ce que mon budget L0 et la qualité de mes décisions justifient de continuer ?"* | Asymétrie de durée — sessions perdantes prolongées au-delà du point de rendement                                         |
+| Erreur sur spot maîtrisé   | *"J'aurais jamais dû rater ça"*                     | *"Qu'est-ce qui a produit cette erreur dans ce contexte spécifique ?"*                | Intransigeance → fenêtre rétrécie par l'auto-punition · [[L0 - Physiologie & Budget Corporel/04 — Fenêtre d'activation]] |
+| Study / review             | *"Ce gap prouve que j'ai une limite"*               | *"Ce gap définit une direction précise de travail"*                                   | Fermeture à l'apprentissage — la review devient défensive                                                                |
+| Play créatif hésitant      | *"Je peux pas me permettre de me tromper ici"*      | *"Est-ce que ce read est solide ? Si oui, exécuter."*                                 | Validation-seeking → [[09 — Validation de la créativité -- Intellectualiser la créativité]]                              |
+| Fin de session gagnante    | *"C'est bon, j'ai prouvé ce que j'avais à prouver"* | *"Quels patterns est-ce que je veux consolider ?"*                                    | Décrochage précoce quand l'entité est "confirmée" — asymétrie de durée inverse                                           |
 
 ---
 
@@ -351,6 +453,278 @@ Wood & Bandura (1989) : des individus avec une croyance plus fixe de leur capaci
 | Mastery / Incremental theory (Dweck) | 🟢 Élevée | Construit bien établi, bien répliqué |
 | Elliot 2×2 | 🟢 Élevée | Extension empirique solide |
 | Applications pratiques (growth mindset) | 🟡 Modérée | Effets mitigés dans les méta-analyses d'interventions |
+
+---
+
+## VIII.bis — Pourquoi les deux existent · travailler le switch
+
+---
+
+### VIII.bis.1 — Entity et mastery comme modes, pas comme valeurs morales
+
+L'erreur courante est de traiter l'entity thinking comme un défaut à corriger et la mastery orientation comme un idéal à atteindre. Cette lecture est elle-même une pensée binaire — le schéma L2 que l'entity theory produit, appliqué à l'entity theory elle-même.
+
+Les deux orientations sont des **modes** optimisés pour des contextes différents. Aucun n'est supérieur dans l'absolu. La question opérationnelle est toujours : *quel mode ce contexte appelle-t-il ?*
+
+| | Entity thinking | Mastery thinking |
+|---|---|---|
+| **Mode** | Exploitation — utiliser ce qu'on maîtrise | Exploration — développer de nouvelles compétences |
+| **Optimisé pour** | Exécution fluide sur habiletés automatisées · décision rapide | Apprentissage · résilience à l'échec · croissance long terme |
+| **Confiance générée** | Conditionnelle aux résultats — forte quand les résultats soutiennent l'entité, effondrée quand ils la contredisent | Ancrée au processus — plus stable sous variance, indépendante du résultat ponctuel |
+| **Contexte naturel** | Habiletés automatisées · décision post-action · domaines à faible variance | Étude · review · nouveaux spots · dépolarisation · domaines à haute variance |
+| **Dysfonction si mal-placé** | En contexte d'apprentissage → fermeture à l'information · doute identitaire sous variance | En contexte d'exécution → monitoring cognitif → paralysis by analysis |
+
+Ce tradeoff existe en théorie de la décision sous le nom **explore / exploit** : un agent doit savoir quand exploiter une stratégie connue et quand explorer des alternatives. Les deux sont nécessaires — un agent qui exploite toujours stagne et manque de meilleures stratégies ; un agent qui explore toujours accumule de la compétence mais ne la capitalise jamais — il n'en tire pas de performance stable.
+
+---
+
+### VIII.bis.2 — Pourquoi chaque mode existe
+
+**L'entity thinking existe parce que :**
+- Il génère de la confiance d'exécution rapidement dans les contextes où les résultats *soutiennent* l'entité ("je suis capable de ça — les preuves le confirment")
+- Il permet la décision rapide sur les habiletés automatisées sans monitoring parasite
+- Il calibre le risque dans les domaines à faible variance : "je ne suis pas à ce niveau" est une information utile pour choisir ses tables
+- Il structure les hiérarchies sociales : savoir où on en est par rapport aux autres est fonctionnel dans des environnements compétitifs stables
+
+> [!warning] ⚠️ Nuance critique — entity et confiance sous variance
+> L'entity thinking génère de la confiance *conditionnellement* : quand les résultats soutiennent l'entité fixe → confiance. Quand les résultats la contredisent → doute **identitaire**, plus profond et plus douloureux que le doute processus du mastery thinker, parce qu'une entité fixe ne peut pas être révisée — seulement prouvée ou infirmée.
+>
+> C'est pourquoi l'entity thinking est particulièrement mal adapté aux environnements à **haute variance** comme le poker : les résultats ne reflètent pas fiablement la compétence à court terme. L'entity thinker oscille entre confiance excessive (bonne série) et doute existentiel (mauvaise série) — exactement en phase avec la variance, pas avec la qualité réelle du jeu.
+
+**La mastery orientation existe parce que :**
+- Elle permet d'apprendre de l'échec plutôt que de se protéger de l'information qu'il contient
+- Elle maintient la motivation sur des arcs de développement longs (des mois, des années)
+- Elle permet d'explorer des zones d'inconfort nécessaires à la croissance
+- Elle découple la valeur personnelle du résultat — réduit le coût psychologique de l'erreur
+- Elle produit une confiance plus **stable sous variance** : ancrée au processus, elle ne fluctue pas avec les résultats à court terme — ce qui en fait le mode naturellement supérieur dans les environnements probabilistes
+
+---
+
+### VIII.bis.3 — Reconnaître quel mode est actif
+
+Avant de switcher, identifier lequel est en cours. Le signal le plus rapide :
+
+> **Entity actif** — la pensée contient implicitement ou explicitement un verdict sur ce qu'on *est*. L'erreur ou le résultat est lié à l'identité, pas à l'action.
+>
+> **Mastery actif** — la pensée contient une direction. L'erreur ou le résultat est lié à une information sur ce qu'il y a à développer.
+
+| Signal cognitif | Mode actif |
+|---|---|
+| "Je suis / je ne suis pas..." | Entity |
+| "J'aurais dû savoir..." | Entity |
+| "Ce résultat prouve que..." | Entity |
+| "Qu'est-ce que ça m'apprend ?" | Mastery |
+| "Quel est le gap précis ici ?" | Mastery |
+| "Comment est-ce que je veux approcher la prochaine fois ?" | Mastery |
+
+---
+
+### VIII.bis.4 — Switcher vers mastery quand c'est le bon contexte
+
+Trois leviers, par ordre d'intensité :
+
+**Levier 1 — Déplacement de la question**
+Remplacer la question implicite de l'entity thinking par celle du mastery thinking.
+
+| Question entity (présente) | Question mastery (à substituer) |
+|---|---|
+| *"Qu'est-ce que ça dit de moi ?"* | *"Quelle information précise est dans cet événement ?"* |
+| *"Suis-je bon à ça ?"* | *"Quel est mon niveau actuel sur cet aspect précis — et qu'est-ce qui le ferait évoluer ?"* |
+| *"J'aurais dû maîtriser ça"* | *"Qu'est-ce qui a produit cette erreur dans ces conditions ?"* |
+| *"Cette session définit-elle ma valeur ?"* | *"Qu'est-ce que cette session m'apprend sur mon profil de jeu ?"* |
+
+**Levier 2 — Shift de perspective (coaching interne)**
+Se demander : *"Si quelqu'un que je coache avait fait exactement ça, qu'est-ce que je lui dirais ?"*
+
+Ce shift active naturellement la mastery orientation parce qu'un coach observe le processus, pas l'identité. Il produit immédiatement une lecture informationnelle de l'événement.
+
+**Levier 3 — Nommer le mode**
+*"Je suis en entity mode là"* — la métacognition sur le mode en cours interrompt l'automaticité. Ce n'est pas une condamnation — c'est une observation. Après le nommage, choisir délibérément.
+
+---
+
+### VIII.bis.5 — Switcher vers entity quand c'est le bon contexte
+
+Entity thinking est fonctionnel dans des contextes précis. Le switch vers entity n'est pas une régression — c'est une mobilisation délibérée.
+
+**Cas 1 — Exécution d'un spot automatisé**
+Formuler la confiance entity directement : *"J'ai construit cette réponse. Je l'exécute."*
+L'accent est sur l'acte d'avoir construit (incremental passé) plutôt que sur la possession fixe — ça active la confiance d'exécution sans fermer l'apprentissage futur.
+
+**Cas 2 — Ancrage identitaire pendant un downswing**
+Formuler la croyance en langage entity : *"Je suis un joueur gagnant sur cet échantillon. Cette session est de la variance."*
+
+> [!todo] Cette technique n'est pas de l'entity thinking pur — c'est une évaluation mastery exprimée en langage entity
+> L'ancrage fonctionne uniquement si la croyance repose sur une base **mastery** solide : un long échantillon, une analyse de la qualité du processus, des données concrètes sur son niveau réel. Ce qu'on exprime en langage entity ("je suis un joueur gagnant") est *dérivé* d'une évaluation incrémentale — pas d'une conviction fixe sans fondement.
+>
+> Un entity thinker pur, dont la confiance était toujours résultats-dépendante, ne peut pas effectuer cet ancrage : sa confiance s'effondre avec les résultats précisément parce qu'il n'a jamais construit d'évaluation mastery indépendante. La technique emprunte la solidité de l'évaluation mastery et lui donne la stabilité d'une formulation entity.
+
+**Cas 3 — Décision post-action**
+Après une décision prise en session : *"Cette décision était cohérente avec les informations disponibles. L'évaluation se fait en review, pas maintenant."*
+Ferme délibérément le monitoring en cours de session pour protéger l'exécution.
+
+---
+
+> [!todo] Angle mort — le but n'est pas de supprimer l'entity thinking
+> Le travail avec Alexis (dépolarisation) ne cherche pas à éliminer les pensées entity — il cherche à réduire leur *automaticité* pour créer un espace de choix. L'entity thinking fonctionnel (confiance d'exécution, ancrage identitaire) peut être *délibérément activé* après ce travail. Ce n'est pas une régression : c'est le signe que le switch est disponible dans les deux directions.
+
+---
+
+## IX. Application poker — cartographie des compétences par mode
+
+> *Pour chaque compétence, le mode identifié est celui qui optimise la performance dans ce contexte. "Séquence" indique que les deux modes s'enchaînent, dans cet ordre.*
+
+---
+
+### IX.1 — Exécution technique sur spots répertoriés
+
+Ce sont les compétences où la décision a été construite en étude, répétée, et est maintenant automatisée. L'enjeu n'est plus d'analyser — c'est d'exécuter sans interférence cognitive.
+
+> [!todo] Précondition — entity execution ne s'applique qu'aux spots réellement automatisés
+> La table ci-dessous assume que le spot est **solidement étudié et fiable en session**. Si ce n'est pas le cas, voir §IX.1.bis — doute technique in-game.
+
+| Compétence | Mode optimal | Pourquoi | Risque du mode inverse |
+|---|---|---|---|
+| Ranges préflop standards (open, fold, call) | **Entity** | La range est construite et fiable — le monitoring en temps réel la dégrade | Mastery in-game → "devrais-je ajuster ici ?" → hésitation → timing tell ou erreur |
+| Continuation bet sur textures connues | **Entity** | Réponse automatisée à une configuration répétée | Mastery → questionnement inutile sur une décision déjà résolue en étude |
+| Value bet sur rivière avec range forte | **Entity** | L'exécution propre requiert la confiance, pas le questionnement | Mastery → under-betting défensif par monitoring de l'action adverse |
+| Fold face à une aggression sur un spot clair | **Entity** | Décision rapide, sans rumination sur "est-ce que je rate de la valeur ?" | Mastery → sur-analyse → call de trop par curiosité sur le range adverse |
+| Sizing standard selon le pot et la position | **Entity** | Automatisme calibré — le monitoring le perturbe | Mastery → sizing incohérent par sur-adaptation ponctuelle |
+
+---
+
+### IX.1.bis — Doute technique in-game
+
+Le cas non couvert par la table ci-dessus : tu as étudié un spot, mais tu n'en es pas certain en session. Avant d'agir, identifier le type de doute.
+
+**Test de distinction :**
+> *"Est-ce que j'aurais ce doute si j'avais gagné les cinq derniers pots ?"*
+> - Si **non** → le doute est émotionnel, pas informationnel. La décision objective n'a pas changé — ta confiance en elle a changé à cause de l'état. → Entity re-anchor : "je connais ce spot, je fais confiance à ce que j'ai construit."
+> - Si **oui** → le doute est technique. Tu peux articuler pourquoi tu es incertain. → Mastery in-game.
+
+**Pour le doute technique réel — trois options dans l'ordre :**
+
+*1 — Réduire à ce que tu sais.* Identifier la ligne la plus solide parmi ce qui est disponible : la ligne défensivement correcte / GTO-ish est souvent accessible même quand l'optimale exploitative ne l'est pas. Préférer une ligne sous-optimale bien exécutée à une ligne optimale mal exécutée.
+
+*2 — Décider et noter.* Faire la meilleure décision disponible, marquer le spot pour la review. *"Je ne suis pas certain de ça — je note."* L'incertitude est traitée comme de l'information sur où l'étude doit aller, pas comme une menace. C'est du mastery pur in-game.
+
+*3 — Ne pas compenser en cours de main.* Si tu réalises avoir fait une erreur technique plus tôt dans la main, évaluer la situation depuis *où tu es maintenant*, pas depuis où tu aurais voulu être. Ajuster pour "corriger l'image" ou par culpabilité génère une deuxième erreur.
+
+**L'asymétrie entity / mastery face au doute technique :**
+
+| | Entity thinker | Mastery thinker |
+|---|---|---|
+| Face à l'incertitude in-game | Tend à occulter ou nier le doute — l'admettre menace l'entité | Reçoit l'incertitude comme du feedback précieux sur ses gaps |
+| Ce qui se perd | L'information que "je ne sais pas ce spot" — directement utile pour orienter l'étude | — |
+| Ce qui se gagne | Confiance d'exécution maintenue (même sur un terrain incertain) | Information précise sur les lacunes + décision plus honnête |
+
+Ne pas savoir in-game est de l'information. L'entity thinking tend à court-circuiter ce signal — perte directe de données sur ses propres lacunes techniques.
+
+
+**L'effet boomerang — la suppression du doute se retourne contre l'entité**
+
+Quand l'entity thinker supprime un doute technique et que le résultat est mauvais, le doute ne revient pas au même niveau — il revient amplifié et sur un objet différent :
+
+| Étape | Ce qui se passe |
+|---|---|
+| 1. Doute technique présent | *"Je ne suis pas sûr de ce sizing sur ce runout"* |
+| 2. Suppression entity | *"Je sais ce que je fais"* → décision depuis la suppression |
+| 3. Mauvais résultat | Le résultat contredit la confiance exprimée |
+| 4. Doute amplifié | Ce n'est plus *"était-ce le bon play ?"* (technique · révisable) — c'est *"avais-je raison de faire confiance à mon jugement ?"* (identitaire · irrévisable) |
+
+La suppression a transformé une question technique en question existentielle — exactement ce qu'elle voulait éviter, mais à un niveau plus profond.
+
+**Asymétrie de l'apprentissage généré :**
+- Suppression + bon résultat → renforcement de la suppression. L'entity thinker apprend à supprimer — mais ce résultat ne dit rien sur la qualité de la décision. Aucun apprentissage sur le spot.
+- Suppression + mauvais résultat → menace identitaire. La question devient *"suis-je le joueur que je croyais être ?"* plutôt que *"qu'est-ce que ce spot m'apprend ?"*. Aucun apprentissage sur le spot non plus.
+
+Dans les deux cas, la suppression court-circuite l'apprentissage. La boucle d'apprentissage de l'entity thinker est systématiquement biaisée par la protection de l'entité.
+
+**Pression accumulée et effondrement disproportionné :**
+Un entity thinker qui supprime le doute sur plusieurs pots consécutifs accumule une tension diffuse sur son jugement — non visible spot par spot. Quand un pot important finit mal après une suppression, toute cette pression se libère d'un coup. C'est un mécanisme potentiel derrière les effondrements qui semblent disproportionnés à l'événement déclencheur : ce n'est pas ce pot qui effondre — c'est la somme de tous les doutes supprimés qui s'exprime simultanément. Voir [[L3 - Émotions/Accablement]] · [[L1 - Structures profondes/01 — Besoin de Compétence]].
+
+**Latence de transfert — l'état intermédiaire**
+
+Il existe un état entre "étudié" et "automatisé" où un spot a été travaillé mais n'est pas encore fiable en session. Dans cet état, ni l'entity pur (pas encore automatisé) ni le mastery complet (pas le moment d'analyser in-game) ne sont optimaux. L'approche :
+- Réduire à la ligne la plus sûre du spot étudié
+- Accepter d'être sous-optimal le temps que le transfert s'opère
+- Ne pas forcer l'exécution d'une ligne non consolidée sous prétexte qu'elle a été étudiée
+
+---
+
+### IX.2 — Analyse et lecture en temps réel
+
+Ces compétences nécessitent une collecte active d'information et une mise à jour des hypothèses. La curiosité observationnelle est le moteur — pas la confiance dans une réponse fixe.
+
+| Compétence | Mode optimal | Pourquoi | Risque du mode inverse |
+|---|---|---|---|
+| Hand reading / construction de range adverse | **Mastery** | Processus d'update bayésien — chaque action adverse est de l'information à intégrer | Entity → range adversaire figée dès le départ → lecture biaisée par la première hypothèse |
+| Lecture des tendances via HUD | **Mastery** | Les stats sont du matériau pour construire un modèle évolutif du joueur | Entity → confirmation bias : on ne voit que les stats qui confirment le profil déjà attribué |
+| Identification d'un exploit sur un joueur spécifique | **Mastery** | Nécessite observation, hypothèse, test — cycle d'apprentissage actif | Entity → exploit générique (il est "fish") plutôt que précis (il over-fold les c-bets à 2-way pots) |
+| Adaptation à la dynamique de table | **Mastery** | La table change — les archétypes figés ne s'adaptent pas | Entity → jouer le même style quelle que soit la dynamique |
+| Multi-table : allocation de l'attention | **Mastery** | Priorisation adaptative selon les spots chauds identifiés | Entity → routine fixe d'attention indépendante des enjeux réels |
+
+---
+
+### IX.3 — Spots créatifs et lignes exploitatives
+
+Ce sont les compétences où la décision sort du répertoire connu. La phase d'évaluation et la phase d'exécution appellent des modes différents — la séquence est la clé.
+
+| Compétence | Mode optimal | Séquence | Risque de confusion |
+|---|---|---|---|
+| Bluff sur une texture favorable non standard | **Mastery → Entity** | Mastery évalue (ce bluff est-il profitable ici ?) · Entity exécute (sizing propre, sans hésitation visible) | Entity d'abord → décision avant analyse → confabulation · Mastery à l'exécution → hésitation → timing tell |
+| Line créative (check-raise atypique, over-bet) | **Mastery → Entity** | Mastery identifie l'opportunité · Entity l'exécute avec conviction | Mastery en exécution → sur-monitoring → ligne abandonnée à mi-chemin |
+| Adaptation exploitative d'un reg | **Mastery → Entity** | Mastery construit le modèle du joueur · Entity applique l'exploit en confiance | Entity d'abord → exploit générique pas adapté · Mastery en exécution → re-questionnement in-game qui annule l'exploit |
+| Test d'une nouvelle ligne étudiée | **Mastery → Entity** | Mastery a validé la ligne en étude · Entity l'exécute sans second-guessing | Reste en mastery in-game → ne jamais exécuter ce qui a été étudié |
+
+---
+
+### IX.4 — Régulation émotionnelle en session
+
+La régulation suit une séquence typique : mastery pour nommer et comprendre l'état, entity pour ré-ancrer et continuer.
+
+| Situation | Mode optimal | Séquence | Risque de confusion |
+|---|---|---|---|
+| Réponse immédiate à un bad beat | **Entity → Mastery** | Entity immédiat ("je suis un joueur gagnant, c'est de la variance") · Mastery en review (qu'est-ce que ce spot m'apprend ?) | Entity seulement → jamais de traitement de l'information · Mastery immédiat → spirale analytique in-game qui dégrade les décisions suivantes |
+| Tilt naissant identifié | **Mastery → Entity** | Mastery nomme ("je suis en tilt") et identifie la source · Entity ré-ancre ("je reviens à mon process") | Entity face au tilt → "je vais reprendre le contrôle" → Réactance · Mastery sans ré-ancrage → analyse sans retour à l'action |
+| Doute en session après plusieurs erreurs | **Mastery → Entity** | Mastery observe le pattern · Entity tranche ("je continue depuis mon A-game ou je m'arrête") | Entity sous doute → "je suis mauvais" → effondrement identitaire · Mastery sans décision → paralysie |
+| Gestion d'une grosse variance positive | **Mastery** | Éviter le piège de la confiance entity non méritée — rester en observation du processus | Entity après gros gain → over-confidence → loose play · Mastery → maintien de la qualité décisionnelle |
+| Décision de fin de session | **Mastery** | Critère processuels (budget L0, qualité des décisions) plutôt que résultats | Entity → "je pars que si je suis en gain" ou "je reste pour récupérer" → asymétrie session length |
+
+---
+
+### IX.5 — Méta-compétences (hors session)
+
+Ces compétences opèrent entièrement hors de l'exécution. Le mode mastery est presque systématiquement optimal.
+
+| Compétence | Mode optimal | Pourquoi |
+|---|---|---|
+| Review de session | **Mastery** | L'objectif est d'extraire de l'information des erreurs — entity bloque cet accès (défense identitaire) |
+| Étude (solver, vidéos, spots) | **Mastery** | Tout apprentissage est incrémental par définition |
+| Identification de ses propres leaks | **Mastery** | Nécessite de regarder ses erreurs sans verdict identitaire |
+| Sélection de table / game selection | **Mastery → Entity** | Mastery analyse (ai-je un edge ici ?) · Entity exécute (s'asseoir avec confiance) |
+| Calibration du bankroll management | **Mastery** | Décision sur données long terme, pas sur l'état émotionnel du moment |
+| Direction de l'étude (quoi travailler ?) | **Mastery** | Nécessite une évaluation honnête des gaps — que l'entity thinking protège |
+
+---
+
+### IX.6 — Lecture d'ensemble
+
+**La compétence-méta la plus critique : switcher au bon moment.**
+
+La plupart des erreurs de mode ne viennent pas d'un mode en soi — elles viennent d'un mode *mal placé* dans la séquence.
+
+| Erreur de placement | Ce qui se passe | Exemple |
+|---|---|---|
+| Entity sur un spot nouveau | Décision avant analyse · confabulation | Jouer un bluff non étudié "parce que ça me semble bien" |
+| Mastery à l'exécution d'un spot connu | Second-guessing · paralysis by analysis · timing tell | Hésiter sur une c-bet standard après s'être demandé "mais est-ce que c'est vraiment la meilleure taille ?" |
+| Entity face au tilt | Réactance — impulsion de "reprendre le contrôle" | Relancer pour "récupérer" un pot qui ne le justifie pas |
+| Mastery après un bad beat (immédiat) | Spirale analytique en session | Rejouer mentalement le spot au lieu de passer à la main suivante |
+| Entity en review | Défense identitaire · ne pas voir l'erreur | "J'avais raison, il avait juste la main" |
+| Mastery en décision de continuer/arrêter | Paralysie analytique | Ne jamais trancher sur la durée de session |
+
+> [!todo] Angle mort à explorer — la vitesse du switch
+> La cartographie ci-dessus identifie *quel* mode appeler *quand*. Ce qui n'est pas encore documenté : à quelle vitesse le switch doit être effectué selon la compétence, et quel signal déclenche délibérément la transition. C'est une piste pour un protocole dédié (Switch de mode in-game) à construire avec l'expérience.
 
 ---
 

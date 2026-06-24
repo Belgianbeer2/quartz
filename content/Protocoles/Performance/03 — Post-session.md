@@ -71,6 +71,6 @@ date: 2026-06-06
 ---
 
 ## Notes liées
-- [[00 — Vue d'ensemble]] · [[01 — Avant session]] · [[02 — In-game]]
+- [[🧠 Inner Mapping/Protocoles/00 — Vue d'ensemble]] · [[01 — Avant session]] · [[02 — In-game]]
 - [[L2 — Schémas Cognitifs/Traitement mémoriel -- Rumination]]
 - [[L4 — Comportements & Boucles/]]
