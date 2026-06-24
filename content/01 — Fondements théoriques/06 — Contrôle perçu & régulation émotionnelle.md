@@ -65,7 +65,7 @@ Manstead et al. (1989) ont trouvé que les dimensions d'évaluation standard ne 
 ## III. Régulation émotionnelle — le modèle de Gross
 
 > [!abstract] ✅ Fondement solide — Gross (1998, 2015)
-> Gross propose cinq familles de stratégies de régulation, distinguées par **où** dans le processus émotionnel elles interviennent.[^6]
+> Gross propose cinq familles de stratégies de régulation, distinguées par **où** dans le processus émotionnel elles interviennent[^6] .
 
 | # | Stratégie | Définition | Moment |
 |---|---|---|---|
