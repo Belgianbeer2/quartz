@@ -95,17 +95,17 @@ date: 2026-06-21
 ### ⚙️ L2 — Schémas Cognitifs
 
 - [x] `00 - Index Schémas.md` 🆕
-- [ ] `01 — Mentalisation -- Dissociation.md`
-- [ ] `02 — Évaluation causale -- Confabulation.md`
-- [ ] `03 — Reconstruction mémorielle -- Sélectivité mémorielle.md`
-- [ ] `04 — Calibration temporelle -- Vision zoomée.md`
-- [ ] `05 — Évaluation du soi -- Pensée binaire.md`
-- [ ] `06 — Évaluation de l'enjeu -- Piédestal.md`
-- [ ] `07 — Projection temporelle -- Suranticipation.md`
-- [ ] `08 — Allocation attentionnelle -- Étoilement.md`
-- [ ] `09 — Validation de la créativité -- Intellectualiser la créativité.md`
-- [ ] `10 -- Traitement mémoriel -- Rumination.md`
-- [ ] `11 — Mobilisation compensatoire -- Suramplification.md` 🆕
+- [x] `01 — Mentalisation -- Dissociation.md`
+- [x] `02 — Évaluation causale -- Confabulation.md`
+- [x] `03 — Reconstruction mémorielle -- Sélectivité mémorielle.md`
+- [x] `04 — Calibration temporelle -- Vision zoomée.md`
+- [x] `05 — Évaluation du soi -- Pensée binaire.md`
+- [x] `06 — Évaluation de l'enjeu -- Piédestal.md`
+- [x] `07 — Projection temporelle -- Suranticipation.md`
+- [x] `08 — Allocation attentionnelle -- Étoilement.md`
+- [x] `09 — Validation de la créativité -- Intellectualiser la créativité.md`
+- [x] `10 -- Traitement mémoriel -- Rumination.md`
+- [x] `11 — Mobilisation compensatoire -- Suramplification.md` 🆕
 
 ### 🎭 L3 — Émotions
 
@@ -130,24 +130,24 @@ date: 2026-06-21
 
 ### ⚡ L4 — Comportements & Boucles
 
-- [ ] `00 — Index.md`
-- [ ] `01 — Catalogue des comportements.md`
-- [ ] `02 — Boucles L4 → L1.md`
-- [ ] `Cascades/01 — Résultat négatif → Peur → Retrait.md`
-- [ ] `Cascades/02 — Écart attentes réalité → Honte → Contre-performance.md`
-- [ ] `Cascades/03 — Erreur technique → Colère → Étude compulsive.md`
-- [ ] `Cascades/04 — Surchauffe cognitive → Colère → Impulsivité.md`
+- [x] `00 — Index.md`
+- [x] `01 — Catalogue des comportements.md`
+- [x] `02 — Boucles L4 → L1.md`
+- [x] `Cascades/01 — Résultat négatif → Peur → Retrait.md`
+- [x] `Cascades/02 — Écart attentes réalité → Honte → Contre-performance.md`
+- [x] `Cascades/03 — Erreur technique → Colère → Étude compulsive.md`
+- [x] `Cascades/04 — Surchauffe cognitive → Colère → Impulsivité.md`
 
 ### 🛡️ Protocoles
 
 - [ ] `00 — Vue d'ensemble.md` 🆕
-- [ ] `Transversaux/01 — Drill · L1 Besoin de contrôle — Contrôle secondaire.md`
-- [ ] `Transversaux/02 — Drill · L0 Fenêtre d'activation — Rétrospective accumulation.md`
-- [ ] `Transversaux/03 — Drill · L3 Colère froide — Interrupt escalade.md` 🆕
-- [ ] `Transversaux/04 — Drill · L1 Appartenance — Bid for connection rejetée.md` 🆕
-- [ ] `Performance/01 — Avant session.md`
-- [ ] `Performance/02 — In-game.md`
-- [ ] `Performance/03 — Post-session.md`
+- [x] `Transversaux/01 — Drill · L1 Besoin de contrôle — Contrôle secondaire.md`
+- [x] `Transversaux/02 — Drill · L0 Fenêtre d'activation — Rétrospective accumulation.md`
+- [x] `Transversaux/03 — Drill · L3 Colère froide — Interrupt escalade.md` 🆕
+- [x] `Transversaux/04 — Drill · L1 Appartenance — Bid for connection rejetée.md` 🆕
+- [x] `Performance/01 — Avant session.md`
+- [x] `Performance/02 — In-game.md`
+- [x] `Performance/03 — Post-session.md`
 
 ### 📚 Sources *(optionnel)*
 

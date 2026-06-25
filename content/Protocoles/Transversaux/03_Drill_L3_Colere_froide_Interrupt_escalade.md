@@ -39,7 +39,7 @@ patterns_ciblés:
 
 ## I. Cartographie somatique de l'escalade
 
-> [!info] Utilité de cette carte
+> [!todo] Utilité de cette carte
 > Connaître la séquence *avant* ne garantit pas de la voir *pendant* — mais ça crée les conditions pour que le pattern devienne identifiable avec l'expérience. La carte est une première approximation : elle s'affine à mesure que la conscience in situ augmente.
 
 ### Stade 1 — Signal précoce : la respiration sur-contrôlée
@@ -92,7 +92,7 @@ Sensation de s'élever ou de sortir du corps · léger vertige · impression de 
 
 > *"Drive actif. Je gère le contexte."*
 
-> [!info] Mécanisme de la phrase
+> [!todo] Mécanisme de la phrase
 > **"Drive actif"** : nomme le mécanisme biologique (BAS bloqué → colère, Carver 2001). Nommer l'état réduit l'activation amygdalienne (Torre & Lieberman 2018 sur le *affect labeling*). Ça désactive aussi l'anthropomorphisme — le déclencheur n'est pas "méchant" ou "irrespectueux", c'est mon BAS qui bute.
 >
 > **"Je gère le contexte"** : reappraisal qui déplace le *contrôle self/autre* de l'obstacle vers le processus — exactement le mécanisme Colère→Détermination documenté dans [[Fondements théoriques/06 — Contrôle perçu & régulation émotionnelle]] §V. Pas "je contrôle Lucky" mais "je contrôle ma gestion de la situation".
@@ -127,7 +127,7 @@ Pas de correction. Pas de mot. Pas de raisonnement. Le mouvement casse la boucle
 
 ## IV. Post-interrupt — ce qui vient après
 
-> [!info] L'étape la plus souvent oubliée
+> [!todo] L'étape la plus souvent oubliée
 > Le protocole couvre l'interrupt. Il faut aussi documenter ce qui suit — sans quoi l'interrupt risque d'être suivi d'une auto-critique qui réactive le système de menace ([[Fondements théoriques/07 — Self-compassion]] §III).
 
 **Retour au contexte** : seulement quand la respiration est revenue à un rythme normal et que le tunnel visuel s'est levé — pas au chronomètre.
@@ -144,7 +144,7 @@ Cette phrase n'est pas de l'auto-complaisance — c'est une reconnaissance factu
 
 ## V. Statut de conscientisation
 
-> [!info] Document vivant — première itération
+> [!todo] Document vivant — première itération
 > Ce pattern était en mode réactif pur avant cette formalisation. La conscience rétrospective existait (analyse post-hoc), mais l'interrupt opérationnel dans la fenêtre des 2 secondes était absent. Cette note marque le début de la **phase de conscientisation active**.
 >
 > La cartographie des stades est une première approximation — à affiner par l'expérience in situ. La frontière entre Stade 1 et Stade 2 est particulièrement à préciser : elle est floue dans la description actuelle et sera plus nette après plusieurs occurrences conscientes.

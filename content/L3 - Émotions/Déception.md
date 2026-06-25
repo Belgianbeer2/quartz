@@ -1,13 +1,13 @@
 ---
 type: fiche_emotion
-tags: [L3, émotion, frustration, inner-mapping]
-L3_nom: "Frustration"
+tags: [L3, émotion, inner-mapping]
+L3_nom: "Déception"
 L3_valence: "négative"
-L3_arousal: "moyenne-haute"
-BIS_BAS: "BAS↑ bloqué BIS neutre"
-L1_déclencheurs: ["Besoin d'Autonomie défensif", "Besoin de Compétence défensif"]
-L2_déclencheurs: ["[[02 — Évaluation causale -- Confabulation (invente une causalité personnelle)]]"]
-L4_comportements: ["Signal précoce · Pression croissante · Alimentation de la Colère si non nommée"]
+L3_arousal: "basse-moyenne"
+BIS_BAS: "BAS↓ BIS neutre"
+L1_déclencheurs: ["Besoin de Compétence défensif (si rattaché à l'identité)"]
+L2_déclencheurs: ["[[04 — Calibration temporelle -- Vision zoomée]]", "[[05 — Évaluation du soi -- Pensée binaire]]"]
+L4_comportements: ["Retrait temporaire · Réévaluation des attentes · Abandon potentiel"]
 date: 2026-06-21
 statut: documenté
 ---
@@ -16,111 +16,106 @@ const log=dv.page("log — Drill 02 — Rétrospective accumulation");const nomF
 if(!log||!log.entries){dv.paragraph("*Aucune donnée Drill 02.*");}else{const r=log.entries.filter(e=>e.emotion===nomFiche);if(r.length===0){dv.paragraph("*Aucune activation Drill 02.*");}else{dv.paragraph(`*${r.length} activation(s)*`);}}
 ```
 
-# 😤 Frustration
+# 😔 Déception
 
 > [!note]- 📜 Sessions liées
 > ```dataviewjs
 > let p=dv.current();let sessions=dv.pages('"Journal/Session/Feedback/2026"').where(page=>dv.array(page.file.lists.emotion).includes(p.file.name));
-> if(sessions.length>0)dv.list(sessions.sort(s=>s.file.name,'desc').file.link);else dv.paragraph("*Aucune session — tagger avec `[emotion:: Frustration]`*");
+> if(sessions.length>0)dv.list(sessions.sort(s=>s.file.name,'desc').file.link);else dv.paragraph("*Aucune session — tagger avec `[emotion:: Déception]`*");
 > ```
 
 ---
 
 ## I. L'émotion — Définition fonctionnelle
 
-> [!abstract] ✅ Fondement — Carver (2001) · Moukheiber (2026) · [[Fondements théoriques/05 — BIS & BAS]] · [[Sources/01 — Albert Moukheiber × Les Lueurs]]
-> La Frustration est construite quand le BAS actif rencontre un obstacle externe répété. C'est un état de **BAS cherchant un passage** — pas un effondrement mais une pression. Moukheiber : la Frustration pousse le cerveau à **inventer une causalité personnelle** là où il n'y a que du bruit structurel. *"Je dois laisser paraître des tells"* n'est pas une observation — c'est une reconstruction narrative du remembering self. [documenté]
->
-> **La Frustration est le bol qui se remplit [documenté — Alexis].** Nommée à temps, elle reste de l'information. Non nommée, elle alimente la Colère.
+> [!abstract] ✅ Fondement — Barrett (2017) · [[Fondements théoriques/03 — Cerveau prédictif]]
+> La Déception est construite quand le cerveau applique le concept 'l'objectif attendu n'est pas atteint' à un affect négatif à arousal basse. Contrairement à la Frustration (obstacle présent bloquant le BAS), la Déception est rétrospective — l'objectif était possible, il ne s'est pas réalisé. [documenté]
 
 **Valence :** négative
-**Arousal :** moyenne-haute — pression qui monte
-**Action tendency :** À documenter
+**Arousal :** basse-moyenne
+**Action tendency :** Retrait temporaire · réévaluation des attentes · éventuellement abandon si non régulée
 
 **Signature BIS/BAS :** → [[Fondements théoriques/05 — BIS & BAS]]
-- **BIS :** neutre — pas de menace active, juste un obstacle
-- **BAS :** ↑ actif + bloqué — le drive existe mais ne peut pas avancer
-- **Combinaison :** BAS bloqué → pression qui monte progressivement → si non régulée → Colère
+- **BIS :** neutre — pas de menace active
+- **BAS :** ↓ bas — signal que l'objectif attendu n'est pas atteint · élan qui retombe
+- **Combinaison :** BAS qui se retire sans inhibition externe — fermeture de boucle négative
 
 **Distinction des émotions proches :**
-vs **[[Colère]]** : la Colère est le bol qui a débordé. La Frustration est le bol qui se remplit — c'est le signal précoce.
-vs **[[Impuissance]]** : l'Impuissance est l'absence totale de levier (BAS↓). La Frustration a un BAS encore actif — il cherche un passage.
-vs **[[La Réactance]]** : la Réactance est spécifiquement liée à une menace sur la liberté d'action. La Frustration est plus générale (tout obstacle).
+vs **[[Frustration]]** : la Frustration a un obstacle présent qui bloque (BAS actif + obstacle = énergie réactive). La Déception est une boucle fermée négativement — pas d'obstacle, juste l'absence du résultat attendu.
+vs **[[Peur]]** : la Peur anticipe une menace future. La Déception constate un manque passé.
+vs **[[La Honte]]** : la Honte porte sur l'identité. La Déception porte sur un résultat spécifique — plus réparable si mastery thinking actif.
 
 ---
 
 ## II. Signaux de détection — Intéroception · [[L0 — Physiologie & Budget Corporel/01 — Intéroception]]
 
 > [!warning] Signaux corporels
-> - **Zone de tension :** épaules · mâchoires · chaleur légère dans le cou
-> - **Rythme cardiaque :** légèrement accéléré · irrégulier parfois
-> - **Respiration :** plus courte · plus tendue · soupirs contenus
-> - **Posture spontanée :** corps légèrement contracté · agitation des mains
-> - **Sensations spécifiques :** "bol qui se remplit" · pression croissante · sensation de "encore ça"
+> - **Zone de tension :** épaules qui tombent · estomac creux · légère pesanteur thoracique
+> - **Rythme cardiaque :** légèrement ralenti
+> - **Respiration :** soupirs fréquents · ralentissement général
+> - **Posture spontanée :** épaules en avant · regard vers le bas
+> - **Sensations spécifiques :** pesanteur douce · 'tout à l'air plat'
 
 > [!warning] Signaux cognitifs précoces
-> - *"Je dois laisser paraître des tells"* / *"Encore un bad beat"* / *"De toute façon..."*
-> - Reconstruction narrative : le cerveau réécrit chaque main à travers le prisme de l'obstacle
-> - Causalité personnelle inventée là où il n'y a que de la variance
+> - *"C'est dommage"* / *"J'aurais pu"* / *"Je pensais que ça allait marcher"*
+> - Réévaluation spontanée de ce qui aurait pu être différent
+> - Comparaison entre l'attendu et le réel
 
 > [!warning] Signaux comportementaux précoces
-> - Signal précoce : tension dans les épaules perceptible
-> - Jeu légèrement contracté
-> - Si non nommée : transition vers la Colère
+> - Réduction d'activité temporaire · retrait léger
+> - Réévaluation silencieuse des attentes
+> - Tentation d'abandon si entity thinking actif
 
 ---
 
 ## III. Cartographie théorique
 
 #### L1 — Besoins déclencheurs
-
 | Mode L1 | Besoin | Mécanisme |
 |---|---|---|
-| **Défensif** | Besoin d'Autonomie | Obstacle à l'action naturelle → BAS frustré |
-| **Défensif** | Besoin de Compétence | Variance hostile = "confirmation" que quelque chose ne fonctionne pas |
+| **Défensif** | Besoin de Compétence | Résultat manqué traité comme révélation de l'entité → glissement vers la Honte |
+| **Générateur** | Besoin de Compétence | Résultat manqué traité comme information sur le processus → réévaluation calibrée |
 
 **Lien entity/mastery :** → [[Fondements théoriques/09 — Mastery orientation · Entity theory]]
-- **Entity thinking** : amplifie la Frustration en inventant une causalité personnelle. "Je dois faire quelque chose de travers."
-- **Mastery thinking** : maintient la Frustration comme signal neutre. "C'est de la variance — le bol se remplit, je le nomme."
+- **Entity thinking** : amplifie la Déception vers la Honte. "Ce résultat révèle que je ne suis pas ce joueur."
+- **Mastery thinking** : maintient la Déception comme information. "Ce résultat me dit que quelque chose dans mon processus n'a pas fonctionné — qu'est-ce que ça m'apprend ?"
 
 #### L2 — Schémas déclencheurs
-
 | Schéma L2 | Mécanisme |
 |---|---|
-| Confabulation (L2/02) | Invente une causalité personnelle pour expliquer la variance (tells imaginaires, etc.) |
+| Vision zoomée (L2/04) | La déception sur une session est amplifiée si évaluée sur la mauvaise fenêtre temporelle |
+| Pensée binaire (L2/05) | Produit un verdict identitaire depuis la Déception si entity thinking actif |
 
 #### L0 — Influence
-Budget épuisé → bol se remplit plus vite · seuil de Colère plus bas. Budget satisfait → Frustration nommée reste informationnelle.
+Budget épuisé → Déception plus intense et plus longue à récupérer. Budget satisfait → Déception plus légère, réévaluation plus accessible.
 
 ---
 
 ## IV. Connexions dans l'écosystème — Bidirectionnel
-
 | Niveau | Sens | Connexion |
 |---|---|---|
-| **L0 → L3** | descendant | Budget épuisé → bol se remplit plus vite · transition Colère plus rapide |
-| **L3 → L0** | ascendant ⚠️ | Frustration prolongée → tension chronique → consomme L0 |
-| **L1 → L3** | descendant | Autonomie + Compétence défensifs |
-| **L3 → L1** | ascendant | Non nommée → renforce "je ne contrôle pas" |
-| **L2 → L3** | descendant | Confabulation amplifie en inventant des causes |
-| **L3 → L2** | ascendant | Déclenche la Confabulation (besoin d'explication) |
-| **L3 → L4** | descendant | Signal précoce · pression · si non nommée → Colère |
-| **L4 → L3** | ascendant ✅ | Nommer la Frustration interrompt le cycle → reste informationnelle |
+| **L0 → L3** | descendant | Budget épuisé → Déception plus intense · récupération plus lente |
+| **L3 → L0** | ascendant ⚠️ | Déception persistante → légère dépense L0 via affect négatif chronique |
+| **L1 → L3** | descendant | Besoin de Compétence défensif → amplifie vers Honte · générateur → réévaluation |
+| **L3 → L1** | ascendant | Répétée sans régulation → peut renforcer la Compétence défensive |
+| **L2 → L3** | descendant | Vision zoomée · Pensée binaire |
+| **L3 → L2** | ascendant | La Déception peut activer la Rumination (rejouer ce qui aurait pu se passer autrement) |
+| **L3 → L4** | descendant | Retrait · réévaluation · abandon potentiel |
+| **L4 → L3** | ascendant | Le retrait temporaire peut permettre la récupération · l'abandon renforce la Déception |
 
 ---
 
 ## V. Régulation — Stratégies Gross · [[Fondements théoriques/06 — Contrôle perçu & régulation émotionnelle]]
-
 | Stratégie | Applicable | Application concrète |
 |---|---|---|
-| 1 · Sélection | non | — |
-| 2 · Modification | non | — |
-| 3 · Attentionnel | oui | **LA stratégie clé** : nommer *"je suis en Frustration"* avant que le bol déborde |
-| 4 · Reappraisal | partiel | *"C'est de la variance — pas un tells. C'est le bol qui se remplit."* |
+| 1 · Sélection | oui | Ne pas analyser la session sous état très dégradé |
+| 2 · Modification | partiel | Changement d'environnement physique |
+| 3 · Attentionnel | oui | *"Sur quelle fenêtre est-ce que j'évalue ce résultat ?"* |
+| 4 · Reappraisal | oui | *"Ce résultat est de l'information sur mon processus — pas un verdict sur ce que je suis"* |
 | 5 · Modulation | non | — |
 
-**Stratégie prioritaire :** Attentionnel (3) — nommer la Frustration est la stratégie principale. La pression physiologique est le signal à détecter.
-**Note L0 :** sous budget bas, nommer est plus difficile mais encore accessible.
+**Stratégie prioritaire :** Reappraisal (4) — déplacer de l'identité vers le processus.
+**Note L0 :** sous budget bas, Sélection (1) d'abord — ne pas analyser.
 
 ---
 
@@ -135,7 +130,6 @@ Budget épuisé → bol se remplit plus vite · seuil de Colère plus bas. Budge
 > let sorted=Object.entries(counts).sort((a,b)=>b[1]-a[1]);
 > if(sorted.length>0)dv.list(sorted.map(e=>`${e[0]} **(x${e[1]})**`));else dv.paragraph("*Aucun déclencheur documenté.*");
 > ```
-
 
 > [!note] 2. Pensées automatiques
 > ```dataviewjs
@@ -168,17 +162,20 @@ Budget épuisé → bol se remplit plus vite · seuil de Colère plus bas. Budge
 > if(ingame.length>0||local.length>0)dv.taskList([...ingame,...local],false);else dv.paragraph("*Aucun prix actif.*");
 > ```
 > > [!note]- ➕ Ajouter un prix à payer
-> > - [ ] [Prix à payer:: J'accepte que la variance crée une pression — le bol se remplit, je le nomme]
+> > - [ ] [Prix à payer:: J'accepte que ce résultat est de l'information — pas un verdict]
 
 ---
 
 ## VII. Analyse à froid
 
 > [!abstract]
-> **La pression physiologique est le vrai signal.**
-La clé n'est pas dans l'histoire mentale que la Frustration génère — elle est dans la **pression physiologique qui monte**. C'est ce signal (tension épaules, chaleur, respiration) qu'il faut apprendre à reconnaître avant que le bol déborde.
+> **Déception ou Honte ?**
+Question pivot : *"Est-ce que je suis déçu du résultat — ou déçu de ce que je suis ?"*
+- Résultat → Déception → traitable par réévaluation et ajustement
+- Identité → Honte → traitement différent → [[La Honte]]
 
-**Transition vers la Colère :** si la Frustration n'est pas nommée à temps, elle alimente la Colère. Le Drill 03 est disponible pour l'interrupt d'escalade si la transition est en cours.
+**Quelle était l'attente initiale ?**
+La Déception révèle toujours une attente. Quelle était-elle ? Était-elle calibrée ?
 
 ---
 
@@ -193,7 +190,7 @@ La clé n'est pas dans l'histoire mentale que la Frustration génère — elle e
 > if(ingame.length>0||local.length>0)dv.taskList([...ingame,...local],false);else dv.paragraph("*Aucun plan actif.*");
 > ```
 > > [!note]- ➕ Ajouter un plan d'action
-> > - [ ] [Plan d'action:: Nommer *"je suis en Frustration"* → respiration · *"c'est de la variance"* · si le bol menace de déborder : Drill 03]
+> > - [ ] [Plan d'action:: Nommer la Déception précisément → distinguer Déception (résultat) vs Honte (identité) → identifier une chose concrète à faire différemment]
 
 ---
 
@@ -216,6 +213,5 @@ La clé n'est pas dans l'histoire mentale que la Frustration génère — elle e
 > ```
 
 ## Notes liées
-- [[Colère]] · [[La Réactance]] · [[Impuissance]]
-- [[02 — Évaluation causale -- Confabulation]]
-- [[Protocoles/Transversaux/03 — Drill · L3 Colère froide — Interrupt d'escalade]]
+- [[La Honte]] · [[Frustration]] · [[Peur]]
+- [[04 — Calibration temporelle -- Vision zoomée]] · [[05 — Évaluation du soi -- Pensée binaire]]

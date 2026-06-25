@@ -105,7 +105,8 @@ statut: documenté
 
 ---
 
-## V. Régulation — Stratégies Gross · [[Fondements théoriques/06 — Contrôle perçu & régulation émotionnelle]]
+## V. Régulation — Stratégies Gross 
+[[Fondements théoriques/06 — Contrôle perçu & régulation émotionnelle]]
 
 | Stratégie | Moment d'intervention | Application concrète |
 |---|---|---|
