@@ -29,6 +29,7 @@ statut: documenté
 > La rumination est métaboliquement coûteuse : le cerveau tourne en boucle sans résoudre l'erreur de prédiction à l'origine de l'état négatif. Le budget L0 continue de se dépenser sans retour. [documenté]
 
 **Distinction traitement mémoriel / sélectivité mémorielle :**
+
 | Mode | Orientation | Résolution | Émotion typique |
 |---|---|---|---|
 | Analyse | Passé → solution future | Oui | Curiosité · Détermination |
