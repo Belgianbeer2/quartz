@@ -1,11 +1,6 @@
 ---
 type: schema_L2
-tags:
-  - L2
-  - schema
-  - confabulation
-  - évaluation-causale
-  - inner-mapping
+tags: [L2, schema, confabulation, évaluation-causale, inner-mapping]
 L2_neutre: "Évaluation causale"
 pôle_défensif: "Confabulation"
 pôle_générateur: "Analyse fondée"
@@ -25,92 +20,115 @@ statut: documenté
 
 ## I. L'opération neutre — Évaluation causale
 
-**Définition fonctionnelle :** Mécanisme par lequel le cerveau attribue des causes à une situation pour orienter une décision. Il peut opérer dans l'ordre logique (évaluation → décision) ou dans l'ordre inversé (décision émotionnelle → justification rationnelle).
+**Définition fonctionnelle :** Mécanisme par lequel le cerveau attribue des causes à une situation pour orienter une décision. Peut opérer dans l'ordre logique (évaluation → décision) ou inversé (décision émotionnelle → justification rationnelle post-hoc).
 
-> [!abstract] ✅ Fondement — Moukheiber (2026) · Nisbett & Wilson (1977)
-> Moukheiber étend le concept neurologique de confabulation — initialement décrit chez les patients amnésiques qui inventent des souvenirs pour combler des lacunes — à la production quotidienne de justifications post-hoc. Le mécanisme : une décision est prise émotionnellement, puis le cerveau construit une explication rationnelle qui semble précéder la décision. [documenté]
->
-> Nisbett & Wilson (1977) démontrent expérimentalement que les sujets ignorent les vraies causes de leurs comportements et confabulent des raisons plausibles. [documenté]
+> [!abstract] ✅ Fondement — Moukheiber (2026) · [[Sources/01 — Albert Moukheiber × Les Lueurs]]
+> Moukheiber étend le concept neurologique de confabulation — initialement décrit chez les patients amnésiques — à la production quotidienne de justifications post-hoc. Le cerveau construit une explication rationnelle qui *semble* précéder la décision émotionnelle. [documenté]
 
-**Modulation par L0 :** sous budget épuisé, le PFC (siège de l'évaluation consciente) est moins disponible — la décision émotionnelle est plus rapide, la justification post-hoc plus systématique.
+> [!abstract] ✅ Fondement — Nisbett & Wilson (1977) · [[01 — Angles morts & évolutions]]
+> Expérimentalement, les sujets ignorent les vraies causes de leurs comportements et confabulent des raisons plausibles. [documenté]
+
+**Modulation par L0 :** budget épuisé → PFC (évaluation consciente) moins disponible → décision émotionnelle plus rapide, justification post-hoc plus systématique et moins détectable. → [[Fondements théoriques/03 — Cerveau prédictif]]
+
+**Universalité :** attribuer des causes est nécessaire à toute décision. La dysfonction naît de l'ordre inversé — quand la conclusion précède l'évaluation.
 
 ---
 
 ## II. Cartographie des pôles
 
+> **Méthode :** partir du bluff-catch documenté pour géolocaliser via la théorie, compléter les expressions adjacentes.
+
 #### A. Pôle défensif — Confabulation
 
+> **Rappel architectural :** la Confabulation protège un L1 défensif en habillant une décision émotionnelle en analyse. Sans ce lien L1, on ne comprend pas *pourquoi* le cerveau choisit de confabuler plutôt que d'analyser honnêtement.
+
 **Expression 1 — Confabulation depuis la Réactance (in-game)**
-- **Condition :** adversaire agressif ou bad beat récent + L1 Compétence défensif + entity thinking
-- **Mécanisme :** impulsion de reprendre le contrôle (Réactance) → décision d'agir → construction post-hoc d'une justification en langage GTO → perception que c'est de l'analyse
-- **Lien entity thinking :** l'entity thinker ne peut pas admettre "j'ai joué depuis mon émotion" — ça menacerait l'entité de joueur rationnel. La confabulation *protège* l'image de l'entité en habillant la décision émotionnelle en analyse
+- **L1 actif :** Besoin d'Autonomie en mode défensif
+  *Ce qui est menacé :* le sentiment de contrôle et d'agentivité face à un adversaire perçu comme dominant ou agressif
+- **Mécanisme L1→L2 :** pression externe (adversaire agressif, bad beat) → menace du Besoin d'Autonomie → impulsion de reprendre le contrôle (Réactance) → décision d'agir → construction post-hoc d'une justification en langage GTO → perception que c'est de l'analyse. L'Autonomie menacée doit *paraître* fondée sur le raisonnement pour protéger l'identité de joueur rationnel.
+- **Condition déclenchante :** adversaire agressif ou bad beat récent + BAS frustré + L1 Autonomie défensif
+- **Lien entity thinking :** l'entity thinker ne peut pas admettre "j'ai joué depuis mon émotion" — ça menacerait l'entité de joueur rationnel. La confabulation *protège* l'entité. → [[Fondements théoriques/09 — Mastery orientation · Entity theory]]
 - **Les 3 marqueurs diagnostiques** [documenté — Moukheiber × Alexis] :
-  - *Sélectivité* : seules les propriétés favorables sont convoquées
+  - *Sélectivité* : seules les propriétés favorables convoquées
   - *Causalité inversée* : décision précède l'évaluation
-  - *Certitude rapide* : la conclusion était déjà là avant le raisonnement
+  - *Certitude rapide* : la conclusion était là avant le raisonnement
 - **Output typique :** play depuis la Réactance habillé en stratégie · perte EV non reconnue
 - **L3 générée :** [[La Réactance]] en amont · [[La Honte]] en aval si résultat mauvais
-- **Statut :** [observation personnelle — documenté — Alexis]
+- **Statut :** [observation personnelle — documenté · bluff-catch "propriétés pas mal pour reprendre l'initiative"]
 
 **Expression 2 — Confabulation défensive post-erreur**
-- **Condition :** erreur technique identifiable + entity thinking + Besoin de Compétence défensif
-- **Mécanisme :** erreur technique → menace de l'entité → construction rapide d'une justification ("il avait juste la main", "c'était un cooler") qui externalise la cause
-- **Lien entity thinking :** admettre une erreur technique = admettre un défaut de l'entité fixe. La confabulation défensive redirige la causalité vers l'extérieur
+- **L1 actif :** Besoin de Compétence en mode défensif
+  *Ce qui est menacé :* l'intégrité de l'entité compétente — une erreur technique vraiment reconnue menace l'entité fixe
+- **Mécanisme L1→L2 :** erreur technique → menace Compétence → construction rapide d'une justification qui externalise la cause ("il avait juste la main", "c'était un cooler") → l'entité est protégée mais l'erreur n'est pas intégrée
+- **Condition déclenchante :** erreur technique identifiable + entity thinking + L1 Compétence défensif
+- **Lien entity thinking :** admettre une erreur technique = admettre un défaut de l'entité fixe → impossible sous entity thinking fort
 - **Output typique :** erreur non intégrée · même erreur répétée · impossibilité d'apprendre
 - **L3 générée :** [[La Honte]] évitée à court terme · [[Frustration]] chronique
-- **Statut :** [inféré depuis entity theory + Moukheiber · adjacent non encore documenté séparément]
+- **Statut :** [inféré depuis entity theory · adjacent non encore documenté séparément]
 
 **Expression 3 — Confabulation créative (décision intuitive habillée en GTO)**
-- **Condition :** intuition créative forte + Besoin de validation (Perfectionnisme) + entity thinking
-- **Mécanisme :** play créatif décidé intuitivement → le cerveau construit immédiatement une justification mathématique → perception que c'est de l'analyse GTO → confusion sur la vraie source de la décision
-- **Lien entity thinking :** l'entity thinker a besoin que ses décisions soient "correctes" — la justification protège l'entité même pour les bonnes décisions
+- **L1 actif :** Besoin de Compétence défensif · Perfectionnisme protecteur
+  *Ce qui est menacé :* la légitimité d'une décision qui "devrait" être rationnellement fondée
+- **Mécanisme L1→L2 :** intuition créative forte → le cerveau construit immédiatement une justification mathématique → perception que c'est de l'analyse GTO → confusion sur la vraie source de la décision. La Compétence menacée ne peut pas "juste faire confiance à l'intuition".
+- **Condition déclenchante :** play créatif décidé intuitivement + besoin de validation + entity thinking
 - **Output typique :** impossible de distinguer vraie analyse de confabulation → perte d'information sur la qualité du processus
-- **Statut :** [inféré · adjacent — à documenter par l'expérience]
+- **L3 générée :** incertitude · confusion
+- **Statut :** [inféré · adjacent non encore documenté]
 
 #### B. Pôle générateur — Analyse fondée
 
 **Expression 1 — Évaluation dans l'ordre logique**
-- **Condition :** L0 satisfait + mastery thinking + pas de menace identitaire
+- **Condition :** L0 satisfait + mastery thinking + pas de menace identitaire active
 - **Mécanisme :** évaluation complète (propriétés pour ET contre) → incertitude résiduelle → décision avec incertitude assumée
-- **Lien mastery thinking :** l'erreur n'est pas une menace — donc pas besoin de confabuler pour se protéger. La décision peut être examinée honnêtement.
+- **Lien mastery thinking :** l'erreur n'est pas une menace → pas besoin de confabuler pour se protéger. La décision peut être examinée honnêtement. → [[Fondements théoriques/09 — Mastery orientation · Entity theory]]
 - **Signal distinctif** [documenté — Alexis] : *"Est-ce que je joue ce coup pour optimiser mon EV, ou pour reprendre le contrôle ?"*
+- **Output typique :** incertitude assumée · décision fondée · apprentissage possible
+- **L3 générée :** Certitude calibrée · Détermination
 - **Statut :** [documenté — Alexis]
 
 ---
 
 ## III. Instances personnelles documentées
 
-| Date | Contexte | Expression | Émotion |
-|---|---|---|---|
-| — | Bluff-catch → "propriétés pas mal pour reprendre l'initiative" | Expression 1 | Réactance |
-| — | — | — | — |
+| Date | Contexte | Expression activée | Émotion produite | Source |
+|---|---|---|---|---|
+| — | Bluff-catch → "propriétés pas mal pour reprendre l'initiative" | Expression 1 | La Réactance | Observation personnelle |
 
 ---
 
-## IV. Connexions dans l'écosystème L0→L4
+## IV. Connexions dans l'écosystème — Bidirectionnel
 
-| Niveau | Connexion |
-|---|---|
-| **L0** | Budget épuisé → PFC moins disponible → confabulation plus rapide et moins détectable |
-| **L1 déclencheurs** | Besoin de Compétence défensif · Besoin d'Autonomie défensif (Réactance) |
-| **L2 associés** | Sélectivité mémorielle (confirme la confabulation post-hoc) · Dissociation (regard imaginé accélère la confabulation) |
-| **L3 produites** | La Réactance (décision depuis) · La Honte (après mauvais résultat) |
-| **L4 comportements** | Play depuis l'impulsion · Erreur non intégrée · Étude compulsive compensatoire |
-
----
-
-## V. Régulation — Stratégies Gross
-
-| Stratégie | Applicable | Application |
+| Niveau | Sens | Connexion |
 |---|---|---|
-| 1 · Sélection | non | La situation poker ne se sélectionne pas sur ce critère |
-| 2 · Modification | partiel | Timebank délibéré pour ralentir la décision émotionnelle |
-| 3 · Attentionnel | oui | *"Est-ce que j'ai pesé les propriétés défavorables ?"* — orienter l'attention vers l'autre côté |
-| 4 · Reappraisal | oui | Identifier le sens de la causalité : évalue→décide ou décide→justifie ? |
-| 5 · Modulation | non | — |
+| **Opération neutre → L0** | intrinsèque | Coût modéré — évaluation causale sollicite le PFC de façon brève |
+| **L0 → L2** | descendant | Budget épuisé → PFC moins disponible → confabulation plus rapide et moins détectable · [[Fondements théoriques/03 — Cerveau prédictif]] |
+| **L2(défensif) → L0** | ascendant ⚠️ | Coût faible à court terme (la confabulation "clôt" rapidement) mais coût élevé à long terme par accumulation d'erreurs non intégrées → frustration chronique |
+| **L2(générateur) → L0** | ascendant ✅ | L'analyse fondée ferme les erreurs de prédiction → réduction de l'incertitude non résolue → légèrement restauratrice |
+| **L1 → L2** | descendant | Besoin d'Autonomie défensif (Réactance) → Expr. 1 · Besoin de Compétence défensif → Expr. 2-3 · Autonomie générateur → analyse fondée |
+| **L2(défensif) → L1** | ascendant ⚠️ | Répétition renforce "mes émotions = décisions légitimes" → ancre la confusion entre impulsion et analyse |
+| **L2(générateur) → L1** | ascendant ✅ | Analyse fondée répétée consolide "mes décisions viennent de l'évaluation" → renforce Autonomie et Compétence générateurs |
+| **L2 associés** | latéral | Sélectivité mémorielle (confirme la confabulation post-hoc) · Dissociation (regard imaginé accélère la confabulation) · Pensée binaire (fournit le verdict que la confabulation défend) |
+| **L3 produites** | descendant | La Réactance · La Honte (défensif) · Certitude calibrée (générateur) |
+| **L4 comportements** | descendant | Play depuis l'impulsion · erreur non intégrée · étude compulsive compensatoire |
 
-**Stratégie prioritaire :** Déploiement attentionnel (3) in-game — la question sur les propriétés défavorables interrompt le circuit.
-**Si L0 épuisé :** fold par défaut sur les spots où la confabulation est détectée.
+**Distinction des schémas proches :**
+- vs **Dissociation** : la Dissociation oriente la décision vers un regard imaginé. La Confabulation justifie une décision déjà prise émotionnellement.
+- vs **Rumination** : la Rumination rejoue le passé. La Confabulation construit une narration acceptable sur le passé pour éviter l'examen honnête.
+
+---
+
+## V. Régulation — Stratégies Gross · [[Fondements théoriques/06 — Contrôle perçu & régulation émotionnelle]]
+
+| Stratégie | Moment d'intervention | Application concrète |
+|---|---|---|
+| 1 · Sélection | Avant la situation | — (la situation poker ne se sélectionne pas sur ce critère) |
+| 2 · Modification | Pendant — amont | Timebank délibéré — ralentir la décision émotionnelle |
+| 3 · Attentionnel | Pendant — amont | *"Ai-je pesé les propriétés défavorables avec le même poids que les favorables ?"* |
+| 4 · Reappraisal | Pendant — aval | *"Est-ce que j'évalue → décide, ou est-ce que je décide → justifie ?"* |
+| 5 · Modulation | Pendant / après | — |
+
+**Stratégie prioritaire :** Déploiement attentionnel (3) — la question sur les propriétés défavorables interrompt le circuit. Accessible in-game.
+**Note L0 :** sous budget bas, la détection de la confabulation requiert du PFC. Règle simple : si c'est rapide et certain, c'est suspect → fold par défaut.
 
 ---
 
@@ -119,7 +137,7 @@ statut: documenté
 > [!warning] Le pattern Confabulation est actif quand...
 > - Le raisonnement est arrivé vite et avec certitude juste après une sensation
 > - On ne convoque que les arguments favorables
-> - L'analyse génère peu ou pas d'incertitude
+> - L'analyse génère peu ou pas d'incertitude résiduelle
 > - On peut répondre "oui" à : *"Si l'adversaire n'avait pas été agressif juste avant, cette main m'aurait-elle semblé jouable ?"*
 >
 > **Question de détection :** *"Est-ce que j'évalue → décide, ou est-ce que je décide → justifie ?"*
@@ -129,15 +147,18 @@ statut: documenté
 ## VII. Protocoles d'interruption
 
 > [!tip] In-game · Timebank
-> 1. *"Ai-je pesé les propriétés défavorables avec le même poids que les favorables ?"*
+> 1. *"Ai-je pesé les propriétés défavorables avec le même poids ?"*
 > 2. *"Est-ce que je joue ce coup pour optimiser mon EV ou pour reprendre le contrôle ?"*
 > 3. Si confabulation détectée → fold par défaut.
 
-> [!tip] Post-session
-> Identifier les mains où le raisonnement semblait évident et rapide — les examiner en premier dans le feedback.
+> [!tip] Avant session
+> Intention : *"Aujourd'hui je joue en analyse → décision. Je nomme mes impulsions avant d'agir."*
+
+> [!tip] Post-session · Review
+> Identifier les mains où le raisonnement semblait évident et rapide → les examiner en premier.
 
 > [!tip] Si L0 épuisé
-> La détection de la confabulation requiert du PFC. Sous budget épuisé : règle simple — si c'est rapide et certain, c'est suspect.
+> PFC moins disponible → confabulation plus fréquente. Règle : si rapide + certain + suit une émotion → fold.
 
 ---
 
@@ -159,8 +180,8 @@ if (sessions.length > 0) {
 
 ## Sources
 
-[^1]: Moukheiber, A. — Interview × Les Lueurs (2026). Voir [[Sources/01 — Albert Moukheiber × Les Lueurs]].
-[^2]: Nisbett, R.E. & Wilson, T.D. (1977). Telling more than we can know: Verbal reports on mental processes. *Psychological Review*, 84(3).
+[^1]: Moukheiber, A. — Interview × Les Lueurs (2026). → [[Sources/01 — Albert Moukheiber × Les Lueurs]]
+[^2]: Nisbett, R.E. & Wilson, T.D. (1977). Telling more than we can know. *Psychological Review*, 84(3). → [[01 — Angles morts & évolutions]]
 
 ## Notes liées
 - [[00 - Index Schémas]] · [[01 — Architecture du modèle]]

@@ -1,17 +1,12 @@
 ---
 type: schema_L2
-tags:
-  - L2
-  - schema
-  - piédestal
-  - évaluation-enjeu
-  - inner-mapping
+tags: [L2, schema, piédestal, évaluation-enjeu, inner-mapping]
 L2_neutre: "Évaluation de l'enjeu"
 pôle_défensif: "Piédestal"
 pôle_générateur: "Enjeu calibré"
 L1_déclencheurs: ["Besoin de Compétence défensif", "Perfectionnisme protecteur"]
 émotions_produites: ["[[Anxiété d'évaluation]]", "[[La Honte]]"]
-stratégies_Gross: ["1 — Sélection", "2 — Modification", "4 — Reappraisal"]
+stratégies_Gross: ["1 — Sélection de situation", "4 — Reappraisal"]
 entity_mastery: "défensif"
 date: 2026-06-21
 statut: documenté
@@ -27,12 +22,15 @@ statut: documenté
 
 **Définition fonctionnelle :** Mécanisme par lequel le cerveau évalue l'importance d'une situation — ce qu'il y a à gagner ou à perdre. Cette évaluation calibre la mobilisation de ressources : plus l'enjeu perçu est élevé, plus le cerveau alloue d'énergie (et de tension).
 
-> [!abstract] ✅ Fondement — Barrett (2017) · Yerkes & Dodson (1908)
-> Un enjeu perçu élevé = prédiction de coût métabolique important = mobilisation accrue = tension physique = contraction. Le cerveau optimise pour éviter la perte perçue. [documenté — Barrett 2017]
->
+> [!abstract] ✅ Fondement — Barrett (2017) · [[Fondements théoriques/03 — Cerveau prédictif]]
+> Un enjeu perçu élevé = prédiction de coût métabolique important = mobilisation accrue = tension physique = contraction. Le cerveau optimise pour éviter la perte perçue. [documenté]
+
+> [!abstract] ✅ Fondement — Yerkes & Dodson (1908) · [[01 — Angles morts & évolutions]]
 > La courbe de Yerkes-Dodson documente l'optimum d'activation : trop peu d'enjeu → sous-performance par manque de mobilisation. Trop d'enjeu → sur-activation → dégradation de la performance. Le Piédestal est une over-activation de l'enjeu perçu qui dépasse cet optimum. [documenté]
 
 **Modulation par L0 :** budget épuisé → seuil d'activation du Piédestal plus bas. Une session ordinaire peut déclencher le pattern sous état dégradé.
+
+**Universalité :** évaluer l'enjeu est nécessaire à la mobilisation appropriée. La dysfonction naît de la surévaluation — quand l'enjeu perçu dépasse systématiquement l'enjeu réel.
 
 ---
 
@@ -40,59 +38,71 @@ statut: documenté
 
 #### A. Pôle défensif — Piédestal
 
-**Expression 1 — Haute énergie → précipitation**
-- **Condition :** haute énergie perçue + L1 Compétence défensif + entity thinking
-- **Mécanisme :** haute énergie → "aujourd'hui je peux jouer au sommet" → enjeu perçu explose (potentiel immense ET risque de le rater immense) → contraction → précipitation ou contre-performance
-- **Lien entity thinking :** pour l'entity thinker, la haute énergie est une *révélation* de l'entité réelle — et donc une opportunité qui ne reviendra pas identique. Ce qui rend l'enjeu disproportionné.
-- **Output typique :** précipitation in-game · décisions depuis l'impulsion plutôt que le processus · activation cascade [[Écart attentes réalité → Honte → Contre-performance]]
+> **Rappel architectural :** le Piédestal est activé par la Compétence défensive — si la maîtrise est un rempart identitaire, les moments de haute performance deviennent des tests de l'entité qu'il ne faut pas rater.
+
+**Expression 1 — Haute énergie → "ne pas gâcher" → précipitation**
+- **L1 actif :** Besoin de Compétence en mode défensif · Perfectionnisme protecteur
+  *Ce qui est menacé :* l'opportunité de "prouver" l'entité compétente dans de bonnes conditions — rater ce moment serait une preuve de l'entité déficiente
+- **Mécanisme L1→L2 :** haute énergie perçue → "aujourd'hui je peux jouer au sommet" → l'entity thinking traite ça comme une révélation de l'entité réelle → opportunité unique à ne pas rater → enjeu perçu explose (potentiel immense ET risque de le rater immense) → contraction → précipitation ou contre-performance
+- **Condition déclenchante :** haute énergie perçue + L1 Compétence défensif + entity thinking
+- **Lien entity thinking :** pour l'entity thinker, la haute énergie est une *révélation* temporaire de l'entité réelle. Ce qui rend l'enjeu disproportionné — ne pas saisir = preuve de l'entité déficiente. → [[Fondements théoriques/09 — Mastery orientation · Entity theory]]
+- **Output typique :** précipitation in-game · décisions depuis l'impulsion · activation cascade Honte → Contre-performance
 - **L3 générée :** [[Anxiété d'évaluation]]
 - **Statut :** [observation personnelle — 28-05-2026 · documenté Alexis]
 
-**Expression 2 — Bon run → enjeu de "ne pas gâcher"**
-- **Condition :** session qui démarre bien + entity thinking + BIS/BAS tension active
-- **Mécanisme :** bonne dynamique → "je ne peux pas gâcher ça" → l'enjeu de la session devient disproportionné → anxiété d'évaluation → dégradation
-- **Lien entity thinking :** le bon run est traité comme preuve de l'entité à protéger — pas comme variance favorable
+**Expression 2 — Bon run → "ne pas gâcher" → jeu contracté**
+- **L1 actif :** Besoin de Compétence défensif
+  *Ce qui est menacé :* le bon run est traité comme preuve de l'entité à protéger — le perdre invaliderait l'entité
+- **Mécanisme L1→L2 :** bonne dynamique de session → "je ne peux pas gâcher ça" → l'enjeu de la session devient disproportionné → anxiété d'évaluation → dégradation
+- **Condition déclenchante :** session qui démarre bien + entity thinking + BIS/BAS tension active
+- **Lien entity thinking :** le bon run est une donnée sur l'entité à préserver, pas de la variance favorable à jouer normalement
 - **Output typique :** jeu contracté · over-fold · décisions défensives
 - **L3 générée :** [[Anxiété d'évaluation]]
 - **Statut :** [documenté — Alexis 05-29-2026]
 
-**Expression 3 — Enjeu externe perçu (observateur imaginé)**
-- **Condition :** dissociation active + entity thinking + L1 Appartenance défensif
-- **Mécanisme :** la présence réelle ou imaginée d'un regard compétent gonfle l'enjeu — on joue pour l'image projetée autant que pour la décision
+**Expression 3 — Observateur imaginé → enjeu identitaire amplifié**
+- **L1 actif :** Besoin de Compétence défensif + Besoin d'Appartenance défensif
+  *Ce qui est menacé :* paraître compétent sous le regard d'un observateur qualifié
+- **Mécanisme L1→L2 :** présence réelle ou imaginée d'un regard compétent → la Compétence et l'Appartenance menacées ensemble → l'enjeu de la main explose (pas seulement l'EV mais l'image) → co-activation avec Dissociation
+- **Condition déclenchante :** reg compétent présent ou imaginé + entity thinking
 - **Lien entity thinking :** l'observateur est traité comme juge de l'entité
-- **Output typique :** co-activation avec Dissociation · jeu d'image plutôt que jeu de processus
 - **L3 générée :** [[Anxiété d'évaluation]]
-- **Statut :** [inféré depuis L2/01 Dissociation · adjacent non encore documenté séparément]
+- **Statut :** [inféré depuis Dissociation · adjacent]
 
 #### B. Pôle générateur — Enjeu calibré
 
 **Expression 1 — Haute énergie comme ressource**
-- **Condition :** L1 Compétence générateur + mastery thinking
-- **Mécanisme :** haute énergie → ressource disponible, pas révélation de l'entité → enjeu reste proportionné → fluidité
-- **Lien mastery thinking :** la haute énergie est un état parmi d'autres, pas une opportunité unique à ne pas rater. L'identité ne dépend pas de ce que cette session produit.
+- **Condition :** L1 Compétence générateur + mastery thinking + L0 satisfait
+- **Mécanisme :** haute énergie → ressource disponible pour jouer mieux, pas révélation de l'entité → enjeu reste proportionné → fluidité
+- **Lien mastery thinking :** la haute énergie est un état parmi d'autres, pas une opportunité unique à ne pas rater. L'identité ne dépend pas de ce que cette session produit. → [[Fondements théoriques/09 — Mastery orientation · Entity theory]]
 - **Output typique :** engagement depuis soi · décisions libres · performance stable
-- **Statut :** [inféré depuis Dweck 2006 · à documenter par l'expérience]
+- **L3 générée :** Certitude · Enthousiasme
+- **Statut :** [inféré · à documenter par l'expérience]
 
 ---
 
 ## III. Instances personnelles documentées
 
-| Date | Contexte | Expression | Émotion |
-|---|---|---|---|
-| 28-05-2026 | Haute énergie → précipitation → collapse | Expression 1 | Honte · Anxiété d'évaluation |
-| — | — | — | — |
+| Date | Contexte | Expression activée | Émotion produite | Source |
+|---|---|---|---|---|
+| 28-05-2026 | Haute énergie → précipitation → collapse | Expression 1 | Anxiété d'évaluation · Honte | Observation personnelle |
 
 ---
 
-## IV. Connexions dans l'écosystème L0→L4
+## IV. Connexions dans l'écosystème — Bidirectionnel
 
-| Niveau | Connexion |
-|---|---|
-| **L0** | Budget épuisé → seuil Piédestal plus bas · haute énergie perçue = déclencheur principal |
-| **L1 déclencheurs** | Besoin de Compétence défensif · Perfectionnisme protecteur · Besoin d'Appartenance (observateur imaginé) |
-| **L2 associés** | Dissociation (observateur) · Pensée binaire (verdict entité) · Suranticipation (projection anxieuse du retournement) |
-| **L3 produites** | Anxiété d'évaluation · Honte post-session |
-| **L4 comportements** | Précipitation · Over-fold · Étude compulsive post-session |
+| Niveau | Sens | Connexion |
+|---|---|---|
+| **Opération neutre → L0** | intrinsèque | Coût modéré — l'évaluation de l'enjeu est brève mais la tension maintenue consume L0 |
+| **L0 → L2** | descendant | Budget épuisé → seuil Piédestal plus bas · haute énergie perçue sous L0 épuisé peut être un faux signal |
+| **L2(défensif) → L0** | ascendant ⚠️ | Activation du système de menace (cortisol, tension) → dépense métabolique élevée · dégrade L0 si session longue sous Piédestal |
+| **L2(générateur) → L0** | ascendant ✅ | Enjeu calibré → pas de sur-activation → budget préservé |
+| **L1 → L2** | descendant | Besoin de Compétence défensif + Perfectionnisme → Piédestal · Compétence générateur → Enjeu calibré |
+| **L2(défensif) → L1** | ascendant ⚠️ | Répétition renforce "les moments de haute forme doivent être saisis parfaitement" → ancre le Perfectionnisme protecteur |
+| **L2(générateur) → L1** | ascendant ✅ | Enjeu calibré répété consolide "je joue depuis mon identité indépendamment du résultat" → renforce la Compétence générative |
+| **L2 associés** | latéral | Dissociation (Expression 3) · Suranticipation (projection anxieuse du retournement) · Pensée binaire (verdict entité) |
+| **L3 produites** | descendant | Anxiété d'évaluation · Honte post-session (défensif) · Certitude · Enthousiasme (générateur) |
+| **L4 comportements** | descendant | Précipitation · Over-fold · Étude compulsive post-session |
 
 **Distinction des schémas proches :**
 - vs **Pensée binaire** : la Pensée binaire évalue l'entité globale. Le Piédestal évalue l'enjeu d'une situation spécifique. Les deux peuvent se co-activer.
@@ -100,25 +110,25 @@ statut: documenté
 
 ---
 
-## V. Régulation — Stratégies Gross
+## V. Régulation — Stratégies Gross · [[Fondements théoriques/06 — Contrôle perçu & régulation émotionnelle]]
 
-| Stratégie | Applicable | Application |
+| Stratégie | Moment d'intervention | Application concrète |
 |---|---|---|
-| 1 · Sélection | oui | Warmup : identifier la haute énergie et nommer explicitement le risque Piédestal avant de lancer |
-| 2 · Modification | partiel | Réduire le nombre de tables si haute énergie détectée |
-| 3 · Attentionnel | partiel | Orienter l'attention vers le processus (décision devant soi) plutôt que l'enjeu global |
-| 4 · Reappraisal | oui | "Je joue depuis mon identité — pas pour l'image de cette forme." Déplacer de l'enjeu vers le processus |
-| 5 · Modulation | partiel | Switch Actif si précipitation détectée in-game |
+| 1 · Sélection | Avant la situation | Warmup : identifier la haute énergie et nommer explicitement le risque Piédestal avant de lancer |
+| 2 · Modification | Pendant — amont | Réduire le nombre de tables si haute énergie détectée |
+| 3 · Attentionnel | Pendant — amont | Orienter vers la décision présente plutôt que l'enjeu global de la session |
+| 4 · Reappraisal | Pendant — aval | *"Je joue depuis mon identité — pas pour l'image de cette forme"* |
+| 5 · Modulation | Pendant / après | Switch Actif si précipitation détectée in-game |
 
 **Stratégie prioritaire :** Sélection (1) en warmup — nommer le Piédestal avant de lancer est plus efficace qu'essayer de le réguler in-game.
-**Si L0 épuisé :** Reappraisal seul ne suffit pas. Modifier la situation (moins de tables, session courte).
+**Note L0 :** sous budget épuisé, la haute énergie perçue peut être un faux signal. Vérifier L0 avant de conclure à une journée optimale.
 
 ---
 
 ## VI. Signaux de détection
 
 > [!warning] Le pattern Piédestal est actif quand...
-> - Une pensée sur la forme ou l'énergie du jour génère immédiatement une pensée sur "ne pas gâcher"
+> - Une pensée sur la forme génère immédiatement une pensée sur "ne pas gâcher"
 > - La session semble trop importante pour être jouée normalement
 > - La haute énergie génère de la tension plutôt que de la fluidité
 > - L'enjeu ressenti est disproportionné aux enjeux financiers réels
@@ -129,18 +139,18 @@ statut: documenté
 
 ## VII. Protocoles d'interruption
 
+> [!tip] In-game · Timebank
+> *"Je joue ce coup depuis moi — pas pour l'image de cette forme."*
+> Switch Actif si précipitation naissante. → [[item Switch Actif]]
+
 > [!tip] Avant session · Warmup
 > Si haute énergie détectée : nommer explicitement. *"Je suis en haute énergie. Le risque Piédestal est présent. Je joue depuis mon identité, indépendamment du résultat."*
 
-> [!tip] In-game · Timebank
-> *"Je joue ce coup depuis moi — pas pour l'image de cette forme."*
-> Switch Actif si précipitation naissante.
-
-> [!tip] Post-session
-> Si Piédestal activé : analyser le warmup du lendemain plutôt qu'immédiatement après. Le remembering self sous anxiété produira de la Sélectivité mémorielle.
+> [!tip] Post-session · Review
+> Si Piédestal activé : faire le feedback le lendemain plutôt qu'immédiatement. Le remembering self sous anxiété produira de la Sélectivité mémorielle.
 
 > [!tip] Si L0 épuisé
-> La haute énergie perçue sous L0 épuisé est un faux signal — vérifier L0 avant de conclure à une journée optimale.
+> La haute énergie perçue sous L0 épuisé est un faux signal. Vérifier le vrai état avant de lancer.
 
 ---
 
@@ -162,14 +172,14 @@ if (sessions.length > 0) {
 
 ## Sources
 
-[^1]: Barrett, L.F. (2017). *How Emotions Are Made*. Houghton Mifflin.
-[^2]: Yerkes, R.M. & Dodson, J.D. (1908). The relation of strength of stimulus to rapidity of habit-formation. *Journal of Comparative Neurology and Psychology*.
-[^3]: Dweck, C.S. (2006). *Mindset*. Random House.
+[^1]: Barrett, L.F. (2017). *How Emotions Are Made*. Houghton Mifflin. → [[Fondements théoriques/03 — Cerveau prédictif]]
+[^2]: Yerkes, R.M. & Dodson, J.D. (1908). The relation of strength of stimulus to rapidity of habit-formation. *Journal of Comparative Neurology and Psychology*. → [[01 — Angles morts & évolutions]]
+[^3]: Dweck, C.S. (2006). *Mindset*. Random House. → [[Fondements théoriques/09 — Mastery orientation · Entity theory]]
 
 ## Notes liées
 - [[00 - Index Schémas]] · [[01 — Architecture du modèle]]
 - [[Fondements théoriques/09 — Mastery orientation · Entity theory]]
 - [[L1 - Structures profondes/01 — Besoin de Compétence]]
 - [[L3 - Émotions/Anxiété d'évaluation]] · [[L3 - Émotions/La Honte]]
-- [[L4 — Comportements & Boucles/Cascades/02 — Écart attentes réalité → Honte → Contre-performance]]
-- [[Protocoles/Performance/01 — Avant session]] · [[item Switch Actif]]
+- [[01 — Mentalisation -- Dissociation]]
+- [[item Switch Actif]]

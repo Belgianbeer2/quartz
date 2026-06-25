@@ -68,6 +68,19 @@ statut: document vivant — mise à jour continue
 - *"Entity avoidance en live — difficile de quitter une table perdant, importance du regard des autres joueurs."* → Fiche 09 à enrichir
 - *"Je me soucie du regard des autres car je pense qu'ils sont en entity mindset — connecté à l'isolement social qui induit un biais sur le jugement d'autrui."* → Intersection Dissociation + Entity theory + Co-régulation sociale
 - *"Suis-je concerné par le mastery avoidance ?"* → À confirmer avec Alexis
+- L2 08 - Il faut reconstruire les schéma antagoniste: je fonctionne beaucoup en mode starbursting et de ce que je lis, ce n'est pas un schéma défensif mais au contraire un schémaneutre avancé. Et je n'aime pas l'oposition neutre mleilleur qui consisterai à faire une tâche après l'autre. Je dirais plus qu'il y a une bonne manière de faire du starbursting et une manière éclaté au sol d'essayer d'en faire. Le starbursting s'opposerait alors à la dispersion cognitive (Scattering) - syndrôme de sur-engagement défensif. Il y a des besoins de nouveau fondements théoriques -> à compléter dans angle mort pour la suite du projet. 
+	voir aussi :
+	* Perfectionnisme dysfonctionnel/inadapté
+	* Procrastination Productive (le faux travail)
+	- La sur-ingéniérie défensive
+	- le perfectionnisme "tout ou rien"
+	Attention que certains autres schémas mentionne l'étoilement comme schéma défensif dans leurs exemples. Il faudra corriger avec le terme adéquat
+* Emotions : 
+	* on devrait augmenté la granularité des émotions (surtout sur le pole bien-être) : on en a pas assez
+	* il manque les ressentis intéroceptifs propre à chaque émotions
+	* il manque également les connexions propre des émotions aux fondements théoriques (BIS/BAS, Entity/Mastery,...), aux schéma cognitifs, et aux structure profondes
+
+
 
 ---
 

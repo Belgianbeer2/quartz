@@ -1,17 +1,12 @@
 ---
 type: schema_L2
-tags:
-  - L2
-  - schema
-  - pensée-binaire
-  - évaluation-soi
-  - inner-mapping
+tags: [L2, schema, pensée-binaire, évaluation-soi, inner-mapping]
 L2_neutre: "Évaluation du soi"
 pôle_défensif: "Pensée binaire"
 pôle_générateur: "Évaluation graduée"
 L1_déclencheurs: ["Besoin de Compétence défensif", "Perfectionnisme protecteur"]
 émotions_produites: ["[[La Honte]]", "[[Impuissance]]", "[[Frustration]]"]
-stratégies_Gross: ["4 — Reappraisal", "3 — Déploiement attentionnel"]
+stratégies_Gross: ["3 — Déploiement attentionnel", "4 — Reappraisal"]
 entity_mastery: "défensif"
 date: 2026-06-21
 statut: documenté
@@ -25,103 +20,109 @@ statut: documenté
 
 ## I. L'opération neutre — Évaluation du soi
 
-**Définition fonctionnelle :** Mécanisme par lequel le cerveau évalue sa propre compétence, sa valeur ou ses performances à un moment donné. Input : un résultat ou un comportement. Output : une conclusion sur ce qu'on est ou ce qu'on vaut. Cette opération est nécessaire — elle permet la calibration réaliste du niveau et l'orientation de l'effort.
+**Définition fonctionnelle :** Mécanisme par lequel le cerveau évalue sa propre compétence, valeur ou performance. Input : un résultat ou comportement. Output : une conclusion sur ce qu'on est ou ce qu'on vaut. Nécessaire pour la calibration réaliste du niveau et l'orientation de l'effort.
 
-> [!abstract] ✅ Fondement — Beck (1979) · Dweck (2006)
-> Beck identifie la pensée dichotomique comme distorsion cognitive fondamentale : évaluation en termes absolus, absence de gradient. Dweck montre que ce mode d'évaluation est structurellement lié à l'entity theory — si la compétence est fixe, elle ne peut être qu'entière ou absente. [documenté]
+> [!abstract] ✅ Fondement — Beck (1979) · [[01 — Angles morts & évolutions]]
+> Beck identifie la pensée dichotomique comme distorsion cognitive fondamentale : évaluation en termes absolus, absence de gradient. [documenté]
 
-**Modulation par L0 :** sous budget épuisé, le cerveau simplifie ses prédictions — la nuance est coûteuse. L'évaluation graduée devient inaccessible et la pensée binaire s'impose comme mode par défaut. [inféré depuis Barrett 2017]
+> [!abstract] ✅ Fondement — Dweck (2006) · [[Fondements théoriques/09 — Mastery orientation · Entity theory]]
+> La pensée binaire est structurellement liée à l'entity theory : si la compétence est fixe, elle ne peut être qu'entière ou absente. Le mastery thinker évalue sur un gradient — la compétence est incrémentale. [documenté]
 
-**Universalité :** s'auto-évaluer est adaptatif — cela permet d'ajuster l'effort et de choisir les contextes appropriés. La pathologie n'est pas dans l'évaluation mais dans son mode : discret (tout-ou-rien) vs continu (gradient).
+**Modulation par L0 :** budget épuisé → le cerveau simplifie ses prédictions — la nuance est coûteuse. L'évaluation graduée devient inaccessible et la pensée binaire s'impose comme mode par défaut. → [[Fondements théoriques/03 — Cerveau prédictif]]
+
+**Universalité :** s'auto-évaluer est adaptatif — permet d'ajuster l'effort et choisir les contextes. La dysfonction naît du mode : discret (tout-ou-rien) vs continu (gradient).
 
 ---
 
 ## II. Cartographie des pôles
 
-> **Méthode :** partir des pièces documentées, les géolocaliser dans l'espace L1 × entity/mastery × L0, compléter les adjacents.
-
 #### A. Pôle défensif — Pensée binaire
 
+> **Rappel architectural :** la Pensée binaire protège le L1 défensif en simplifiant l'évaluation à deux cases — une évaluation nuancée exposerait trop l'entité fixe à l'incertitude.
+
 **Expression 1 — Verdict après erreur technique**
-- **Condition :** erreur sur spot connu + L1 Besoin de Compétence défensif + entity thinking actif
-- **Mécanisme :** l'erreur est traitée comme preuve de l'entité fixe déficiente. Pas d'espace pour "j'ai fait une erreur sur ce spot" — directement "je suis mauvais"
-- **Lien entity thinking :** l'entity thinker n'a pas de case intermédiaire. La compétence est fixe → une erreur est une donnée sur l'entité, pas sur le processus
-- **Output typique :** spirale d'auto-critique · effondrement de confiance · activation de la Rumination
+- **L1 actif :** Besoin de Compétence en mode défensif · Intransigeance
+  *Ce qui est menacé :* l'entité de joueur compétent — une erreur technique menace l'intégrité de l'entité fixe
+- **Mécanisme L1→L2 :** l'erreur est traitée comme preuve de l'entité déficiente. La Compétence menacée n'a pas de case "j'ai fait une erreur sur ce spot" — seulement "je suis bon joueur" ou "je suis mauvais joueur". Le gradient est absent parce que l'entity thinking le rend structurellement impossible.
+- **Condition déclenchante :** erreur sur spot connu + L1 Compétence défensif + entity thinking actif
+- **Lien entity thinking :** l'entity thinker n'a pas de case intermédiaire. La compétence est fixe → une erreur est une donnée sur l'entité, pas sur le processus. → [[Fondements théoriques/09 — Mastery orientation · Entity theory]]
+- **Output typique :** spirale d'auto-critique · effondrement de confiance · activation Rumination et Auto-flagellation
 - **L3 générée :** [[La Honte]] · [[Impuissance]]
-- **Statut :** [observation personnelle — documenté dans les cascades L4]
+- **Statut :** [observation personnelle — documenté dans les cascades]
 
 **Expression 2 — Verdict après mauvais résultat (run bad)**
-- **Condition :** plusieurs sessions perdantes + Vision zoomée co-active + entity thinking
-- **Mécanisme :** résultats sur courte fenêtre → verdict sur l'entité entière. "Je perds depuis 3 sessions" devient "je ne suis pas ce joueur"
-- **Lien entity thinking :** la variance ne peut pas être une explication satisfaisante pour l'entity thinker — les résultats *révèlent* la compétence fixe
+- **L1 actif :** Besoin de Compétence défensif
+  *Ce qui est menacé :* la validité de l'entité "bon joueur" — la variance est traitée comme révélation identitaire
+- **Mécanisme L1→L2 :** résultats sur courte fenêtre → Vision zoomée co-active → verdict binaire "je ne suis pas ce joueur". La Compétence menacée ne peut pas accepter "c'est de la variance" car ça implique que l'entité n'est pas fixe.
+- **Condition déclenchante :** mauvais run + budget L0 épuisé + entity thinking
+- **Lien entity thinking :** la variance ne peut pas être une explication satisfaisante — les résultats *révèlent* la compétence fixe
 - **Output typique :** remise en question du niveau · abandon ou étude compulsive compensatoire
 - **L3 générée :** [[La Honte]] · [[Frustration]]
-- **Statut :** [inféré depuis Dweck 2006 · adjacent documenté dans Vision zoomée]
+- **Statut :** [inféré depuis entity theory · adjacent documenté dans Vision zoomée]
 
-**Expression 3 — Verdict après bonne performance (euphorie binaire)**
-- **Condition :** bon run + entity thinking + L0 satisfait
-- **Mécanisme :** l'entité fixe est "confirmée" positivement. "Je suis un bon joueur" devient une certitude absolue — sans gradient, sans variance reconnue
-- **Lien entity thinking :** symétrique du pôle négatif. L'entity thinker n'a que deux cases — dans la case "bon" il est aussi absolu que dans la case "mauvais"
-- **Output typique :** surconfiance · prise de risque non calibrée · activation du Piédestal
-- **L3 générée :** excitation non régulée → cf. Suranticipation pôle euphorique
-- **Statut :** [adjacent — non encore observé · inféré depuis Dweck 2006]
+**Expression 3 — Verdict positif absolu (euphorie binaire)**
+- **L1 actif :** Besoin de Compétence défensif positif
+  *Ce qui est menacé (inversé) :* l'image positive de l'entité que le bon run "révèle" et qu'il faut protéger
+- **Mécanisme L1→L2 :** bon résultat → l'entité fixe est "confirmée" positivement → certitude absolue "je suis un bon joueur" — sans gradient, sans variance reconnue. Même mécanisme, direction positive.
+- **Condition déclenchante :** bon run + entity thinking + BAS élevé
+- **Output typique :** surconfiance · Piédestal · montée de limites non calibrée
+- **L3 générée :** excitation non régulée
+- **Statut :** [adjacent — inféré depuis entity theory · [[Fondements théoriques/09 — Mastery orientation · Entity theory]]]
 
 #### B. Pôle générateur — Évaluation graduée
 
 **Expression 1 — Erreur comme information processus**
-- **Condition :** L1 Besoin de Compétence générateur + mastery thinking
-- **Mécanisme :** l'erreur est une donnée sur le processus, pas sur l'entité. "J'ai sous-estimé le range adverse sur ce spot" — révisable, actionnable
-- **Lien mastery thinking :** la compétence est incrémentale → une erreur est une information sur l'état du développement, pas une révélation de l'entité
+- **Condition :** L1 Compétence générateur + mastery thinking + L0 satisfait
+- **Mécanisme :** l'erreur est une donnée sur le processus, pas sur l'entité. "J'ai sous-estimé le range adverse sur ce spot" — révisable, actionnable, pas identitaire.
+- **Lien mastery thinking :** la compétence est incrémentale → une erreur est de l'information sur l'état du développement, pas une révélation de l'entité. → [[Fondements théoriques/09 — Mastery orientation · Entity theory]]
 - **Output typique :** analyse fondée · ajustement ciblé · pas d'effondrement identitaire
-- **L3 générée :** curiosité · détermination
-- **Statut :** [documenté — Dweck 2006 · à ancrer par l'expérience]
-
-**Expression 2 — Résultat comme signal parmi d'autres**
-- **Condition :** mastery thinking + perspective long terme (Calibration temporelle bien-être)
-- **Mécanisme :** le résultat d'une session est un point de données dans une distribution. Il informe sans trancher
-- **Output typique :** maintien de l'engagement · feedback structuré · pas de verdict identitaire
-- **Statut :** [inféré · co-active avec Calibration temporelle pôle générateur]
+- **L3 générée :** Curiosité · Détermination calibrée
+- **Statut :** [documenté — Dweck 2006 · [[01 — Angles morts & évolutions]]]
 
 ---
 
 ## III. Instances personnelles documentées
 
-| Date | Contexte | Expression activée | Émotion produite |
-|---|---|---|---|
-| 28-05-2026 | Session haute énergie → dégradation | Verdict négatif post-session | Honte · Impuissance |
-| — | — | — | — |
+| Date | Contexte | Expression activée | Émotion produite | Source |
+|---|---|---|---|---|
+| 28-05-2026 | Session difficile → verdict "échec total" | Expression 1 | Honte | Observation personnelle |
 
 ---
 
-## IV. Connexions dans l'écosystème L0→L4
+## IV. Connexions dans l'écosystème — Bidirectionnel
 
-| Niveau | Connexion |
-|---|---|
-| **L0** | Budget épuisé → pensée binaire comme mode par défaut (simplification prédictive) |
-| **L1 déclencheurs** | Besoin de Compétence défensif · Perfectionnisme protecteur |
-| **L2 associés** | Calibration temporelle (co-active) · Rumination (s'emballe sous pensée binaire) · Piédestal (version positive) |
-| **L3 produites** | Honte · Impuissance · Frustration |
-| **L4 comportements** | Étude compulsive · Retrait · Collapse identitaire |
+| Niveau | Sens | Connexion |
+|---|---|---|
+| **Opération neutre → L0** | intrinsèque | Coût faible — l'évaluation du soi est brève |
+| **L0 → L2** | descendant | Budget épuisé → simplification prédictive → pensée binaire comme mode par défaut |
+| **L2(défensif) → L0** | ascendant ⚠️ | Verdict négatif répété active le stress identitaire → consomme L0 par activation du système de menace |
+| **L2(générateur) → L0** | ascendant ✅ | Évaluation graduée réduit l'anxiété identitaire → préserve le budget · légèrement restauratrice |
+| **L1 → L2** | descendant | Besoin de Compétence défensif → pensée binaire · Compétence générateur → évaluation graduée |
+| **L2(défensif) → L1** | ascendant ⚠️ | Répétition renforce "les erreurs révèlent ce que je suis" → ancre la Compétence défensive et l'Intransigeance |
+| **L2(générateur) → L1** | ascendant ✅ | Évaluation graduée répétée consolide "les erreurs sont informationnelles" → renforce la Compétence générative |
+| **L2 associés** | latéral | Rumination (s'emballe sur le verdict binaire) · Sélectivité mémorielle (filtre pour confirmer le verdict) · Auto-flagellation (exécute le verdict en punition) · Vision zoomée (fournit les données depuis la mauvaise fenêtre) |
+| **L3 produites** | descendant | Honte · Impuissance · Frustration (défensif) · Curiosité · Détermination (générateur) |
+| **L4 comportements** | descendant | Étude compulsive · Retrait · Collapse identitaire |
 
 **Distinction des schémas proches :**
-- vs **Rumination** : la pensée binaire *produit* le verdict, la rumination *rejoue* ce verdict en boucle
-- vs **Piédestal** : le Piédestal est la pensée binaire appliquée à l'enjeu d'une session spécifique, pas à l'identité globale
-- vs **Sélectivité mémorielle** : la sélectivité filtre les souvenirs pour confirmer le verdict binaire déjà posé
+- vs **Rumination** : la Pensée binaire *produit* le verdict. La Rumination *rejoue* ce verdict en boucle.
+- vs **Piédestal** : le Piédestal évalue l'enjeu d'une situation spécifique. La Pensée binaire évalue l'entité globale.
+- vs **Auto-flagellation** : la Pensée binaire produit le verdict "je suis mauvais". L'Auto-flagellation est la réponse à ce verdict — ce qu'on fait avec.
 
 ---
 
-## V. Régulation — Stratégies Gross
+## V. Régulation — Stratégies Gross · [[Fondements théoriques/06 — Contrôle perçu & régulation émotionnelle]]
 
-| Stratégie | Applicable | Application |
+| Stratégie | Moment d'intervention | Application concrète |
 |---|---|---|
-| 1 · Sélection de situation | partiel | Éviter les contextes de haute évaluation quand L0 est épuisé |
-| 2 · Modification de situation | non | — |
-| 3 · Déploiement attentionnel | oui | Orienter l'attention vers les données processuelles plutôt que les résultats |
-| 4 · Reappraisal | oui | "Cette erreur est une information sur mon processus, pas sur mon entité" |
-| 5 · Modulation | partiel | Nommer le verdict binaire avant qu'il s'installe |
+| 1 · Sélection | Avant la situation | Ne pas faire de feedback immédiatement après une erreur émotionnellement chargée |
+| 2 · Modification | Pendant — amont | Changement d'environnement physique avant l'analyse |
+| 3 · Attentionnel | Pendant — amont | *"Est-ce que je juge ce que j'ai fait — ou ce que je suis ?"* |
+| 4 · Reappraisal | Pendant — aval | *"Cette erreur est une information sur mon processus — pas un verdict sur mon identité"* |
+| 5 · Modulation | Pendant / après | — |
 
 **Stratégie prioritaire :** Reappraisal (4) — déplacer de l'entité vers le processus. Accessible tant que le PFC est en ligne.
-**Si L0 épuisé :** stratégie 3 minimum — ne pas analyser les résultats sous état épuisé. Reporter le feedback.
+**Note L0 :** sous budget épuisé, ne pas analyser les erreurs. Reporter le feedback. Le Système 2 est moins disponible → pensée binaire par défaut.
 
 ---
 
@@ -129,9 +130,9 @@ statut: documenté
 
 > [!warning] Le pattern Pensée binaire est actif quand...
 > - Une erreur génère immédiatement un jugement sur ce qu'on est (pas sur ce qu'on a fait)
-> - Le souvenir d'une session est uniformément positif ou uniformément négatif, sans nuance
+> - Le souvenir d'une session est uniformément positif ou négatif sans nuance
 > - La confiance fluctue entièrement sur 2-3 sessions
-> - Un bon résultat semble "prouver" le niveau, un mauvais semble l'"invalider"
+> - Un bon résultat "prouve" le niveau, un mauvais "l'invalide"
 >
 > **Question de détection :** *"Est-ce que je juge ce que j'ai fait — ou ce que je suis ?"*
 
@@ -142,11 +143,14 @@ statut: documenté
 > [!tip] In-game · Timebank
 > *"C'est une erreur sur ce spot — pas un verdict sur ce joueur."* Nommer le mécanisme coupe le circuit.
 
-> [!tip] Post-session
-> Commencer le feedback par les données processuelles (décisions respectées, protocoles utilisés) avant d'évaluer les résultats. La séquence produit un verdict gradué plutôt que binaire.
+> [!tip] Avant session
+> Intention : *"Aujourd'hui je joue en évaluation graduée. Les erreurs sont de l'information."*
+
+> [!tip] Post-session · Review
+> Commencer par les données processuelles (décisions respectées, protocoles utilisés) avant l'évaluation qualitative. La séquence produit un verdict gradué.
 
 > [!tip] Si L0 épuisé
-> Ne pas faire de feedback sous état épuisé. Le remembering self sous budget bas produit de la pensée binaire par défaut. Reporter au lendemain, données objectives en premier.
+> Ne pas faire de feedback sous état épuisé. Le remembering self sous budget bas produit de la pensée binaire par défaut. Reporter.
 
 ---
 
@@ -168,14 +172,14 @@ if (sessions.length > 0) {
 
 ## Sources
 
-[^1]: Beck, A.T. (1979). *Cognitive Therapy of Depression*. Guilford Press.
-[^2]: Dweck, C.S. (2006). *Mindset: The New Psychology of Success*. Random House.
-[^3]: Barrett, L.F. (2017). *How Emotions Are Made*. Houghton Mifflin.
+[^1]: Beck, A.T. (1979). *Cognitive Therapy of Depression*. Guilford Press. → [[01 — Angles morts & évolutions]]
+[^2]: Dweck, C.S. (2006). *Mindset: The New Psychology of Success*. Random House. → [[Fondements théoriques/09 — Mastery orientation · Entity theory]]
+[^3]: Barrett, L.F. (2017). *How Emotions Are Made*. Houghton Mifflin. → [[Fondements théoriques/03 — Cerveau prédictif]]
 
 ## Notes liées
-
 - [[00 - Index Schémas]] · [[01 — Architecture du modèle]]
 - [[Fondements théoriques/09 — Mastery orientation · Entity theory]]
 - [[L1 - Structures profondes/01 — Besoin de Compétence]]
 - [[L3 - Émotions/La Honte]] · [[L3 - Émotions/Impuissance]]
-- [[L4 — Comportements & Boucles/Cascades/02 — Écart attentes réalité → Honte → Contre-performance]]
+- [[09 — Encodage de l'erreur -- Auto-flagellation]]
+- [[10 -- Traitement mémoriel -- Rumination]]
