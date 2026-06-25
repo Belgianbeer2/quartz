@@ -25,6 +25,9 @@ date: 2026-06-21
 | **LFB** | Lisa Feldman Barrett | Neuroscientifique · théorie des émotions construites · cerveau prédictif · body budget. Référence centrale du modèle. → [[03 — Cerveau prédictif]] |
 | **SDT** | Self-Determination Theory | Théorie de l'auto-détermination (Deci & Ryan 2000). Trois besoins fondamentaux : Compétence · Autonomie · Appartenance. Fondement des L1. → [[L1 - Structures profondes/]] |
 | **NFC** | Need for Cognition | Besoin de cognition — motivation intrinsèque stable à s'engager dans des activités cognitives exigeantes (Cacioppo & Petty 1982). → [[08 — Need for Cognition]] |
+| **DMN** | Default Mode Network | Réseau cérébral actif au repos — s'emballe quand l'attention n'est pas dirigée vers une tâche précise. Siège de la mentalisation, de la rumination et de la dissociation. Coûteux en ressources métaboliques. → [[03 — Cerveau prédictif]] |
+| **ET** | Entity Thinking | Orientation cognitive qui traite la compétence comme une entité fixe révélée par les résultats. Amplifie les L2 défensifs. → [[09 — Mastery orientation · Entity theory]] |
+| **MT** | Mastery Thinking | Orientation cognitive qui traite la compétence comme incrémentale et développable par l'effort. Soutient les L2 générateurs. → [[09 — Mastery orientation · Entity theory]] |
 | **VSS** | *terme coaching Alexis* | Matériel de stress/trauma sévère — utilisé par Alexis Essaheli pour désigner des vécus émotionnellement chargés susceptibles de se réactiver sous haute activation. Définition exacte à clarifier en session. → [[03_Drill_L3_Colere_froide_Interrupt_escalade]] §I Stade 3 |
 
 ---
@@ -52,6 +55,16 @@ date: 2026-06-21
 | **Dépolarisation** | Protocole de travail avec Alexis Essaheli visant à neutraliser une polarité identitaire défensive. Processus en plusieurs sessions. |
 | **Switch Actif** | Reconvocation délibérée du Stratège en session — item Templater insérable dans le Feedback. |
 | **AM** | Angles morts | Zones non encore documentées ou formalisées dans le vault. → [[01 — Angles morts & évolutions]] |
+| **Reappraisal** | Changement cognitif | Stratégie de régulation Gross #4 — modifier l'interprétation d'une situation pour changer son impact émotionnel. La plus puissante des 5 stratégies Gross mais requiert du PFC disponible. → [[06 — Contrôle perçu & régulation émotionnelle]] |
+| **Pôle défensif** | — | Expression d'un L2 sous appui L1 défensif et/ou entity thinking — produit une distorsion cognitive au service de la protection identitaire. → [[L2 - Schémas Cognitifs/PROMPT — Fiche L2]] |
+| **Pôle générateur** | — | Expression d'un L2 sous appui L1 générateur et/ou mastery thinking — produit un output fonctionnel au service de la croissance. → [[L2 - Schémas Cognitifs/PROMPT — Fiche L2]] |
+| **Experiencing self** | — | Le soi qui vit l'expérience en temps réel (Kahneman 2011) — ce qui se passe réellement pendant la session. → [[01 — Angles morts & évolutions]] |
+| **Remembering self** | — | Le soi qui reconstruit l'expérience après coup (Kahneman 2011) — toujours coloré par l'état émotionnel au moment du rappel. Fondement de la Sélectivité mémorielle (L2/03). → [[01 — Angles morts & évolutions]] |
+| **Starbursting** | — | Mode d'allocation attentionnelle multi-directionnelle générateur — exploration simultanée de plusieurs angles avec un fil directeur, produisant une synthèse. Naturel pour les profils NFC élevés. Pôle générateur de [[L2/08]]. → [[08 — Need for Cognition]] |
+| **Scattering** | — | Mode d'allocation attentionnelle fragmentée défensive — même surface que le Starbursting mais sans fil directeur ni synthèse. Causé par L0 épuisé ou évitement défensif. Pôle défensif de [[L2/08]]. |
+| **Complexity creep** | — | Dérive progressive où le système construit dépasse l'objectif initial et devient autotélique — la construction devient la fin plutôt que le moyen. Signal de dérive de la Suramplification (L2/11). |
+| **Procrastination Productive** | — | Évitement de la tâche centrale qui expose au risque d'échec, habillé en productivité sur des tâches secondaires. Forme défensive du Scattering (L2/08 Expression 2). → [[01 — Angles morts & évolutions]] |
+| **Sur-ingénierie défensive** | — | Perfectionnisme "tout ou rien" appliqué à la construction — raffiner indéfiniment plutôt que déployer pour éviter le verdict "insuffisant". Forme défensive du Scattering (L2/08 Expression 3). → [[01 — Angles morts & évolutions]] |
 
 ---
 
