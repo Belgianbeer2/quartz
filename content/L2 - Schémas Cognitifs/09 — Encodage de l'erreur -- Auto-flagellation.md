@@ -1,13 +1,24 @@
 ---
 type: schema_L2
-tags: [L2, schema, auto-flagellation, encodage-erreur, inner-mapping]
-L2_neutre: "Encodage de l'erreur"
-pôle_défensif: "Auto-flagellation"
-pôle_générateur: "Ancrage par compréhension"
-L1_déclencheurs: ["Besoin de Compétence défensif", "Intransigeance envers soi"]
-émotions_produites: ["[[La Honte]]", "[[Impuissance]]"]
-stratégies_Gross: ["1 — Sélection de situation", "4 — Reappraisal"]
-entity_mastery: "défensif"
+tags:
+  - L2
+  - schema
+  - auto-flagellation
+  - encodage-erreur
+  - inner-mapping
+L2_neutre: Encodage de l'erreur
+pôle_défensif: Auto-flagellation
+pôle_générateur: Ancrage par compréhension
+L1_déclencheurs:
+  - Besoin de Compétence défensif
+  - Intransigeance envers soi
+émotions_produites:
+  - "[[Honte]]"
+  - "[[Impuissance]]"
+stratégies_Gross:
+  - 1 — Sélection de situation
+  - 4 — Reappraisal
+entity_mastery: défensif
 date: 2026-06-21
 statut: documenté
 ---
@@ -50,7 +61,7 @@ statut: documenté
 - **Lien entity thinking :** l'entity thinker doit punir son entité pour "l'empêcher de refaire ça" — logique interne cohérente avec une entité fixe. → [[Fondements théoriques/09 — Mastery orientation · Entity theory]]
 - **Ironie documentée :** la punition inhibe la flexibilité cognitive nécessaire à l'analyse de l'erreur. L'auto-flagellation produit l'inverse de son intention déclarée.
 - **Output typique :** "c'est nul, c'est vraiment nul" · "je ne devrais jamais faire ça" · discours intérieur agressif · PFC moins disponible → apprentissage dégradé
-- **L3 générée :** [[La Honte]] · [[Impuissance]]
+- **L3 générée :** [[Honte]] · [[Impuissance]]
 - **Statut :** [observation personnelle passée · documenté chez autrui · inféré depuis Neff 2003 · Gilbert 2009]
 
 **Expression 2 — Auto-flagellation préventive**
@@ -84,7 +95,7 @@ statut: documenté
 
 ---
 
-## IV. Connexions dans l'écosystème — Bidirectionnel
+## IV. Connexions dans l'écosystème L0→L4
 
 | Niveau | Sens | Connexion |
 |---|---|---|
@@ -166,6 +177,47 @@ if (sessions.length > 0) {
 }
 ```
 
+> [!note]- 📅 Jours concernés — O&R
+> ```dataviewjs
+> let p = dv.current();
+> let targetPattern;
+> if (p["pôle_défensif"]) {
+>     targetPattern = p["pôle_défensif"];
+> } else {
+>     let nameParts = p.file.name.split(" -- ");
+>     targetPattern = nameParts.length > 1 ? nameParts[nameParts.length - 1] : p.file.name;
+> }
+> let orPage = dv.page("📝 observation et ressentis");
+> if (!orPage) {
+>     dv.paragraph("*⚠️ Fichier O&R introuvable.*");
+> } else {
+>     let content = await dv.io.load(orPage.file.path);
+>     let sections = content.split(/\n##\s+/);
+>     let matches = [];
+>     let dateRe = /^(\d{2}-\d{2}-\d{4})/;
+>     let escaped = targetPattern.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+>     let tagRe = new RegExp("\\[pattern::[^\\]]*" + escaped + "[^\\]]*\\]", "i");
+>     for (let section of sections) {
+>         let firstLine = section.split('\n')[0].trim();
+>         let dateMatch = firstLine.match(dateRe);
+>         if (dateMatch && tagRe.test(section)) {
+>             matches.push(dateMatch[1]);
+>         }
+>     }
+>     if (matches.length === 0) {
+>         dv.paragraph("*Aucun O&R lié — tagger avec `[pattern:: " + targetPattern + "]` dans l'O&R.*");
+>     } else {
+>         matches.sort().reverse();
+>         let rows = matches.map(date => {
+>             let allMR = dv.pages('"Journal/Morning routine logs/2026"').where(p => p.file.name === date + " Morning routine");
+>             let mrPage = allMR.length > 0 ? allMR[0] : null;
+>             return [date, mrPage ? mrPage.file.link : "*" + date + " (MR introuvable)*"];
+>         });
+>         dv.table(["Jour", "Morning Routine"], rows);
+>     }
+> }
+> ```
+
 ---
 
 ## Sources
@@ -181,5 +233,5 @@ if (sessions.length > 0) {
 - [[Fondements théoriques/09 — Mastery orientation · Entity theory]]
 - [[05 — Évaluation du soi -- Pensée binaire]]
 - [[10 -- Traitement mémoriel -- Rumination]]
-- [[L3 - Émotions/La Honte]] · [[L3 - Émotions/Impuissance]]
+- [[Honte]] · [[L3 - Émotions/Impuissance]]
 - [[L1 - Structures profondes/01 — Besoin de Compétence]]

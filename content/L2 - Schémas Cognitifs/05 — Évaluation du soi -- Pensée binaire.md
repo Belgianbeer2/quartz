@@ -1,13 +1,25 @@
 ---
 type: schema_L2
-tags: [L2, schema, pensée-binaire, évaluation-soi, inner-mapping]
-L2_neutre: "Évaluation du soi"
-pôle_défensif: "Pensée binaire"
-pôle_générateur: "Évaluation graduée"
-L1_déclencheurs: ["Besoin de Compétence défensif", "Perfectionnisme protecteur"]
-émotions_produites: ["[[La Honte]]", "[[Impuissance]]", "[[Frustration]]"]
-stratégies_Gross: ["3 — Déploiement attentionnel", "4 — Reappraisal"]
-entity_mastery: "défensif"
+tags:
+  - L2
+  - schema
+  - pensée-binaire
+  - évaluation-soi
+  - inner-mapping
+L2_neutre: Évaluation du soi
+pôle_défensif: Pensée binaire
+pôle_générateur: Évaluation graduée
+L1_déclencheurs:
+  - Besoin de Compétence défensif
+  - Perfectionnisme protecteur
+émotions_produites:
+  - "[[Honte]]"
+  - "[[Impuissance]]"
+  - "[[Frustration]]"
+stratégies_Gross:
+  - 3 — Déploiement attentionnel
+  - 4 — Reappraisal
+entity_mastery: défensif
 date: 2026-06-21
 statut: documenté
 ---
@@ -47,7 +59,7 @@ statut: documenté
 - **Condition déclenchante :** erreur sur spot connu + L1 Compétence défensif + entity thinking actif
 - **Lien entity thinking :** l'entity thinker n'a pas de case intermédiaire. La compétence est fixe → une erreur est une donnée sur l'entité, pas sur le processus. → [[Fondements théoriques/09 — Mastery orientation · Entity theory]]
 - **Output typique :** spirale d'auto-critique · effondrement de confiance · activation Rumination et Auto-flagellation
-- **L3 générée :** [[La Honte]] · [[Impuissance]]
+- **L3 générée :** [[Honte]] · [[Impuissance]]
 - **Statut :** [observation personnelle — documenté dans les cascades]
 
 **Expression 2 — Verdict après mauvais résultat (run bad)**
@@ -57,7 +69,7 @@ statut: documenté
 - **Condition déclenchante :** mauvais run + budget L0 épuisé + entity thinking
 - **Lien entity thinking :** la variance ne peut pas être une explication satisfaisante — les résultats *révèlent* la compétence fixe
 - **Output typique :** remise en question du niveau · abandon ou étude compulsive compensatoire
-- **L3 générée :** [[La Honte]] · [[Frustration]]
+- **L3 générée :** [[Honte]] · [[Frustration]]
 - **Statut :** [inféré depuis entity theory · adjacent documenté dans Vision zoomée]
 
 **Expression 3 — Verdict positif absolu (euphorie binaire)**
@@ -89,7 +101,7 @@ statut: documenté
 
 ---
 
-## IV. Connexions dans l'écosystème — Bidirectionnel
+## IV. Connexions dans l'écosystème L0→L4
 
 | Niveau | Sens | Connexion |
 |---|---|---|
@@ -168,6 +180,47 @@ if (sessions.length > 0) {
 }
 ```
 
+> [!note]- 📅 Jours concernés — O&R
+> ```dataviewjs
+> let p = dv.current();
+> let targetPattern;
+> if (p["pôle_défensif"]) {
+>     targetPattern = p["pôle_défensif"];
+> } else {
+>     let nameParts = p.file.name.split(" -- ");
+>     targetPattern = nameParts.length > 1 ? nameParts[nameParts.length - 1] : p.file.name;
+> }
+> let orPage = dv.page("📝 observation et ressentis");
+> if (!orPage) {
+>     dv.paragraph("*⚠️ Fichier O&R introuvable.*");
+> } else {
+>     let content = await dv.io.load(orPage.file.path);
+>     let sections = content.split(/\n##\s+/);
+>     let matches = [];
+>     let dateRe = /^(\d{2}-\d{2}-\d{4})/;
+>     let escaped = targetPattern.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+>     let tagRe = new RegExp("\\[pattern::[^\\]]*" + escaped + "[^\\]]*\\]", "i");
+>     for (let section of sections) {
+>         let firstLine = section.split('\n')[0].trim();
+>         let dateMatch = firstLine.match(dateRe);
+>         if (dateMatch && tagRe.test(section)) {
+>             matches.push(dateMatch[1]);
+>         }
+>     }
+>     if (matches.length === 0) {
+>         dv.paragraph("*Aucun O&R lié — tagger avec `[pattern:: " + targetPattern + "]` dans l'O&R.*");
+>     } else {
+>         matches.sort().reverse();
+>         let rows = matches.map(date => {
+>             let allMR = dv.pages('"Journal/Morning routine logs/2026"').where(p => p.file.name === date + " Morning routine");
+>             let mrPage = allMR.length > 0 ? allMR[0] : null;
+>             return [date, mrPage ? mrPage.file.link : "*" + date + " (MR introuvable)*"];
+>         });
+>         dv.table(["Jour", "Morning Routine"], rows);
+>     }
+> }
+> ```
+
 ---
 
 ## Sources
@@ -180,6 +233,6 @@ if (sessions.length > 0) {
 - [[00 - Index Schémas]] · [[01 — Architecture du modèle]]
 - [[Fondements théoriques/09 — Mastery orientation · Entity theory]]
 - [[L1 - Structures profondes/01 — Besoin de Compétence]]
-- [[L3 - Émotions/La Honte]] · [[L3 - Émotions/Impuissance]]
+- [[Honte]] · [[L3 - Émotions/Impuissance]]
 - [[09 — Encodage de l'erreur -- Auto-flagellation]]
 - [[10 -- Traitement mémoriel -- Rumination]]

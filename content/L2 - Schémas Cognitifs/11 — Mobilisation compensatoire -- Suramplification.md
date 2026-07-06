@@ -1,13 +1,25 @@
 ---
 type: schema_L2
-tags: [L2, schema, suramplification, mobilisation-compensatoire, inner-mapping]
-L2_neutre: "Mobilisation compensatoire"
-pôle_défensif: "Suramplification"
-pôle_générateur: "Mobilisation calibrée"
-L1_déclencheurs: ["Besoin de Compétence défensif", "Perfectionnisme protecteur"]
-émotions_produites: ["[[La Réactance]]", "[[La Honte]]", "[[Frustration]]"]
-stratégies_Gross: ["1 — Sélection de situation", "2 — Modification de situation"]
-entity_mastery: "les deux"
+tags:
+  - L2
+  - schema
+  - suramplification
+  - mobilisation-compensatoire
+  - inner-mapping
+L2_neutre: Mobilisation compensatoire
+pôle_défensif: Suramplification
+pôle_générateur: Mobilisation calibrée
+L1_déclencheurs:
+  - Besoin de Compétence défensif
+  - Perfectionnisme protecteur
+émotions_produites:
+  - "[[La Réactance]]"
+  - "[[Honte]]"
+  - "[[Frustration]]"
+stratégies_Gross:
+  - 1 — Sélection de situation
+  - 2 — Modification de situation
+entity_mastery: les deux
 date: 2026-06-21
 statut: documenté
 ---
@@ -50,7 +62,7 @@ statut: documenté
 - **Signal de dérive :** vocabulaire bascule de "ça sert à X" vers "c'est le travail"
 - **Output 1 — Abandon :** charge trop lourde, objectif initial insuffisamment ancré
 - **Output 2 — Charge chronique :** système actif mais coûteux sans proportionnellement servir la performance
-- **L3 générée :** [[La Réactance]] (si freiné) · [[La Honte]] (si le projet échoue)
+- **L3 générée :** [[La Réactance]] (si freiné) · [[Honte]] (si le projet échoue)
 - **Statut :** [observation personnelle — GTO Lens abandonné · Inner Mapping risque identifié]
 
 **Expression 2 — Suramplification en session perdante**
@@ -154,17 +166,66 @@ statut: documenté
 
 ## VIII. Suivi en session
 
-```dataviewjs
-let p = dv.current();
-let targetPattern = p["pôle_défensif"] || p.file.name;
-let sessions = dv.pages('"Journal/Session/Feedback/2026"')
-    .where(page => dv.array(page.file.lists.pattern).includes(targetPattern));
-if (sessions.length > 0) {
-    dv.list(sessions.sort(s => s.file.name, 'desc').file.link);
-} else {
-    dv.paragraph(`*Aucune session — tagger avec \`[pattern:: ${targetPattern}]\`*`);
-}
-```
+> [!note]- 📜 Sessions liées
+> ```dataviewjs
+> let p = dv.current();
+> let targetPattern = p["pôle_défensif"] || p.file.name;
+> let sessions = dv.pages('"Journal/Session/Feedback/2026"')
+>     .where(page => dv.array(page.file.lists.pattern).includes(targetPattern));
+> if (sessions.length > 0) {
+>     dv.list(sessions.sort(s => s.file.name, 'desc').file.link);
+> } else {
+>     dv.paragraph(`*Aucune session — tagger avec \`[pattern:: ${targetPattern}]\`*`);
+> }
+> ```
+
+> [!note]- 📅 Jours concernés — O&R
+> ```dataviewjs
+> let p = dv.current();
+> 
+> // Extrait le pôle défensif depuis le nom de fichier : "04 — Foo -- Bar" → "Bar"
+> // Ou utilise le frontmatter "pôle_défensif" si présent
+> let targetPattern;
+> if (p["pôle_défensif"]) {
+>     targetPattern = p["pôle_défensif"];
+> } else {
+>     let nameParts = p.file.name.split(" -- ");
+>     targetPattern = nameParts.length > 1 ? nameParts[nameParts.length - 1] : p.file.name;
+> }
+> 
+> let orPage = dv.page("📝 observation et ressentis");
+> if (!orPage) { dv.paragraph("*⚠️ Fichier O&R introuvable.*"); return; }
+> 
+> let content = await dv.io.load(orPage.file.path);
+> 
+> let sections = content.split(/\n##\s+/);
+> let matches = [];
+> 
+> let dateRe = /^(\d{2}-\d{2}-\d{4})/;
+> let escaped = targetPattern.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+> let tagRe = new RegExp("\\[pattern::[^\\]]*" + escaped + "[^\\]]*\\]", "i");
+> 
+> for (let section of sections) {
+>     let firstLine = section.split('\n')[0].trim();
+>     let dateMatch = firstLine.match(dateRe);
+>     if (dateMatch && tagRe.test(section)) {
+>         matches.push(dateMatch[1]);
+>     }
+> }
+> 
+> if (matches.length === 0) {
+>     dv.paragraph("*Aucun O&R lié — tagger avec `[pattern:: " + targetPattern + "]` dans l'O&R.*");
+>     return;
+> }
+> 
+> matches.sort().reverse();
+> let rows = matches.map(date => {
+>     let allMR = dv.pages('"Journal/Morning routine logs/2026"').where(p => p.file.name === date + " Morning routine"); let mrPage = allMR.length > 0 ? allMR[0] : null;
+>     return [date, mrPage ? mrPage.file.link : "*" + date + " (MR introuvable)*"];
+> });
+> dv.table(["Jour", "Morning Routine"], rows);
+> ```
+
 
 ---
 

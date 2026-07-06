@@ -67,18 +67,24 @@ Manstead et al. (1989) ont trouvé que les dimensions d'évaluation standard ne 
 > [!abstract] ✅ Fondement solide — Gross (1998, 2015)
 > Gross propose cinq familles de stratégies de régulation, distinguées par **où** dans le processus émotionnel elles interviennent[^6] .
 
-| # | Stratégie | Définition | Moment |
-|---|---|---|---|
-| 1 | **Sélection de la situation** | Choisir d'entrer dans une situation ou de l'éviter, selon son potentiel émotionnel anticipé | Avant |
-| 2 | **Modification de la situation** | Agir sur l'environnement pour changer son impact émotionnel probable | Avant |
-| 3 | **Déploiement attentionnel** | Diriger son attention à l'intérieur d'une situation déjà présente (focus, distraction) | Pendant (précoce) |
-| 4 | **Changement cognitif** (*reappraisal*) | Réinterpréter la signification de la situation — y compris en modifiant une ou plusieurs dimensions d'évaluation (Section I) | Pendant (précoce) |
-| 5 | **Modulation de la réponse** | Agir sur la réponse émotionnelle une fois qu'elle est engagée (respiration, suppression expressive) | Pendant/Après |
+| #   | Stratégie                               | Définition                                                                                                                   | Moment            |
+| --- | --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ----------------- |
+| 1   | **Sélection de la situation**           | Choisir d'entrer dans une situation ou de l'éviter, selon son potentiel émotionnel anticipé                                  | Avant             |
+| 2   | **Modification de la situation**        | Agir sur l'environnement pour changer son impact émotionnel probable                                                         | Avant             |
+| 3   | **Déploiement attentionnel**            | Diriger son attention à l'intérieur d'une situation déjà présente (focus, distraction)                                       | Pendant (précoce) |
+| 4   | **Changement cognitif** (*reappraisal*) | Réinterpréter la signification de la situation — y compris en modifiant une ou plusieurs dimensions d'évaluation (Section I) | Pendant (précoce) |
+| 5   | **Modulation de la réponse**            | Agir sur la réponse émotionnelle une fois qu'elle est engagée (respiration, suppression expressive)                          | Pendant/Après     |
 
 Les stratégies 1-4 sont *antécédentes* — elles interviennent avant que l'émotion soit pleinement générée. La stratégie 5 est *réponse-focalisée* — elle agit sur une émotion déjà là.
 
 > [!abstract] ✅ Fondement solide — Gross & John (2003)
 > Le **reappraisal** (#4) est associé de façon répétée à un meilleur fonctionnement (affect négatif réduit, meilleures relations sociales) comparé à la **suppression expressive** (une forme de #5), qui a un coût — elle ne réduit pas l'expérience subjective de l'émotion, seulement son expression, et mobilise des ressources cognitives.[^7]
+
+
+> [!warning] ⚠️ Portée du modèle de Gross — états à valence négative et schémas défensifs
+> Le modèle de Gross a été développé pour **réduire ou moduler des états non désirés**. Ses cinq stratégies présupposent une émotion ou un état qu'on veut atténuer, prévenir ou réorienter.
+>
+> Pour les **états à valence positive** (Plénitude, Certitude, Curiosité, Enthousiasme, Satisfaction, Sérénité, Détermination, Ambition) et les **schémas générateurs** (Starbursting, Analyse fondée, etc.), l'objectif est inverse : cultiver, maintenir et protéger contre la dérive. Le cadre applicable est différent — voir Section VIII.
 
 ---
 
@@ -150,6 +156,60 @@ Le contrôle self/autre ne bouge pas — il était déjà sur soi, et le reste. 
 - [ ] Lien entre reappraisal répété et automatisation (cf. [[04 — Voie rapide & voie lente — au-delà de Pensée → Corps → Émotions]] — un reappraisal pratiqué devient lui aussi un concept entraîné, donc plus rapide)
 - [ ] Joie/Enthousiasme — la Section II.2 montre que cette émotion est la moins bien spécifiée par le modèle ; à documenter par l'expérience plutôt que par théorisation a priori
 - [ ] L'état "acceptation/sérénité" issu de VI.1 — à documenter par l'expérience avant de lui donner un nom dans le vault
+- [x] Portée de Gross limitée aux états négatifs/défensifs — cadre alternatif documenté en Section VIII · [[L2 - Schémas Cognitifs/12 — Orientation vers l'idéal -- Perfectionnisme|Ambition/Perfectionnisme]] ajouté aux pôles générateurs concernés
+
+---
+
+---
+
+## VIII. Régulation des états positifs — cadre alternatif à Gross
+
+> [!abstract] ✅ Fondements — Fredrickson (2001) · Barrett (2017) · [[03 — Cerveau prédictif]]
+> Le modèle de Gross s'applique aux états non désirés. Pour les états à valence positive, deux théories fournissent le cadre approprié :
+>
+> **Fredrickson — Broaden-and-Build (2001) :** les émotions positives élargissent le répertoire attentionnel et comportemental (*broaden*) et construisent des ressources durables — cognitives, sociales, physiologiques (*build*). L'objectif n'est pas de les réguler à la baisse mais de les cultiver pour élargir la fenêtre d'activation et consolider le budget L0.[^8]
+>
+> **Barrett — Cerveau prédictif (2017) :** chaque activation d'un état positif renforce la prédiction correspondante — elle devient progressivement le pattern le moins coûteux métaboliquement. Cultiver délibérément un état positif, c'est entraîner le cerveau à le produire par défaut. → [[03 — Cerveau prédictif]]
+
+### VIII.1 Pourquoi Gross ne s'applique pas aux états positifs
+
+| | Gross (états négatifs/défensifs) | Broaden-and-Build (états positifs) |
+|---|---|---|
+| **Objectif** | Réduire, prévenir, réorienter | Cultiver, maintenir, renforcer |
+| **Logique** | Antécédent → atténuer avant que ça monte | Antécédent → créer les conditions d'accès |
+| **Sur la réponse** | Moduler une émotion non désirée | Protéger un état désiré contre la dérive |
+| **Métaphore** | Éteindre un feu | Arroser une plante |
+
+### VIII.2 Cadre appliqué dans Inner Mapping
+
+Pour chaque état à valence positive, quatre dimensions remplacent la table Gross :
+
+| Dimension | Question |
+|---|---|
+| **Conditions d'accès** | Qu'est-ce qui permet à cet état d'émerger ? (L0, contexte, préparation) |
+| **Conditions de maintien** | Qu'est-ce qui le nourrit une fois actif ? |
+| **Risques de dérive** | Quel schéma L2 défensif ou émotion L3 négative peut le contaminer ? |
+| **Protection** | Comment se protéger contre cette dérive spécifique ? |
+
+### VIII.3 Application dans le vault
+
+États concernés dans Inner Mapping :
+
+| État L3 | Risque de dérive principal |
+|---|---|
+| Plénitude | Piédestal · Dissociation |
+| Enthousiasme | Piédestal · Suramplification |
+| Certitude | Fausse certitude (entity thinking) · Confabulation |
+| Détermination | Suramplification · Piédestal |
+| Curiosité | Scattering · Suramplification |
+| Satisfaction | Normalisation (effacement du positif) · Auto-flagellation |
+| Sérénité | Retour vers l'Accablement · pression externe |
+| Plénitude IRL | Épuisement L0 · Délaissement |
+
+Schémas L2 générateurs concernés (pôle générateur) : Starbursting · Analyse fondée · Reconstruction équilibrée · Perspective long terme · Évaluation graduée · Enjeu calibré · Projection ancrée · Ancrage par compréhension · Mobilisation calibrée · **Ambition** ([[L2 - Schémas Cognitifs/12 — Orientation vers l'idéal -- Perfectionnisme|Orientation vers l'idéal]])
+
+> [!todo] À documenter
+> La limite exacte entre "cultiver un état positif" et "prévenir un état négatif" — les deux se chevauchent (protéger contre Piédestal = prévenir un état négatif *depuis* un état positif). La distinction reste opérationnelle : l'objectif de départ est l'état positif, pas la prévention de son opposé.
 
 ---
 
@@ -162,9 +222,12 @@ Le contrôle self/autre ne bouge pas — il était déjà sur soi, et le reste. 
 [^5]: Tracy, J.L. & Robins, R.W. (2006). Sur la distinction self-caused/other-caused entre colère, honte et culpabilité.
 [^6]: Gross, J.J. (1998). *The emerging field of emotion regulation: An integrative review.* Review of General Psychology, 2(3), 271–299. · Gross, J.J. (2015). *Emotion regulation: Current status and future prospects.* Psychological Inquiry, 26(1), 1–26.
 [^7]: Gross, J.J. & John, O.P. (2003). *Individual differences in two emotion regulation processes.* Journal of Personality and Social Psychology, 85(2), 348–362.
+[^8]: Fredrickson, B.L. (2001). *The role of positive emotions in positive psychology: The broaden-and-build theory of positive emotions.* American Psychologist, 56(3), 218–226. *Individual differences in two emotion regulation processes.* Journal of Personality and Social Psychology, 85(2), 348–362.
 
 ## Notes liées
 - [[🧠 Inner Mapping/01 — Fondements théoriques/00 — Index]] · [[01 — Architecture du modèle]] · [[05 — BIS & BAS]]
 - [[L1 - Structures profondes/05 — Besoin de contrôle]]
 - [[04 — Voie rapide & voie lente — au-delà de Pensée → Corps → Émotions]]
 - [[🧭 Boussole émotionnelle]]
+- [[L2 - Schémas Cognitifs/12 — Orientation vers l'idéal -- Perfectionnisme|L2 Perfectionnisme / Ambition]]
+- [[03 — Cerveau prédictif]] · [[NBLM — 03 — Deck 2 Plan d'action]]

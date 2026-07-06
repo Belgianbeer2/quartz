@@ -24,6 +24,40 @@ if(!log||!log.entries){dv.paragraph("*Aucune donnée Drill 02.*");}else{const r=
 > if(sessions.length>0)dv.list(sessions.sort(s=>s.file.name,'desc').file.link);else dv.paragraph("*Aucune session — tagger avec `[emotion:: Frustration]`*");
 > ```
 
+> [!note]- 📅 Jours concernés — O&R
+> ```dataviewjs
+> let p = dv.current();
+> let targetEmotion = p.file.name;
+> let orPage = dv.page("📝 observation et ressentis");
+> if (!orPage) {
+>     dv.paragraph("*⚠️ Fichier O&R introuvable.*");
+> } else {
+>     let content = await dv.io.load(orPage.file.path);
+>     let sections = content.split(/\n##\s+/);
+>     let matches = [];
+>     let dateRe = /^(\d{2}-\d{2}-\d{4})/;
+>     let escaped = targetEmotion.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+>     let tagRe = new RegExp("\\[emotion::[^\\]]*" + escaped + "[^\\]]*\\]", "i");
+>     for (let section of sections) {
+>         let firstLine = section.split('\n')[0].trim();
+>         let dateMatch = firstLine.match(dateRe);
+>         if (dateMatch && tagRe.test(section)) {
+>             matches.push(dateMatch[1]);
+>         }
+>     }
+>     if (matches.length === 0) {
+>         dv.paragraph("*Aucun O&R lié — tagger avec `[emotion:: " + targetEmotion + "]` dans l'O&R.*");
+>     } else {
+>         matches.sort().reverse();
+>         let rows = matches.map(date => {
+>             let allMR = dv.pages('"Journal/Morning routine logs/2026"').where(p => p.file.name === date + " Morning routine"); let mrPage = allMR.length > 0 ? allMR[0] : null;
+>             return [date, mrPage ? mrPage.file.link : "*" + date + " (MR introuvable)*"];
+>         });
+>         dv.table(["Jour", "Morning Routine"], rows);
+>     }
+> }
+> ```
+
 ---
 
 ## I. L'émotion — Définition fonctionnelle
@@ -214,6 +248,13 @@ La clé n'est pas dans l'histoire mentale que la Frustration génère — elle e
 > let desc=items.flatMap(gD);let archives=dv.array([...desc,...p.file.lists]).where(c=>c.completed&&c["Plan d'action"]);
 > if(archives.length>0)dv.taskList(archives,false);else dv.paragraph("*Aucune action archivée.*");
 > ```
+
+## Note — Lien Perfectionnisme
+
+> Le [[L2 - Schémas Cognitifs/12 — Orientation vers l'idéal -- Perfectionnisme|Perfectionnisme]] est un **upstream L2** fréquent de la Frustration :
+> - Il crée un gap structurel entre vision idéale et compétences réelles
+> - Chaque imprévu ou imperfection vient frapper ce gap — le bol se remplit plus vite que d'habitude
+> - La Frustration issue du Perfectionnisme est particulièrement difficile à nommer tôt car elle est masquée par l'énergie de l'engagement initial
 
 ## Notes liées
 - [[Colère]] · [[La Réactance]] · [[Impuissance]]

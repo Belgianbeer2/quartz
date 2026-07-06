@@ -109,20 +109,20 @@ date: 2026-06-21
 
 ### 🎭 L3 — Émotions
 
-- [ ] `00 — Protocole In-Game.md`
-- [ ] `Accablement.md` 🆕
-- [ ] `Anxiété.md`
-- [ ] `Anxiété d'évaluation.md`
-- [ ] `Colère.md`
-- [ ] `Colère IRL.md` 🆕
-- [ ] `Délaissement.md` 🆕
-- [ ] `Frustration.md`
-- [ ] `Impuissance.md`
-- [ ] `La Honte.md`
-- [ ] `La Réactance.md` 🆕
-- [ ] `Peur.md`
-- [ ] `Plénitude.md`
-- [ ] `Plénitude IRL.md`
+- [x] `00 — Protocole In-Game.md`
+- [x] `Accablement.md` 🆕
+- [x] `Anxiété.md`
+- [x] `Anxiété d'évaluation.md`
+- [x] `Colère.md`
+- [x] `Colère IRL.md` 🆕
+- [x] `Délaissement.md` 🆕
+- [x] `Frustration.md`
+- [x] `Impuissance.md`
+- [x] `La Honte.md`
+- [x] `La Réactance.md` 🆕
+- [x] `Peur.md`
+- [x] `Plénitude.md`
+- [x] `Plénitude IRL.md`
 
 ---
 

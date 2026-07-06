@@ -1,13 +1,24 @@
 ---
 type: schema_L2
-tags: [L2, schema, rumination, traitement-mémoriel, inner-mapping]
-L2_neutre: "Traitement mémoriel"
-pôle_défensif: "Rumination"
-pôle_générateur: "Analyse fondée"
-L1_déclencheurs: ["Besoin de Compétence défensif", "Intransigeance envers soi"]
-émotions_produites: ["[[La Honte]]", "[[Impuissance]]"]
-stratégies_Gross: ["2 — Modification de situation", "4 — Reappraisal"]
-entity_mastery: "défensif"
+tags:
+  - L2
+  - schema
+  - rumination
+  - traitement-mémoriel
+  - inner-mapping
+L2_neutre: Traitement mémoriel
+pôle_défensif: Rumination
+pôle_générateur: Analyse fondée
+L1_déclencheurs:
+  - Besoin de Compétence défensif
+  - Intransigeance envers soi
+émotions_produites:
+  - "[[Honte]]"
+  - "[[Impuissance]]"
+stratégies_Gross:
+  - 2 — Modification de situation
+  - 4 — Reappraisal
+entity_mastery: défensif
 date: 2026-06-21
 statut: documenté
 ---
@@ -53,7 +64,7 @@ statut: documenté
 - **Condition déclenchante :** erreur sur spot connu + entity thinking + L1 Compétence défensif + Intransigeance
 - **Lien entity thinking :** l'entity thinker rejoue l'erreur parce qu'elle menace l'entité. La question "pourquoi j'ai fait ça" est une question identitaire, pas processuelles. → [[Fondements théoriques/09 — Mastery orientation · Entity theory]]
 - **Output typique :** état plus dégradé le lendemain que le soir même · Sélectivité mémorielle co-active · impossible d'apprendre du spot
-- **L3 générée :** [[La Honte]] · [[Impuissance]]
+- **L3 générée :** [[Honte]] · [[Impuissance]]
 - **Statut :** [inféré depuis Nolen-Hoeksema + entity theory · documenté indirectement]
 
 **Expression 2 — Rumination post-session (lendemain matin)**
@@ -63,7 +74,7 @@ statut: documenté
 - **Condition déclenchante :** session difficile + nuit de sommeil + budget L0 partiel + entity thinking
 - **Lien entity thinking :** "pourquoi j'ai fait ça" plutôt que "qu'est-ce que ça m'apprend" — la question identitaire plutôt que la question processuelles
 - **Output typique :** état pire que la veille · paralysie → ne pas lancer ou lancer depuis état très dégradé
-- **L3 générée :** [[La Honte]] · [[Impuissance]]
+- **L3 générée :** [[Honte]] · [[Impuissance]]
 - **Statut :** [observation personnelle — documenté indirectement dans cascade 03]
 
 **Expression 3 — Rumination préventive (avant session)**
@@ -163,17 +174,66 @@ statut: documenté
 
 ## VIII. Suivi en session
 
-```dataviewjs
-let p = dv.current();
-let targetPattern = p["pôle_défensif"] || p.file.name;
-let sessions = dv.pages('"Journal/Session/Feedback/2026"')
-    .where(page => dv.array(page.file.lists.pattern).includes(targetPattern));
-if (sessions.length > 0) {
-    dv.list(sessions.sort(s => s.file.name, 'desc').file.link);
-} else {
-    dv.paragraph(`*Aucune session — tagger avec \`[pattern:: ${targetPattern}]\`*`);
-}
-```
+> [!note]- 📜 Sessions liées
+> ```dataviewjs
+> let p = dv.current();
+> let targetPattern = p["pôle_défensif"] || p.file.name;
+> let sessions = dv.pages('"Journal/Session/Feedback/2026"')
+>     .where(page => dv.array(page.file.lists.pattern).includes(targetPattern));
+> if (sessions.length > 0) {
+>     dv.list(sessions.sort(s => s.file.name, 'desc').file.link);
+> } else {
+>     dv.paragraph(`*Aucune session — tagger avec \`[pattern:: ${targetPattern}]\`*`);
+> }
+> ```
+
+> [!note]- 📅 Jours concernés — O&R
+> ```dataviewjs
+> let p = dv.current();
+> 
+> // Extrait le pôle défensif depuis le nom de fichier : "04 — Foo -- Bar" → "Bar"
+> // Ou utilise le frontmatter "pôle_défensif" si présent
+> let targetPattern;
+> if (p["pôle_défensif"]) {
+>     targetPattern = p["pôle_défensif"];
+> } else {
+>     let nameParts = p.file.name.split(" -- ");
+>     targetPattern = nameParts.length > 1 ? nameParts[nameParts.length - 1] : p.file.name;
+> }
+> 
+> let orPage = dv.page("📝 observation et ressentis");
+> if (!orPage) { dv.paragraph("*⚠️ Fichier O&R introuvable.*"); return; }
+> 
+> let content = await dv.io.load(orPage.file.path);
+> 
+> let sections = content.split(/\n##\s+/);
+> let matches = [];
+> 
+> let dateRe = /^(\d{2}-\d{2}-\d{4})/;
+> let escaped = targetPattern.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+> let tagRe = new RegExp("\\[pattern::[^\\]]*" + escaped + "[^\\]]*\\]", "i");
+> 
+> for (let section of sections) {
+>     let firstLine = section.split('\n')[0].trim();
+>     let dateMatch = firstLine.match(dateRe);
+>     if (dateMatch && tagRe.test(section)) {
+>         matches.push(dateMatch[1]);
+>     }
+> }
+> 
+> if (matches.length === 0) {
+>     dv.paragraph("*Aucun O&R lié — tagger avec `[pattern:: " + targetPattern + "]` dans l'O&R.*");
+>     return;
+> }
+> 
+> matches.sort().reverse();
+> let rows = matches.map(date => {
+>     let allMR = dv.pages('"Journal/Morning routine logs/2026"').where(p => p.file.name === date + " Morning routine"); let mrPage = allMR.length > 0 ? allMR[0] : null;
+>     return [date, mrPage ? mrPage.file.link : "*" + date + " (MR introuvable)*"];
+> });
+> dv.table(["Jour", "Morning Routine"], rows);
+> ```
+
 
 ---
 
@@ -190,5 +250,5 @@ if (sessions.length > 0) {
 - [[03 — Reconstruction mémorielle -- Sélectivité mémorielle]]
 - [[05 — Évaluation du soi -- Pensée binaire]]
 - [[09 — Encodage de l'erreur -- Auto-flagellation]]
-- [[L3 - Émotions/La Honte]] · [[L3 - Émotions/Impuissance]]
+- [[Honte]] · [[L3 - Émotions/Impuissance]]
 - [[L0 — Physiologie & Budget Corporel/03 — Co-régulation sociale]]

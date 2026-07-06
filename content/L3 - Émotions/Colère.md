@@ -24,6 +24,45 @@ if(!log||!log.entries){dv.paragraph("*Aucune donnée Drill 02.*");}else{const r=
 > if(sessions.length>0)dv.list(sessions.sort(s=>s.file.name,'desc').file.link);else dv.paragraph("*Aucune session — tagger avec `[emotion:: Colère]`*");
 > ```
 
+> [!note]- 📅 Jours concernés — O&R 
+>```dataviewjs 
+> let p = dv.current();
+> let targetEmotion = p.file.name;
+> 
+> let orPage = dv.page("📝 observation et ressentis");
+> if (!orPage) { dv.paragraph("*⚠️ Fichier O&R introuvable.*"); return; }
+> 
+> let content = await dv.io.load(orPage.file.path);
+> 
+> // Découpe par sections ## DATE (gère le double espace)
+> let sections = content.split(/\n##\s+/);
+> let matches = [];
+> 
+> let dateRe = /^(\d{2}-\d{2}-\d{4})/;
+> // Escape les caractères spéciaux du nom de la fiche pour le regex
+> let escaped = targetEmotion.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+> let tagRe = new RegExp("\\[emotion::[^\\]]*" + escaped + "[^\\]]*\\]", "i");
+> 
+> for (let section of sections) {
+>     let firstLine = section.split('\n')[0].trim();
+>     let dateMatch = firstLine.match(dateRe);
+>     if (dateMatch && tagRe.test(section)) {
+>         matches.push(dateMatch[1]);
+>     }
+> }
+> 
+> if (matches.length === 0) {
+>     dv.paragraph("*Aucun O&R lié — tagger avec `[emotion:: " + targetEmotion + "]` dans l'O&R.*");
+>     return;
+> }
+> 
+> matches.sort().reverse();
+> let rows = matches.map(date => {
+>     let allMR = dv.pages('"Journal/Morning routine logs/2026"').where(p => p.file.name === date + " Morning routine"); let mrPage = allMR.length > 0 ? allMR[0] : null;
+>     return [date, mrPage ? mrPage.file.link : "*" + date + " (MR introuvable)*"];
+> });
+> dv.table(["Jour", "Morning Routine"], rows);
+> ```
 ---
 
 ## I. L'émotion — Définition fonctionnelle

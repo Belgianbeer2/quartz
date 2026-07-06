@@ -45,14 +45,14 @@ Boucle L1 : renforce *"quand je perds je dois m'arrêter"*
 ### Comportements compulsifs
 
 **Étude acharnée post-erreur**
-← [[Colère_IRL]] · [[La Honte]]
+← [[Colère_IRL]] · [[Honte]]
 ← L2 Pensée binaire · Évaluation causale -- Confabulation
 ← L1 Intransigeance envers soi · Perfectionnisme protecteur
 Budget : prélèvement (fatigue cognitive)
 Boucle L1 : peut renforcer *ou* affaiblir selon la qualité de l'étude — à distinguer
 
 **Rejouer mentalement un spot**
-← [[La Honte]] · [[Frustration]]
+← [[Honte]] · [[Frustration]]
 ← L2 Traitement mémoriel -- Rumination
 ← L1 Punition envers soi
 Budget : prélèvement (rumination = dépense sans résolution)

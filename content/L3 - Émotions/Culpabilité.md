@@ -60,12 +60,51 @@ if (!log || !log.entries) {
 > else dv.paragraph("*Aucune session — tagger avec `[emotion:: Culpabilité]`*");
 > ```
 
+> [!note]- 📅 Jours concernés — O&R 
+>```dataviewjs 
+> let p = dv.current();
+> let targetEmotion = p.file.name;
+> 
+> let orPage = dv.page("📝 observation et ressentis");
+> if (!orPage) { dv.paragraph("*⚠️ Fichier O&R introuvable.*"); return; }
+> 
+> let content = await dv.io.load(orPage.file.path);
+> 
+> // Découpe par sections ## DATE (gère le double espace)
+> let sections = content.split(/\n##\s+/);
+> let matches = [];
+> 
+> let dateRe = /^(\d{2}-\d{2}-\d{4})/;
+> // Escape les caractères spéciaux du nom de la fiche pour le regex
+> let escaped = targetEmotion.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+> let tagRe = new RegExp("\\[emotion::[^\\]]*" + escaped + "[^\\]]*\\]", "i");
+> 
+> for (let section of sections) {
+>     let firstLine = section.split('\n')[0].trim();
+>     let dateMatch = firstLine.match(dateRe);
+>     if (dateMatch && tagRe.test(section)) {
+>         matches.push(dateMatch[1]);
+>     }
+> }
+> 
+> if (matches.length === 0) {
+>     dv.paragraph("*Aucun O&R lié — tagger avec `[emotion:: " + targetEmotion + "]` dans l'O&R.*");
+>     return;
+> }
+> 
+> matches.sort().reverse();
+> let rows = matches.map(date => {
+>     let allMR = dv.pages('"Journal/Morning routine logs/2026"').where(p => p.file.name === date + " Morning routine"); let mrPage = allMR.length > 0 ? allMR[0] : null;
+>     return [date, mrPage ? mrPage.file.link : "*" + date + " (MR introuvable)*"];
+> });
+> dv.table(["Jour", "Morning Routine"], rows);
+> ```
 ---
 
 ## I. L'émotion — Définition fonctionnelle
 
 > [!abstract] ✅ Fondement — Barrett (2017) · [[Fondements théoriques/03 — Cerveau prédictif]]
-> La Culpabilité est construite quand le cerveau applique le concept "j'ai fait quelque chose de mal" à un affect négatif lié à une action passée propre. Contrairement à la [[La Honte]] qui porte sur l'identité ("je SUIS mauvais"), la Culpabilité porte sur le comportement ("j'AI fait quelque chose de mal"). Cette distinction est fondamentale : elle change l'action tendency et le levier de régulation. [documenté]
+> La Culpabilité est construite quand le cerveau applique le concept "j'ai fait quelque chose de mal" à un affect négatif lié à une action passée propre. Contrairement à la [[Honte]] qui porte sur l'identité ("je SUIS mauvais"), la Culpabilité porte sur le comportement ("j'AI fait quelque chose de mal"). Cette distinction est fondamentale : elle change l'action tendency et le levier de régulation. [documenté]
 
 > [!abstract] ✅ Fondement — Neff (2003, 2011) · [[Fondements théoriques/07 — Self-compassion]]
 > Neff distingue la culpabilité fonctionnelle (signal d'alignement avec ses valeurs, oriente vers la réparation) de la culpabilité toxique (se confond avec la Honte, produit de la rumination sans réparation). La culpabilité fonctionnelle est en réalité adaptative — elle indique que les valeurs sont actives. [documenté]
@@ -81,7 +120,7 @@ if (!log || !log.entries) {
 
 **Distinction fondamentale — Culpabilité vs Honte :**
 
-| | **Culpabilité** | **[[La Honte]]** |
+| | **Culpabilité** | **[[Honte]]** |
 |---|---|---|
 | **Objet** | Un comportement ("j'AI fait") | L'identité ("je SUIS") |
 | **Action tendency** | Réparation · compensation | Retrait · cachement |
@@ -167,7 +206,7 @@ Sous budget L0 épuisé, la Culpabilité est plus difficile à maintenir dans sa
 | **L4 → L3** | ascendant | L4 réparation ferme la boucle → réduit la Culpabilité · L4 évitement maintient la boucle ouverte → amplifie |
 
 **Distinction avec émotions proches :**
-- vs **[[La Honte]]** : Honte = identité ("je SUIS"), Culpabilité = comportement ("j'AI fait"). La Honte est plus résistante à la régulation — elle ne se résout pas par la réparation comportementale.
+- vs **[[Honte]]** : Honte = identité ("je SUIS"), Culpabilité = comportement ("j'AI fait"). La Honte est plus résistante à la régulation — elle ne se résout pas par la réparation comportementale.
 - vs **[[Impuissance]]** : l'Impuissance n'a pas d'agent interne ("rien à faire"). La Culpabilité a un agent interne ("c'est moi qui ai fait"). La Culpabilité fonctionnelle a un levier — la réparation.
 - vs **[[Accablement]]** : l'Accablement est une phase prolongée BAS-/BIS-, sans déclencheur identifiable. La Culpabilité est une réponse à un événement précis, avec un agent interne.
 
@@ -263,7 +302,7 @@ Sous budget L0 épuisé, la Culpabilité est plus difficile à maintenir dans sa
 > **1. Est-ce de la Culpabilité ou de la Honte ?**
 > Question pivot : *"Est-ce que je pense à ce que j'ai fait — ou à ce que je suis ?"*
 > - "J'ai fait une erreur sur ce spot" → Culpabilité → réparable
-> - "Je suis quelqu'un qui fait des erreurs" → Honte → travail de fond différent → [[La Honte]]
+> - "Je suis quelqu'un qui fait des erreurs" → Honte → travail de fond différent → [[Honte]]
 >
 > **2. Est-ce réparable ?**
 > - Oui → identifier l'action de réparation la plus petite possible → agir → fermer la boucle
@@ -327,7 +366,7 @@ Sous budget L0 épuisé, la Culpabilité est plus difficile à maintenir dans sa
 [^3]: Tangney, J.P. & Dearing, R.L. (2002). *Shame and Guilt*. Guilford Press. → [[01 — Angles morts & évolutions]]
 
 ## Notes liées
-- [[La Honte]] — distinction fondamentale identité vs comportement
+- [[Honte]] — distinction fondamentale identité vs comportement
 - [[Impuissance]] — différence agent interne vs absence de levier
 - [[Accablement]] — différence état prolongé vs réaction événementielle
 - [[09 — Encodage de l'erreur -- Auto-flagellation]]

@@ -106,7 +106,7 @@ Les dépolarisations accomplies sur ce besoin construisent des prédictions de p
 **Créativité comme identité**
 *"Ma créativité au poker fait partie de qui je suis — elle n'a pas besoin d'être justifiée."* [observation personnelle]
 
-**État :** 🟢 Prédiction générative active, en tension avec le Perfectionnisme protecteur (voir [[01 — Besoin de Compétence]]).
+**État :** 🟢 Prédiction générative active, en tension avec le Perfectionnisme protecteur (voir [[01 — Besoin de Compétence]] · [[L2 - Schémas Cognitifs/12 — Orientation vers l'idéal -- Perfectionnisme|L2 Perfectionnisme]]).
 
 ---
 
@@ -142,6 +142,7 @@ Valeurs politiques ancrées entre le communisme et le socialisme (partage, justi
 | Honnêteté radicale | Générateur | Tension avec [[01 — Mentalisation -- Dissociation]] |
 | Créativité comme identité | Générateur | Tension avec [[09 — Validation de la créativité -- Intellectualiser la créativité]] |
 | Tension collectif/individuel | Neutre | [[Impuissance]] dans les situations d'injustice systémique |
+| Créativité comme identité | En tension | [[L2 - Schémas Cognitifs/12 — Orientation vers l'idéal -- Perfectionnisme\|Perfectionnisme]] quand la vision idéale de l'output bloque l'expression créative |
 
 ---
 
@@ -165,3 +166,4 @@ Valeurs politiques ancrées entre le communisme et le socialisme (partage, justi
 - [[Colère IRL]] · [[Impuissance]]
 - [[Dépolarisation - l'injustice]] · [[Mini dépolarisation - devenir un stratège de la performance]]
 - [[01 — Besoin de Compétence]] · [[03 — Besoin d'Appartenance]]
+- [[L2 - Schémas Cognitifs/12 — Orientation vers l'idéal -- Perfectionnisme|L2 Perfectionnisme / Ambition]]

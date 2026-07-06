@@ -60,7 +60,7 @@ statut: documenté
 - **Condition déclenchante :** tâche centrale identifiée + menace identitaire sur le résultat + L1 Compétence défensif
 - **Lien entity thinking :** l'entity thinker ne peut pas "juste essayer" — l'échec potentiel est un verdict identitaire. La dispersion protège l'entité en évitant le test.
 - **Output typique :** plusieurs tâches secondaires menées à bien · tâche centrale évitée · charge mentale qui augmente (tâche non faite reste en mémoire de travail)
-- **L3 générée :** [[Frustration]] · [[La Honte]] (si le pattern est reconnu)
+- **L3 générée :** [[Frustration]] · [[Honte]] (si le pattern est reconnu)
 - **Statut :** [adjacent — inféré depuis perfectionnisme dysfonctionnel · [[01 — Angles morts & évolutions]]]
 
 **Expression 3 — Sur-ingénierie défensive**
@@ -169,17 +169,66 @@ statut: documenté
 
 ## VIII. Suivi en session
 
-```dataviewjs
-let p = dv.current();
-let targetPattern = p["pôle_défensif"] || p.file.name;
-let sessions = dv.pages('"Journal/Session/Feedback/2026"')
-    .where(page => dv.array(page.file.lists.pattern).includes(targetPattern));
-if (sessions.length > 0) {
-    dv.list(sessions.sort(s => s.file.name, 'desc').file.link);
-} else {
-    dv.paragraph(`*Aucune session — tagger avec \`[pattern:: ${targetPattern}]\`*`);
-}
-```
+> [!note]- 📜 Sessions liées
+> ```dataviewjs
+> let p = dv.current();
+> let targetPattern = p["pôle_défensif"] || p.file.name;
+> let sessions = dv.pages('"Journal/Session/Feedback/2026"')
+>     .where(page => dv.array(page.file.lists.pattern).includes(targetPattern));
+> if (sessions.length > 0) {
+>     dv.list(sessions.sort(s => s.file.name, 'desc').file.link);
+> } else {
+>     dv.paragraph(`*Aucune session — tagger avec \`[pattern:: ${targetPattern}]\`*`);
+> }
+> ```
+
+> [!note]- 📅 Jours concernés — O&R
+> ```dataviewjs
+> let p = dv.current();
+> 
+> // Extrait le pôle défensif depuis le nom de fichier : "04 — Foo -- Bar" → "Bar"
+> // Ou utilise le frontmatter "pôle_défensif" si présent
+> let targetPattern;
+> if (p["pôle_défensif"]) {
+>     targetPattern = p["pôle_défensif"];
+> } else {
+>     let nameParts = p.file.name.split(" -- ");
+>     targetPattern = nameParts.length > 1 ? nameParts[nameParts.length - 1] : p.file.name;
+> }
+> 
+> let orPage = dv.page("📝 observation et ressentis");
+> if (!orPage) { dv.paragraph("*⚠️ Fichier O&R introuvable.*"); return; }
+> 
+> let content = await dv.io.load(orPage.file.path);
+> 
+> let sections = content.split(/\n##\s+/);
+> let matches = [];
+> 
+> let dateRe = /^(\d{2}-\d{2}-\d{4})/;
+> let escaped = targetPattern.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+> let tagRe = new RegExp("\\[pattern::[^\\]]*" + escaped + "[^\\]]*\\]", "i");
+> 
+> for (let section of sections) {
+>     let firstLine = section.split('\n')[0].trim();
+>     let dateMatch = firstLine.match(dateRe);
+>     if (dateMatch && tagRe.test(section)) {
+>         matches.push(dateMatch[1]);
+>     }
+> }
+> 
+> if (matches.length === 0) {
+>     dv.paragraph("*Aucun O&R lié — tagger avec `[pattern:: " + targetPattern + "]` dans l'O&R.*");
+>     return;
+> }
+> 
+> matches.sort().reverse();
+> let rows = matches.map(date => {
+>     let allMR = dv.pages('"Journal/Morning routine logs/2026"').where(p => p.file.name === date + " Morning routine"); let mrPage = allMR.length > 0 ? allMR[0] : null;
+>     return [date, mrPage ? mrPage.file.link : "*" + date + " (MR introuvable)*"];
+> });
+> dv.table(["Jour", "Morning Routine"], rows);
+> ```
+
 
 ---
 

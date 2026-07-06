@@ -208,7 +208,7 @@ Lecture Contrôle : appliquer un locus interne (*mes actions déterminent les r�
 ---
 
 ### Perfectionnisme protecteur comme contrôle par la maîtrise technique
-**[documenté — Alexis 04-20-2026]**
+**[documenté — Alexis 04-20-2026]** · → [[L2 - Schémas Cognitifs/12 — Orientation vers l'idéal -- Perfectionnisme|L2 Perfectionnisme / Ambition]]
 
 *"Si ma technique est parfaite, la variance seule est responsable."*
 
@@ -264,6 +264,7 @@ Ce L1 traverse l'ensemble des patterns documentés :
 | [[Résultat négatif → Peur → Retrait]] | Perte de contrôle perçue → retrait protecteur |
 | [[Évaluation de l'enjeu -- Piédestal]] | Vouloir contrôler l'issue d'un état de forme |
 | [[Impuissance]] | Absence perçue de tout levier de contrôle |
+| [[L2 - Schémas Cognitifs/12 — Orientation vers l'idéal -- Perfectionnisme\|Perfectionnisme]] | Contrôle de l'identité par la maîtrise technique — si l'output est parfait, la variance seule est responsable |
 
 ---
 
@@ -312,3 +313,4 @@ Skinner et les autres chercheurs n'ont pas travaillé spécifiquement sur le jeu
 - [[Projection temporelle -- Suranticipation]]
 - [[Résultat négatif → Peur → Retrait]]
 - [[Surchauffe cognitive → Colère → Impulsivité]]
+- [[L2 - Schémas Cognitifs/12 — Orientation vers l'idéal -- Perfectionnisme|L2 Perfectionnisme / Ambition]]

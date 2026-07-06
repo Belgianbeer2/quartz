@@ -66,20 +66,20 @@ Le concept clinique est robuste. Le mécanisme habituellement invoqué pour l'ex
 
 ### IV.1 Tableau de synthèse
 
-| Zone | Signature L0 | L1 accessible | L2 fonctionnel | L3 typique | Capacité de travail |
+| Zone | Signature L0 | Besoins L1 | L2 fonctionnel | L3 typique | Capacité de travail |
 |---|---|---|---|---|---|
-| **Hyperactivation** | Cortisol/adrénaline ↑ · PFC moins disponible | Défensifs uniquement | Réduit — détection difficile | Colère, Réactance | Réduite — top-down peu accessible |
-| **Stable** | HPA régulé · budget disponible | Générateurs ET défensifs | Plein accès | Toute la gamme | Pleine |
-| **Hypoactivation** | Cytokines actifs · dopamine mésolimbique ↓ | Défensifs uniquement, accès très limité | Quasi nul | États non encore nommés *(cf. [[01 — Angles morts & évolutions]])* | Effort-based decision making fortement réduit |
+| **Hyperactivation** | Cortisol/adrénaline ↑ · PFC moins disponible | Besoins menacés au premier plan | Réduit — détection difficile | Colère, Réactance | Réduite — top-down peu accessible |
+| **Stable** | HPA régulé · budget disponible | Besoins satisfaits ET menacés disponibles | Plein accès | Toute la gamme | Pleine |
+| **Hypoactivation** | Cytokines actifs · dopamine mésolimbique ↓ | Besoins menacés — accès très limité | Quasi nul | Accablement | Effort-based decision making fortement réduit |
 
 > [!todo] 🔬 Inféré — effort-based decision making sous inflammation
 > Des études sur la prise de décision basée sur l'effort sous inflammation montrent que les tâches demandant un effort pour une récompense différée deviennent disproportionnellement coûteuses à entreprendre. Ce n'est pas un manque de volonté — c'est un signal dopaminergique réduit qui change le calcul coût/bénéfice de *chaque* action, y compris les plus petites.
 
 ---
 
-### IV.2 Ce qui détermine l'accès à L1 générateurs
+### IV.2 Ce qui détermine l'accès aux modes L1
 
-Dans la zone stable, les deux types de L1 (générateurs ET défensifs) sont accessibles — le choix de prédiction dépend du contexte. Hors fenêtre (dans les deux directions), **seuls les défensifs restent accessibles** : ils sont les plus entraînés, donc les plus économiques métaboliquement — exactement le mécanisme déjà documenté dans [[02 — Allostase]] pour la résurgence des L1 défensifs, mais ici appliqué à la fenêtre entière plutôt qu'à un schéma isolé.
+Dans la zone stable, les besoins L1 sont accessibles qu'ils soient satisfaits ou menacés — le contexte détermine lequel s'active. Hors fenêtre (dans les deux directions), **les besoins menacés prédominent** : leurs prédictions associées sont les plus entraînées, donc les moins coûteuses métaboliquement — exactement le mécanisme documenté dans [[02 — Allostase]], appliqué ici à la fenêtre entière.
 
 ---
 
@@ -111,7 +111,7 @@ Dans la zone stable, les deux types de L1 (générateurs ET défensifs) sont acc
 
 - [x] États L3 en hypoactivation → [[L3 - Émotions/Accablement|Accablement]] — état qui envahit L1-L4 simultanément, signature BAS-/BIS- + Impuissance/Culpabilité (fiches 05 §II, 06 §I-VI)
 - [ ] Mesure pratique de la largeur de fenêtre dans le temps — proxy observable ?
-- [ ] Lien entre cycles de stress inoculation réussis et fréquence de résurgence des L1 défensifs
+- [ ] Lien entre cycles de stress inoculation réussis et fréquence d'activation des besoins L1 menacés
 
 ---
 

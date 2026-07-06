@@ -48,7 +48,7 @@ date: 2026-06-04
 |---|---|---|---|
 | **[[Dissociation]]** | Projection dans la tête d'autrui — observateur souvent fantasmé. Véhicule de l'anxiété d'évaluation. | Alexis [documenté] + observation personnelle | ✅ Fiche complète |
 | **Confabulation** | Le cerveau construit une justification rationnelle *a posteriori* d'une décision déjà prise émotionnellement. Documenté dans [[La Réactance]] — les 3 marqueurs. | Moukheiber [documenté] | 🔶 À extraire de [[La Réactance]] |
-| **Sélectivité mémorielle** | Le *remembering self* reconstruit les événements depuis l'état émotionnel présent — efface les moments du Stratège. Documenté dans [[La Honte]] — session 28-05. | Moukheiber [documenté] | 🔶 À extraire de [[La Honte]] |
+| **Sélectivité mémorielle** | Le *remembering self* reconstruit les événements depuis l'état émotionnel présent — efface les moments du Stratège. Documenté dans [[Honte]] — session 28-05. | Moukheiber [documenté] | 🔶 À extraire de [[Honte]] |
 | **Piédestal** | En haute énergie, l'enjeu perçu explose dans les deux sens : *"plus je suis proche de mon potentiel idéal, plus j'ai à perdre."* Contraction → contre-performance. *"Vouloir ne pas gâcher crée les conditions du plantage."* | Alexis [documenté] 05-29-2026 | 🔷 À créer |
 | **Vision zoomée** | Évaluer le système sur quelques jours plutôt que sur 4-6-12 mois. *"Une semaine difficile n'est qu'un bruit statistique."* | Alexis [documenté] 04-20-2026 | 🔷 À créer |
 | **Pensée binaire** | S'évaluer en bien/mal, bon/mauvais plutôt qu'en progression vers l'identité visée. *"Ce glissement cognitif génère de la pression inutile."* | Alexis [documenté] 05-29-2026 | 🔷 À créer |
@@ -66,7 +66,7 @@ date: 2026-06-04
 | Manifestation | Appartient à | Note |
 |---|---|---|
 | Show-off | [[Dissociation]] | Variante comportementale — jouer pour l'image plutôt que depuis soi |
-| Rumination | [[La Honte]] | Carburant entre les sessions |
+| Rumination | [[Honte]] | Carburant entre les sessions |
 | Catastrophisation | [[Anxiété d'évaluation]] | À documenter quand la fiche se remplit |
 | Résignation | [[Frustration]] | Stade terminal d'une frustration prolongée non nommée |
 
@@ -107,7 +107,7 @@ date: 2026-06-04
 > ---
 >
 > **🎭 Émotion**
-> [[La Honte]] — *"je SUIS défaillant"*, pas seulement *"j'ai mal joué ce coup"*
+> [[Honte]] — *"je SUIS défaillant"*, pas seulement *"j'ai mal joué ce coup"*
 >
 > ---
 >
@@ -203,7 +203,7 @@ date: 2026-06-04
 > ---
 >
 > **🎭 Émotion**
-> [[Frustration]] (abandon) · [[La Honte]] (ne pas avoir tenu l'engagement) · [[Accablement]] (charge chronique)
+> [[Frustration]] (abandon) · [[Honte]] (ne pas avoir tenu l'engagement) · [[Accablement]] (charge chronique)
 >
 > ---
 >

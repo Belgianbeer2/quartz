@@ -29,7 +29,7 @@ auteurs_principaux: "Dweck · Elliot"
 | **Fondements** | [[08 — Need for Cognition\|NFC]] + Mastery + [[10 — Agon · Alea · Mimicry · Ilinx\|Agon]] = configuration complète |
 | **L1** | [[L1 - Structures profondes/01 — Besoin de Compétence\|Besoin de Compétence]] — la théorie implicite définit le mode d'expression |
 | **L2** | Pré-conditionne 11 schémas — voir [[02 — Connexions & Imbrications]] §II pour le tableau complet |
-| **L2 les plus liés** | [[L2 - Schémas Cognitifs/05 — Évaluation du soi -- Pensée binaire\|Pensée binaire]] · [[L2 - Schémas Cognitifs/10 -- Traitement mémoriel -- Rumination\|Rumination]] · [[L2 - Schémas Cognitifs/06 — Évaluation de l'enjeu -- Piédestal\|Piédestal]] · [[L2 - Schémas Cognitifs/04 — Calibration temporelle -- Vision zoomée\|Vision zoomée]] |
+| **L2 les plus liés** | [[L2 - Schémas Cognitifs/05 — Évaluation du soi -- Pensée binaire\|Pensée binaire]] · [[L2 - Schémas Cognitifs/10 -- Traitement mémoriel -- Rumination\|Rumination]] · [[L2 - Schémas Cognitifs/06 — Évaluation de l'enjeu -- Piédestal\|Piédestal]] · [[L2 - Schémas Cognitifs/04 — Calibration temporelle -- Vision zoomée\|Vision zoomée]] · [[L2 - Schémas Cognitifs/12 — Orientation vers l'idéal -- Perfectionnisme\|Perfectionnisme / Ambition]] |
 
 ---
 
@@ -93,7 +93,7 @@ auteurs_principaux: "Dweck · Elliot"
 | Réponse à l'adversité | Menaçante — l'échec révèle une absence de talent fixe | Session perdante = "je ne suis pas à ce niveau" |
 | Après l'échec | Déclin de motivation, attributions défensives, abandon | Blâme de la variance exclusivement |
 | Face au défi | Préfère les tâches où la réussite est probable | Rester dans sa zone de confort technique |
-| Réaction aux erreurs | Effondrement ou déni | [[L3 - Émotions/La Honte\|Honte]] — "je SUIS nul", pas "j'ai fait une erreur" |
+| Réaction aux erreurs | Effondrement ou déni | [[Honte\|Honte]] — "je SUIS nul", pas "j'ai fait une erreur" |
 
 **Orientation Mastery (incremental theory — intelligence malléable) :**
 
@@ -414,7 +414,7 @@ Chaque besoin L1 génère une version entity spécifique du discours — une fa�
 
 | Besoin L1                                                                 | Discours entity typique                                                                                                | Mécanisme                                                                                                 | Reformulation mastery                                                                                                                    |
 | ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| [[L1 - Structures profondes/01 — Besoin de Compétence\|Compétence]]       | *"Je suis bon ou pas à ce stake"* · *"J'aurais dû maîtriser ce spot"* · *"Ce résultat révèle mon niveau"*              | La compétence est traitée comme une entité binaire — les résultats la révèlent directement                | *"Quel gap ce spot révèle-t-il ?"* · *"Quelle compétence spécifique est en développement ici ?"*                                         |
+| [[L1 - Structures profondes/01 — Besoin de Compétence\|Compétence]]       | *"Je suis bon ou pas à ce stake"* · *"J'aurais dû maîtriser ce spot"* · *"Ce résultat révèle mon niveau"* · *"Je devrais être capable de produire ça parfaitement"* ([[L2 - Schémas Cognitifs/12 — Orientation vers l'idéal -- Perfectionnisme\|Perfectionnisme]])              | La compétence est traitée comme une entité binaire — les résultats la révèlent directement. Le Perfectionnisme est la forme entity appliquée à l'output idéal.                | *"Quel gap ce spot révèle-t-il ?"* · *"Quelle compétence spécifique est en développement ici ?"* · *"Cette imperfection est une étape — pas un verdict."*                                         |
 | [[L1 - Structures profondes/02 — Besoin d'Autonomie\|Autonomie]]          | *"J'aurais dû décider autrement"* · *"Je me suis laissé dicter par la dynamique"*                                      | L'autonomie comme capacité fixe — un individu pleinement autonome prend toujours la décision correcte     | *"Quelles informations me manquaient au moment de la décision ?"* · *"Comment protéger l'espace décisionnel dans ce type de contexte ?"* |
 | [[L1 - Structures profondes/03 — Besoin d'Appartenance\|Appartenance]]    | *"Les autres voient que je perds"* · *"Je suis pas à ma place à cette table"* · *"Ce fish m'a battu, c'est humiliant"* | L'appartenance est un statut fixe dans la hiérarchie — les résultats menacent ou confirment cette place   | *"Mon état émotionnel actuel indique quoi sur mes besoins de co-régulation ?"*                                                           |
 | [[L1 - Structures profondes/04 — Prémisses éthiques\|Prémisses éthiques]] | *"C'est injuste que la variance m'affecte"* · *"Ce joueur mérite de perdre"*                                           | La justice est un principe fixe — la variance qui viole l'équité est vécue comme une anomalie personnelle | *"Qu'est-ce que ma réaction face à l'injustice perçue révèle sur les prémisses éthiques actives ?"*                                      |
@@ -741,3 +741,4 @@ La plupart des erreurs de mode ne viennent pas d'un mode en soi — elles vienne
 - [[02 — Connexions & Imbrications]]
 - [[L1 - Structures profondes/01 — Besoin de Compétence]]
 - [[07 — Self-compassion]] · [[05 — BIS & BAS]]
+- [[L2 - Schémas Cognitifs/12 — Orientation vers l'idéal -- Perfectionnisme|L2 Perfectionnisme / Ambition]]

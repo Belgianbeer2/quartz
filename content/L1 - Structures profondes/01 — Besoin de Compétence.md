@@ -16,8 +16,9 @@ version: 2.0
 # 🪨 L1 — Besoin de Compétence
 
 > **Mode de lecture :**
-> Sections I–III : théorie et méthode — neutres, transposables.
-> Section IV : instances personnelles — première personne, état actuel, document vivant.
+> Section I : théorie et méthode — neutre, transposable (SDT · Young · Agon · LFB).
+> Sections II–III : identification et instances personnelles — document vivant.
+> Sections IV–VI : dynamiques, effets et travail en cours.
 
 ---
 
@@ -69,13 +70,11 @@ Si l'adversité externe est nécessaire pour que le Besoin de Compétence soit s
 **Piste de recalibrage :**
 Construire une adversité interne — le standard de précision du processus comme adversaire. *"Est-ce que j'ai joué ce spot à la limite de ce que je sais faire ?"* plutôt que *"est-ce que j'ai gagné ?"*. Déplace le référentiel de l'externe (résultats) vers l'interne (processus), tout en préservant la fonction activatrice de l'Agon.
 
-**Lien avec la Réactance :**
-La [[L3 - Émotions/La Réactance]] est la forme *réactive* de ce même besoin — s'active quand la résistance est subie (bad beat, blocage). L'Agon est la forme *proactive* — la résistance est recherchée. Les deux partagent le même substrat : un besoin d'opposition réelle.
 
 ---
 
 
-## II. Reformulation LFB — Le schéma comme prédiction entraînée
+### I.4 Reformulation LFB — Le schéma comme prédiction entraînée
 
 > [!todo] 🔬 Reformulation — Barrett (2017), intégrée dans le modèle Inner Mapping
 > LFB reframe ce qu'est un schéma L1 : ce n'est pas une croyance stockée quelque part. C'est une **prédiction entraînée** — le cerveau defaulte dessus parce qu'il l'a pratiquée le plus souvent. Quand une prédiction est entraînée depuis longtemps, elle est aussi la plus économique métaboliquement.[^4]
@@ -97,25 +96,25 @@ Chaque dépolarisation accomplie est de la culture de passé. Elle construit une
 
 ---
 
-## III. Comment identifier son instance
+## II. Comment identifier son instance
 
 *Section transposable à toute personne.*
 
-### Questions diagnostiques
+### II.1 Questions diagnostiques
 
-- Dans quels contextes l'erreur déclenche-t-elle une réaction plus forte que sa gravité objective ?
-- Comment ma confiance varie-t-elle selon mes résultats récents — sur quelle fenêtre temporelle ?
-- Est-ce que je distingue "j'ai mal fait ce coup" de "je suis insuffisant" ?
-- Quand est-ce que l'étude ou la correction devient compulsive plutôt que fonctionnelle ?
+- Dans quels contextes l'*erreur* déclenche-t-elle une réaction plus forte que sa gravité objective ?
+- Comment ma *confiance* varie-t-elle selon mes résultats récents — sur quelle fenêtre temporelle ?
+- Est-ce que je *distingue* "j'ai mal fait ce coup" de "je suis insuffisant" ?
+- Quand est-ce que l'*étude* ou la correction devient compulsive plutôt que fonctionnelle ?
 
-### Signaux d'activation
+### II.2 Signaux d'activation
 
 - Réaction émotionnelle disproportionnée à la gravité réelle de l'erreur
 - Étude acharnée ou review compulsive post-erreur (L4)
 - Confiance qui monte avec un bon run, doute qui monte avec un mauvais run
 - Difficulté à valider un play créatif sans justification mathématique
 
-### Méthode de documentation
+### II.3 Méthode de documentation
 
 ```
 [pattern:: Perfectionnisme protecteur]
@@ -125,14 +124,14 @@ Chaque dépolarisation accomplie est de la culture de passé. Elle construit une
 
 ---
 
-## IV. Mes instances — état actuel
+## III. Mes instances — état actuel
 
 *Première personne. Document vivant — à mettre à jour au fil du travail.*
 
 ---
 
 ### Perfectionnisme protecteur
-**[documenté — Alexis 04-20-2026]**
+**[documenté — Alexis 04-20-2026]** · → [[L2 - Schémas Cognitifs/12 — Orientation vers l'idéal -- Perfectionnisme|L2 Perfectionnisme / Ambition]]
 
 **Prédiction centrale :**
 *"La maîtrise technique est un rempart identitaire — si la théorie est appliquée à 100%, l'estime de soi est protégée."*
@@ -215,7 +214,7 @@ Capacité à lâcher prise sur le FOMO du casino. Meilleure récupération noctu
 
 ---
 
-## V. Tensions dynamiques
+## IV. Tensions dynamiques
 
 **Perfectionnisme protecteur ↔ Créativité comme identité**
 Quand le Perfectionnisme est dominant (budget épuisé), tout play créatif non validé mathématiquement active la culpabilité. Quand le budget est plein, la créativité s'exprime librement. La tension se lit dans l'état du budget corporel.
@@ -223,22 +222,23 @@ Quand le Perfectionnisme est dominant (budget épuisé), tout play créatif non 
 **Résultats-dépendance ↔ Méta-accomplissement**
 En état de budget plein : *"ma valeur = ma croissance."* En état de budget épuisé + bad run : *"ma valeur = mes résultats."* Le thermomètre de cette tension = la qualité du sommeil et la longueur du run.
 
-**Intransigeance envers soi ↔ Honnêteté radicale**
+**Intransigeance envers soi ↔ Honnêteté**
 L'Intransigeance resurge spécifiquement sur les erreurs techniques en état épuisé. L'Honnêteté radicale opère dans les contextes de confiance. Ces deux prémisses s'activent rarement dans le même contexte.
 
 ---
 
-## VI. Cartographie des effets
+## V. Cartographie des effets
 
 | Schéma | État | L2 ciblé | L3 produit | Cascade |
 |---|---|---|---|---|
-| Perfectionnisme protecteur | 🟠 en cours | Piédestal · Pensée binaire | Colère · Honte | Erreur → Colère → Étude compulsive |
+| Perfectionnisme protecteur | 🟠 en cours | [[L2 - Schémas Cognitifs/12 — Orientation vers l'idéal -- Perfectionnisme\|Perfectionnisme]] · Piédestal · Pensée binaire | Frustration · Honte | Gap vision/compétences → Frustration cumulée → Honte |
 | Intransigeance | 🟢 dépolarisé | Pensée binaire | Colère | Erreur → Colère → Étude compulsive |
 | Résultats-dépendance | 🟢 dépolarisé | Vision zoomée · Sélect. mémorielle | Peur · Honte | Résultat → Peur → Retrait |
+| Compétence bloquée (externe) | permanent | Confabulation | [[L3 - Émotions/La Réactance\|Réactance]] | Obstacle externe bloque la compétence → BAS frustré → Réactance [inféré depuis BIS/BAS + Brehm] |
 
 ---
 
-## VII. Travail en cours
+## VI. Travail en cours
 
 **Priorité :** Perfectionnisme protecteur — dépolarisation formelle à initier. La Haute Énergie dépo a commencé le travail, mais la peur du gâchis en haute énergie ressurgit encore.
 
@@ -273,3 +273,4 @@ Le budget corporel est le vrai point de levier pour ces trois schémas. Qualité
 - [[Dépolarisation - Faire des erreurs et être extrêmement mauvais]]
 - [[Mini-Dépolarisation - Haute Énergie et performeur idéal]]
 - [[Mini dépos frustré de run bad en live]]
+- [[L2 - Schémas Cognitifs/12 — Orientation vers l'idéal -- Perfectionnisme|L2 Perfectionnisme / Ambition]]

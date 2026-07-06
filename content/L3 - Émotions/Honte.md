@@ -1,13 +1,23 @@
 ---
 type: fiche_emotion
-tags: [L3, émotion, honte, inner-mapping]
-L3_nom: "La Honte"
-L3_valence: "négative"
-L3_arousal: "haute"
-BIS_BAS: "BIS↑↑ BAS↓"
-L1_déclencheurs: ["Besoin de Compétence défensif (Intransigeance)", "Prémisses éthiques (Trahison de soi)"]
-L2_déclencheurs: ["[[05 — Évaluation du soi -- Pensée binaire]]", "[[09 — Encodage de l'erreur -- Auto-flagellation]]", "[[03 — Reconstruction mémorielle -- Sélectivité mémorielle]]"]
-L4_comportements: ["Retrait · Silence · Faible énergie · Évitement de la table · Off complet"]
+tags:
+  - L3
+  - émotion
+  - honte
+  - inner-mapping
+L3_nom: Honte
+L3_valence: négative
+L3_arousal: haute
+BIS_BAS: BIS↑↑ BAS↓
+L1_déclencheurs:
+  - Besoin de Compétence défensif (Intransigeance)
+  - Prémisses éthiques (Trahison de soi)
+L2_déclencheurs:
+  - "[[05 — Évaluation du soi -- Pensée binaire]]"
+  - "[[09 — Encodage de l'erreur -- Auto-flagellation]]"
+  - "[[03 — Reconstruction mémorielle -- Sélectivité mémorielle]]"
+L4_comportements:
+  - Retrait · Silence · Faible énergie · Évitement de la table · Off complet
 date: 2026-06-21
 statut: documenté
 ---
@@ -22,6 +32,40 @@ if(!log||!log.entries){dv.paragraph("*Aucune donnée Drill 02.*");}else{const re
 > ```dataviewjs
 > let p=dv.current();let sessions=dv.pages('"Journal/Session/Feedback/2026"').where(page=>dv.array(page.file.lists.emotion).includes(p.file.name));
 > if(sessions.length>0)dv.list(sessions.sort(s=>s.file.name,'desc').file.link);else dv.paragraph("*Aucune session — tagger avec `[emotion:: La Honte]`*");
+> ```
+
+> [!note]- 📅 Jours concernés — O&R
+> ```dataviewjs
+> let p = dv.current();
+> let targetEmotion = p.file.name;
+> let orPage = dv.page("📝 observation et ressentis");
+> if (!orPage) {
+>     dv.paragraph("*⚠️ Fichier O&R introuvable.*");
+> } else {
+>     let content = await dv.io.load(orPage.file.path);
+>     let sections = content.split(/\\n##\\s+/);
+>     let matches = [];
+>     let dateRe = /^(\\d{2}-\\d{2}-\\d{4})/;
+>     let escaped = targetEmotion.replace(/[.*+?^${}()|[\\]\\\\]/g, '\\\\$&');
+>     let tagRe = new RegExp("\\\\[emotion::[^\\\\]]*" + escaped + "[^\\\\]]*\\\\]", "i");
+>     for (let section of sections) {
+>         let firstLine = section.split('\\n')[0].trim();
+>         let dateMatch = firstLine.match(dateRe);
+>         if (dateMatch && tagRe.test(section)) {
+>             matches.push(dateMatch[1]);
+>         }
+>     }
+>     if (matches.length === 0) {
+>         dv.paragraph("*Aucun O&R lié — tagger avec `[emotion:: " + targetEmotion + "]` dans l\'O&R.*");
+>     } else {
+>         matches.sort().reverse();
+>         let rows = matches.map(date => {
+>             let allMR = dv.pages('"Journal/Morning routine logs/2026"').where(p => p.file.name === date + " Morning routine"); let mrPage = allMR.length > 0 ? allMR[0] : null;
+>             return [date, mrPage ? mrPage.file.link : "*" + date + " (MR introuvable)*"];
+>         });
+>         dv.table(["Jour", "Morning Routine"], rows);
+>     }
+> }
 > ```
 
 ---
@@ -242,6 +286,15 @@ Budget épuisé → Honte plus probable et plus intense. Le lendemain d'une sess
 > ```
 
 ---
+
+## Note — Lien Perfectionnisme
+
+> Le [[L2 - Schémas Cognitifs/12 — Orientation vers l'idéal -- Perfectionnisme|Perfectionnisme]] est un **carburant majeur** de la Honte :
+> - Il installe l'entity thinking en amont ("je devrais être capable de faire ça parfaitement")
+> - Le gap vision/réalité devient un verdict sur l'identité plutôt qu'une information de processus
+> - La séquence complète : Perfectionnisme → Frustration cumulée → L1 Compétence menacé → Auto-flagellation → **Honte**
+>
+> Traiter la Honte sans remonter au Perfectionnisme revient à traiter la fièvre sans traiter l'infection.
 
 ## Notes liées
 - [[Culpabilité]] — distinction fondamentale identité vs comportement

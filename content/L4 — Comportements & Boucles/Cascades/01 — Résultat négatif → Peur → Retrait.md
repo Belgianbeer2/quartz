@@ -28,7 +28,7 @@ statut: documentée
 
 ## 1. Déclencheur
 
-Session perdante, mauvais run, résultat financier en dessous des attentes. Le déclencheur est **financier et résultat-dépendant** — distinct de la [[La Honte|Honte]], qui est déclenchée par une déviation d'intention du warmup (qualité de jeu perçue, pas résultat).
+Session perdante, mauvais run, résultat financier en dessous des attentes. Le déclencheur est **financier et résultat-dépendant** — distinct de la [[Honte|Honte]], qui est déclenchée par une déviation d'intention du warmup (qualité de jeu perçue, pas résultat).
 
 ---
 
@@ -84,7 +84,7 @@ L4 — Retrait · évitement · rumination financière
 4. Si L1 accessible : dépolarisation Résultats-dépendance
 5. Ne pas lancer la session suivante depuis cet état
 
-> [!warning] Ne pas confondre avec [[La Honte]]
+> [!warning] Ne pas confondre avec [[Honte]]
 > Peur = résultat financier · bad run · variance
 > Honte = déviation d'intention warmup · qualité de jeu perçue
 

@@ -5,16 +5,16 @@ tags:
   - inner-mapping
   - attentes
   - honte
-trigger: "Écart entre les attentes élevées et la réalité de la performance perçue"
-quadrant: "HE+BM — Friction"
+trigger: Écart entre les attentes élevées et la réalité de la performance perçue
+quadrant: HE+BM — Friction
 circuit: high_road
 L1_activé:
   - Perfectionnisme protecteur
 L2_processus:
   - Piédestal
   - Pensée binaire
-L3_émotion: "[[La Honte]]"
-L4_comportement: "Contre-performance · contraction · sur-vigilance · jeu forcé"
+L3_émotion: "[[Honte]]"
+L4_comportement: Contre-performance · contraction · sur-vigilance · jeu forcé
 date: 2026-06-06
 statut: documentée
 ---
@@ -115,6 +115,6 @@ L4 — Contre-performance · contraction · sur-vigilance · jeu forcé
 ## Notes liées
 
 - [[__Index]]
-- [[La Honte]]
+- [[Honte]]
 - [[Anxiété d'évaluation]]
 - [[00 — Protocole In-Game]]
